@@ -1,0 +1,19 @@
+/* Changelog
+changed height from 40px to 4rem
+*/
+
+* {
+    margin: 0px;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4rem;
+}
+.footer, .push {
+    height: 4rem;
+}
