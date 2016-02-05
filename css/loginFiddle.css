@@ -1,0 +1,29 @@
+.dropContent {
+	background-color: #99DDBB;
+	padding: 1em 1.5em 1em 1.5em;
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+
+.droplink {
+	background-color: #99DDBB;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 0.5em;
+}
+
+div #leftCol {
+	display: inline-block;
+	width: 45%;
+}
+
+div #rightCol {
+	width: 45%;
+	padding-left: 5%;
+	border-left: 1px solid black;
+}
+
+.show {
+	display: block;
+}
