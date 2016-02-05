@@ -1,0 +1,90 @@
+/* Fixes header to top of page. Z-index necessary to prevent text content from appearing over header. */
+#header {
+    position: fixed;
+    width: 100%;
+	background-color: #33C3F0;
+    z-index: 1;
+}
+#header:toggle {
+}
+/* Conditional classes applied to the header via javascript */
+.header-opaque {
+    opacity: 1.0;
+}
+.header-transparent {
+    opacity: 0.6;
+}
+/* Removes logo padding and resizes to height of the header. */
+#header img {
+    display: block;
+}
+#headerbuttons {
+    display: flex;
+    min-width: 35rem;
+    max-width: 50rem;
+    width: 100%;
+    margin: auto;
+    float: right;
+}
+#button0 {
+    flex: 1;
+    order: 0;
+}
+#button1 {
+    flex: 1;
+    order: 1;
+}
+#button2 {
+    flex: 1;
+    order: 2;
+}
+#button3 {
+    flex: 1;
+    order: 3;
+}
+#loginbutton {
+    flex: 1;
+    order: 4;
+}
+/* Formats the header buttons. */
+#header a.button-primary {
+    background-color: #191970;
+    border-color: #191970;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+}
+/* Hovering over a button changes its colour. */
+#header a.button-primary:hover {
+    background-color: #000000;
+    border-color: #000000;
+}
+/* Fixes footer to the bottom of the page. */
+#footer {
+    width: 100%;
+	background-color: #33C3F0;
+    z-index: 1;
+    opacity: 1.0;
+    bottom: 0;
+}
+/* Formats the footer buttons. */
+#footer a.button-primary {
+    background-color: #191970;
+    border-color: #191970;
+    float: right;
+    width: 20%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+}
+/* Removes margins from copyright text */
+#copy {
+    margin: 0px;
+}
+/* Hovering over a button changes its colour. */
+#footer a.button-primary:hover {
+    background-color: #000000;
+    border-color: #000000;
+}

@@ -1,0 +1,39 @@
+#header {
+    position: fixed;
+    width: 100%;
+	background-color: #33C3F0;
+    z-index: 1;
+}
+#headerbuttons {
+    display: none;
+}
+#header a.button-primary {
+    width: 100%;
+}
+body {
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+}
+#header .container {
+    width: 100%;
+    padding: 0px;
+}
+
+/* Formats the header buttons. */
+#header a.button-primary {
+    background-color: #191970;
+    border-color: #191970;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+}
+/* Hovering over a button changes its colour. */
+#header a.button-primary:hover {
+    background-color: #000000;
+    border-color: #000000;
+}
+#logo {
+    display: none;
+}
