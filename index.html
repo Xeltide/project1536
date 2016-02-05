@@ -4,6 +4,8 @@
 
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="./js/jquery-2.2.0.js"></script>
+  <script src="./js/headeropacity.js"></script>
   <meta charset="utf-8">
   <title>Your page title here :)</title>
   <meta name="description" content="">
@@ -13,14 +15,20 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- FONT // REMOVED - LOADING TAKES FOREVER
+  –––––––––––––––––––––––––––––––––––––––––––––––––– 
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  -->
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/homepage.css">
+
+  <link rel="stylesheet" href="./css/stickyfooter.css">
+  <link rel="stylesheet" media="only screen and (min-width: 550px)" href="./css/header.css">
+  <link rel="stylesheet" media="only screen and (max-width: 550px)" href="./css/mobileheader.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -31,15 +39,98 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div id="header">
   <div class="container">
     <div class="row">
-      <div class="ten columns" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+      <div class="three columns">
+        <a href="#" id="logo"><img src="./images/kappa.png" height=40 alt="SwimV Logo"></a>
+      </div>
+      <div class="nine columns">
+        <div id="headerbuttons">
+          <!-- Buttons are placed from right to left so they float properly -->
+          <a class="button button-primary" id="button0" href="#">Button0</a>
+          <a class="button button-primary" id="button1" href="#">Button1</a>
+          <a class="button button-primary" id="button2" href="#">Button2</a>
+          <a class="button button-primary" id="button3" href="#">Button3</a>
+          <a class="button button-primary" id="loginbutton" href="#">Login</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- TODO: add navbar -->
+
+  <div class="container" id="jumbotron">
+    <div class="row">
+      <div class="twelve columns">
+        <img id="jumboImg" alt="" src="images/field.jpg">
+      </div>
+      <div class="twelve columns" id="jumbotronHeader">
+        <h3>Header Text</h3>
+        <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
       </div>
     </div>
   </div>
 
+  <!-- TODO: fix inconsistent height on boxes -->
+  <div class="container" id="homeMenu">
+    <div class="row">
+      <a href="#" class="homeMenuItem three columns">
+        <h4 class="menuTitle">Category 1</h4>
+        <p class="menuDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dui at est posuere facilisis. Morbi et risus vitae risus.</p>
+        <div class="button button-primary menuButton">>></div>
+      </a>
+
+      <a href="#" class="homeMenuItem three columns">
+        <h4 class="menuTitle">Category 2</h4>
+        <p class="menuDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dui at est posuere facilisis. Morbi et risus vitae risus.</p>
+        <div class="button button-primary menuButton">>></div>
+      </a>
+
+      <a href="#" class="homeMenuItem three columns">
+        <h4 class="menuTitle">Category 3</h4>
+        <p class="menuDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dui at est posuere facilisis. Morbi et risus vitae risus.</p>
+        <div class="button button-primary menuButton">>></div>
+      </a>
+
+      <a href="#" class="homeMenuItem three columns">
+        <h4 class="menuTitle">Category 4</h4>
+        <p class="menuDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dui at est posuere facilisis. Morbi et risus vitae risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dui at est posuere facilisis. Morbi et risus vitae risus.</p>
+        <div class="button button-primary menuButton">>></div>
+      </a>
+    </div>
+  </div>
+
+  <div class="container" id="homeQuestionsBlock">
+    <div class="row">
+      <div class="eight columns offset-by-two">
+        <h1>Got Questions?</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <a href="#" class="button button-primary" id="homeAskButton">Ask Us!</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- TODO: add footer -->
+  <div class="push"></div>
+
+  <div id="footer" class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="three columns">
+          <p id="copy">&copy; Huehue</p>
+        </div>
+        <div class="six columns">
+          <a class="button button-primary" id="placeholder" href="#">placeholder</a>
+        </div>
+        <div class="three columns">
+          <p>HUEHUEHUE</p>
+        </div>
+      </div>
+    </div>
+  </div>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>

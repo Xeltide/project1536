@@ -1,0 +1,74 @@
+/* JUMOBOTRON HEADER BLOCK */
+#jumbotron {} /* TODO: add height || ELSE: image fails to load = breaks page */
+#jumboImg {
+	width: 100%;
+}
+#jumbotronHeader {
+	position: absolute;
+	bottom: 2rem;
+	padding-left: 2rem;
+}
+#jumbotronHeader h3 {
+	background-color: #ffffff;
+	padding: 0 1rem 0 1rem;
+	display: inline;
+}
+#jumbotronHeader p {
+	background-color: #ffffff;
+	padding: .2em 1rem .2em 1rem;
+	min-width: 1px;
+	display: inline;
+}
+@media (min-width: 550px) { /* TODO: small image for small screens */
+	#jumbotronHeader {
+		bottom: 7rem;
+	}
+}
+
+/* HOME MENU ITEMS */
+#homeMenu {}
+a.homeMenuItem {
+	display: block;
+	position: relative;
+	padding: 1rem 2rem 7rem 2rem;
+	background-color: #f8f8f8;
+	border-top: .4rem solid #33c3f0;
+	text-decoration: none;
+}
+a.homeMenuItem:hover {
+	background-color: #cecece;
+}
+.menuTitle {
+}
+.menuDesc {
+	color: #000000;
+}
+.menuButton {
+	position: absolute;
+	width: 50%;
+	bottom: 2rem;
+	right: 2rem;
+	margin: 0;
+}
+@media (min-width: 550px) {
+	a.homeMenuItem {
+		margin-top: -5rem;
+	}
+	.menuButton {
+		width: 80%;
+		right: 0;
+		left: 0;
+		margin: auto;
+	}
+}
+
+/* HOME QUESTIONS BLOCK */
+#homeQuestionsBlock {
+	text-align: center;
+}
+#homeQuestionsBlock h1 {
+	margin-top: 5rem;
+}
+#homeAskButton {
+	padding: 0 8rem 0 8rem;
+}
