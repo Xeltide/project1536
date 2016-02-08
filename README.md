@@ -8,27 +8,27 @@ In this milestone, you will start coding. However, before you start to code the 
 following prep work:
 -------------------------------------------------------------------------------------------------
 1. Technical design
-- Project folder: Create a folder named after your TEAMCODE (e.g. G1 for Group 1). All your
-project files and graphics for your website will be organized in this folder and subfolders as
-needed.
-- Filenames: Review your sitemap and the pages you need to create. Decide on the filenames you
-will use for these pages. Filenames should be meaningful. The home page should be named
-index.html
-- Styling requirements: See guidelines at http://www.webstyleguide.com/wsg3/7-pagedesign/
-index.html and http://www.webstyleguide.com/wsg3/8-typography/index.html).
-Referring to the page layouts you created for Milestone 2, decide on how the following are to be
-styled:
-o Fonts and colors to be applied across all the pages
-o Common elements such as headings, lists, paragraphs
-o Other elements such as logo, navigation, footer, etc if necessary
-o Note that the main navigation will be configured as an unordered list. Use the CSS link and
-hover pseudo-classes for the main navigation hyperlinks and in-page hyperlinks
-o The table
-o The form for user input
-- Class design: Design the classes, naming them by semantics rather than style. Use advanced
-selectors whenever it makes the styling design clearer. Remember the purpose of CSS is to
-separate style from content so that any subsequent style changes are localized to the style
-sheets.
+  Project folder: Create a folder named after your TEAMCODE (e.g. G1 for Group 1). All your
+  project files and graphics for your website will be organized in this folder and subfolders as
+  needed.
+  - Filenames: Review your sitemap and the pages you need to create. Decide on the filenames you
+  will use for these pages. Filenames should be meaningful. The home page should be named
+  index.html
+  - Styling requirements: See guidelines at http://www.webstyleguide.com/wsg3/7-pagedesign/
+  index.html and http://www.webstyleguide.com/wsg3/8-typography/index.html).
+  Referring to the page layouts you created for Milestone 2, decide on how the following are to be
+  styled:
+  o Fonts and colors to be applied across all the pages
+  o Common elements such as headings, lists, paragraphs
+  o Other elements such as logo, navigation, footer, etc if necessary
+  o Note that the main navigation will be configured as an unordered list. Use the CSS link and
+  hover pseudo-classes for the main navigation hyperlinks and in-page hyperlinks
+  o The table
+  o The form for user input
+  - Class design: Design the classes, naming them by semantics rather than style. Use advanced
+  selectors whenever it makes the styling design clearer. Remember the purpose of CSS is to
+  separate style from content so that any subsequent style changes are localized to the style
+  sheets.
 -------------------------------------------------------------------------------------------------
 2. External style sheet
 - Create an external style sheet named base.css in the style subdirectory. Document your
