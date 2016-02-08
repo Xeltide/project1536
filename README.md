@@ -31,40 +31,40 @@ following prep work:
   sheets.
 -------------------------------------------------------------------------------------------------
 2. External style sheet
-- Create an external style sheet named base.css in the style subdirectory. Document your
-design using CSS commenting.
-- Note the style should be consistent across pages by using base.css. If there is a justifiable
-need to have page specific styling, use seperate css files without duplicating any of the classes
-defined in base.css. Do not use inline CSS.
+  - Create an external style sheet named base.css in the style subdirectory. Document your
+  design using CSS commenting.
+  - Note the style should be consistent across pages by using base.css. If there is a justifiable
+  need to have page specific styling, use seperate css files without duplicating any of the classes
+  defined in base.css. Do not use inline CSS.
 -------------------------------------------------------------------------------------------------
 3. Prototype page
-- Code a prototype page for your site based on the design documents. Apply classes and id’s
-where appropriate, using external CSS to format content and layout.
-- Save and test the page iteratively. Modify both the webpage and base.css as needed. Test
-the page carefully using Firefox and IE, improving the page as needed. Make sure the page is
-fully tested before you start developing other pages.
+  - Code a prototype page for your site based on the design documents. Apply classes and id’s
+  where appropriate, using external CSS to format content and layout.
+  - Save and test the page iteratively. Modify both the webpage and base.css as needed. Test
+  the page carefully using Firefox and IE, improving the page as needed. Make sure the page is
+  fully tested before you start developing other pages.
 -------------------------------------------------------------------------------------------------
 4. Remaining pages
-- Using the completed prototype page as a basis, code the rest of the pages on your site including
-the appropriate html table markup.
-- Update the relevant page(s) with the html form markup, using post with the action attribute
-invoking PHP server-side processing subsequently. For now, the action attribute should send the
-form data temporarily to: http://webdevfoundations.net/scripts/formdemo.asp
+  - Using the completed prototype page as a basis, code the rest of the pages on your site including
+  the appropriate html table markup.
+  - Update the relevant page(s) with the html form markup, using post with the action attribute
+  invoking PHP server-side processing subsequently. For now, the action attribute should send the
+  form data temporarily to: http://webdevfoundations.net/scripts/formdemo.asp
 -------------------------------------------------------------------------------------------------
 5. Testing and code submission
-- Conduct A/B testing and document the results to justify your design
-- Test your site thoroughly in both Firefox and IE. Make sure to validate all html and css files.
-- Zip up (don’t rar) the entire website and submit it to D2L. The zip file should be named:
-TEAMCODE_TeamLeader_Milestone#.zip
+  - Conduct A/B testing and document the results to justify your design
+  - Test your site thoroughly in both Firefox and IE. Make sure to validate all html and css files.
+  - Zip up (don’t rar) the entire website and submit it to D2L. The zip file should be named:
+  TEAMCODE_TeamLeader_Milestone#.zip
 -------------------------------------------------------------------------------------------------
 6. Submission
-Revise any changes to previous milestones based on the feedback from your instructor, and add to
-your project document with track changes the following information:
-- URL where all work completed so far can be viewed
-- List of items completed for this milestone
-- Any additional work on top of what is required for this milestone, if any
-- Key issues, including those outstanding, that was encountered in building the site
-- Any deviations from the proposal (Milestone 1) and design (Milestone 2) and why
-- Documentation of work
-o Screenshots of the front page as well pages containing the required display table and the form
-o base.css
+  Revise any changes to previous milestones based on the feedback from your instructor, and add to
+  your project document with track changes the following information:
+  - URL where all work completed so far can be viewed
+  - List of items completed for this milestone
+  - Any additional work on top of what is required for this milestone, if any
+  - Key issues, including those outstanding, that was encountered in building the site
+  - Any deviations from the proposal (Milestone 1) and design (Milestone 2) and why
+  - Documentation of work
+  o Screenshots of the front page as well pages containing the required display table and the form
+  o base.css
