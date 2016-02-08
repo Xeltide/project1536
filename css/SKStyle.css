@@ -1,0 +1,41 @@
+body {
+	overflow: hidden;
+}
+
+ul#banner {
+	position: fixed;
+	bottom: 1rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+ul#banner li{
+	display: inline;
+}
+
+#left {
+	background-image: url("../images/Moon.jpg");
+	background-position: center;
+	height: 100%;
+	color: white;
+}
+
+#right {
+	height: 100%;
+}
+
+.header {
+	height: 10%;
+}
+.subItem {
+	height: 25%;
+}
+
+.panel {
+	padding-top: 5rem;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0;
+}
