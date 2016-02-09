@@ -1,9 +1,9 @@
 
 function sizePanel(){
-	var currentHeight = $(window).height();
+	var currentHeight = .9 * $(window).height();
 	var currentWidth = $(window).width();
 
-	$('.panel').css({'height': 600});
+	$('.panel').css({'height': currentHeight});
 };
 
 var currentTab = 1;

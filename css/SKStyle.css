@@ -21,6 +21,7 @@ ul#banner li{
 }
 
 #right {
+	position: relative;
 	height: 100%;
 }
 
@@ -37,5 +38,10 @@ ul#banner li{
 
 #footer {
 	position: fixed;
+	bottom: 0;
+}
+
+.links {
+	position: absolute;
 	bottom: 0;
 }
