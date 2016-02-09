@@ -1,6 +1,6 @@
 
 function sizePanel(){
-	var currentHeight = .9 * $(window).height();
+	var currentHeight = $(window).height();
 	var currentWidth = $(window).width();
 
 	$('.panel').css({'height': currentHeight});
@@ -55,8 +55,14 @@ function scrollNext(){
 	}
 };
 
+function scrollResize(){
+	var i = findSection();
+	$('html, body').stop().animate({scrollTop:$(i).position().top}, 'slow');
+};
+
 $(window).resize(function(){
 	sizePanel();
+	scrollResize();
 });
 
 $(document).keydown(function(event){
