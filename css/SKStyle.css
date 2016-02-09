@@ -1,4 +1,4 @@
-abody {
+body {
 	overflow: hidden;
 }
 
@@ -28,12 +28,17 @@ ul#banner li{
 .header {
 	height: 10%;
 }
+
 .subItem {
 	height: 25%;
 }
 
 .panel {
 	padding-top: 5rem;
+}
+
+.panel:last-of-type {
+	padding-bottom: 5rem;
 }
 
 #footer {
