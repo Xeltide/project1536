@@ -1,5 +1,7 @@
 /* JUMOBOTRON HEADER BLOCK */
-#jumbotron {} /* TODO: add height || ELSE: image fails to load = breaks page */
+#jumbotron {
+	padding-top: 5rem;
+}
 #jumboImg {
 	width: 100%;
 }
