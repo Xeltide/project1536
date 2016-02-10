@@ -5,24 +5,24 @@ label {
 	color: #666;
 }
 h3 {
-	color: #191970;
+	color: #1E90FF;
 }
 span {
-	color: #33C3F0;
+	color: #1E90FF;
 }
 .form {
 	margin-bottom: 0;
-	border-right: 0.1rem #33C3F0 solid;
+	border-right: 0.1rem #1E90FF solid;
 	padding-right: 4%;
 }
 #formheader {
-	color: #191970;
+	color: #1E90FF;
 	margin-top: 8rem;
 	text-align: center;
 	padding-bottom: 1.5rem;
 }
 #formrow {
-	border: 0.1rem #33C3F0 solid;
+	border: 0.1rem #1E90FF solid;
 	padding:  1rem;
 }
 #name {
@@ -37,8 +37,8 @@ span {
 	resize: vertical;
 }
 #buttonid.button {
-	color: #33C3F0;
-	border-color: #666
+	color: #666;
+	font-weight: bold;
 	font-size: 1.4rem;
 	width: 100%;
 }
@@ -46,7 +46,8 @@ span {
 	border-color: #666;
 }
 #buttonid.button:active {
-	color: #666;
+	background-color: #1E90FF;
+	color: #fff;
 }
 #rightsideform {
 	display: inline-block;
