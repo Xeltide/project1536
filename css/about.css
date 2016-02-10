@@ -1,5 +1,7 @@
 
-#aboutContainer {}
+#aboutContainer {
+	padding-top: 6.5rem;
+}
 #aboutSite {
 	margin-bottom: 2rem;
 }
