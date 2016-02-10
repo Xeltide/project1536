@@ -54,21 +54,36 @@
 /* Fixes footer to the bottom of the page. */
 #footer {
     width: 100%;
-	background-color: #33C3F0;
+	background-color: #1E90FF;
     z-index: 1;
     opacity: 1.0;
     bottom: 0;
+    height: 51px;
 }
+
+/* #footer li {
+    display: inline-block;
+    margin-bottom: 0;
+    min-width: 5em;
+}
+
+#footer ul{
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 0;
+} */
+
 /* Formats the footer buttons. */
 #footer a.button-primary {
-    background-color: #191970;
-    border-color: #191970;
-    float: right;
-    width: 20%;
+    background-color: #1E90FF;
+    border-color: #1E90FF;
+    /* background-color: #4169E1; */
+    /* border-color: #4169E1; */
     height: 100%;
     margin: 0px;
-    padding: 0px;
+    padding: 0.5em;
     border-radius: 0px;
+    width: 100%;
 }
 /* Removes margins from copyright text */
 #copy {
@@ -78,4 +93,34 @@
 #footer a.button-primary:hover {
     background-color: #000000;
     border-color: #000000;
+}
+
+
+/* Login part */
+
+
+.dropContent {
+	background-color: #4169E1;
+	padding: 1em 1.5em 1em 1.5em;
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+
+.droplink {
+}
+
+div #leftCol {
+	display: inline-block;
+	width: 45%;
+}
+
+div #rightCol {
+	width: 45%;
+	padding-left: 5%;
+	border-left: 1px solid black;
+}
+
+.show {
+	display: block;
 }
