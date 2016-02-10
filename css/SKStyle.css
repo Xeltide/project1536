@@ -14,14 +14,16 @@ ul#banner li{
 }
 
 #left {
-	background-image: url("../images/Moon.jpg");
-	background-position: center;
-	height: 90%;
+	background-image: url("../images/preschool.jpg");
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+	height: 100%;
 	color: white;
 }
 
 #right {
-	height: 90%;
+	height: 100%;
 }
 
 .header {
@@ -29,7 +31,7 @@ ul#banner li{
 }
 
 .subItem {
-	height: 25%;
+	border-top: 1px dashed blue;
 }
 
 .panel {
@@ -47,4 +49,8 @@ ul#banner li{
 
 .links {
 	right: 0;
+}
+
+h4, h5 {
+	text-transform: uppercase;
 }
