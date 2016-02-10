@@ -27,3 +27,8 @@ a {
 	margin-left: 4rem;
 	margin-right: 4rem;
 }
+#footer {
+	margin-top: 2rem;
+	position: fixed;
+	bottom: 0;
+}
