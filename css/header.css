@@ -92,8 +92,8 @@
 }
 /* Hovering over a button changes its colour. */
 #footer a.button-primary:hover {
-    background-color: #000000;
-    border-color: #000000;
+    background-color: #1f48c5;
+    border-color: #1f48c5;
 }
 
 
