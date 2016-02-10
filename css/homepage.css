@@ -32,11 +32,14 @@ a.homeMenuItem {
 	position: relative;
 	padding: 1rem 2rem 7rem 2rem;
 	background-color: #f8f8f8;
-	border-top: .4rem solid #33c3f0;
+	border-top: .4rem solid #99CCFF;
 	text-decoration: none;
 }
 a.homeMenuItem:hover {
-	background-color: #cecece;
+	background-color: #e7e6e6;
+}
+.homeMenuItem h4 {
+	color: #99CCFF;
 }
 .menuTitle {
 }
@@ -49,7 +52,9 @@ a.homeMenuItem:hover {
 	bottom: 2rem;
 	right: 2rem;
 	margin: 0;
+	background-color: #99CCFF;
 }
+
 @media (min-width: 550px) {
 	a.homeMenuItem {
 		margin-top: -5rem;
