@@ -1,0 +1,14 @@
+#level {
+	padding-top: 5rem;
+}
+
+#criteria ul {
+	margin-left: 2rem;
+	list-style-image: url(box.png);
+	list-style-position: ;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0;
+}
