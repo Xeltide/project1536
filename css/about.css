@@ -1,35 +1,20 @@
-/* JUMOBOTRON HEADER BLOCK */
-#jumbotron {} /* TODO: add height || ELSE: image fails to load = breaks page */
-#jumboImg {
+
+#aboutContainer {}
+#aboutSite {
+	margin-bottom: 2rem;
+}
+#aboutSocial {
+	text-align: center;
+}
+#aboutImage {
+	text-align: right;
+	margin-bottom: 2rem;
+}
+#aboutImage img {
 	width: 100%;
 }
-#jumbotronHeader {
-	position: absolute;
-	bottom: 2rem;
-	padding-left: 2rem;
-}
-#jumbotronHeader h3 {
-	background-color: #ffffff;
-	padding: 0 1rem 0 1rem;
-	display: inline;
-}
-#jumbotronHeader p {
-	background-color: #ffffff;
-	padding: .2em 1rem .2em 1rem;
-	min-width: 1px;
-	display: inline;
-}
-@media (min-width: 550px) { /* TODO: small image for small screens */
-	#jumbotronHeader {
-		/*bottom: 7rem;*/
-	}
-}
-
-/* HOME MENU ITEMS */
-#aboutContainer {}
-#aboutSite {}
 #aboutContact {
-	text-align: center;
+	margin-bottom: 2rem;
 }
 .aboutMember {
 	margin-top: 2rem;
@@ -44,6 +29,9 @@
 .memberPhoto img {}
 @media (min-width: 550px) { /* TODO: small image for small screens */
 	#aboutContact {
-		margin-top: 5rem;
+		margin-top: 5.2rem;
+	}
+	#aboutContact {
+		text-align: center;
 	}
 }
