@@ -2,7 +2,7 @@
 #header {
     position: fixed;
     width: 100%;
-	background-color: #33C3F0;
+	background-color: #1E90FF;
     z-index: 1;
 }
 
@@ -30,18 +30,21 @@
     margin-bottom: 0;
 }
 
-#headerbuttons {
-}
-
 /* Formats the header buttons. */
 #header a.button-primary {
-    background-color: #191970;
-    border-color: #191970;
+    background-color: #1E90FF;
+    border-color: #1E90FF;
+    /* background-color: #4169E1; */
+    /* border-color: #4169E1; */
     height: 100%;
     margin: 0px;
     padding: 0.5em;
     border-radius: 0px;
     width: 100%;
+}
+#header ul .highlightbuttonclass{
+    background-color: #4169E1;
+    border-color: #4169E1;
 }
 /* Hovering over a button changes its colour. */
 #header a.button-primary:hover {
