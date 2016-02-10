@@ -4,6 +4,8 @@
 
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="./js/jquery-2.2.0.js"></script>
+  <script src="./js/navbar.js"></script>
   <meta charset="utf-8">
   <title>About</title>
   <meta name="description" content="">
@@ -24,6 +26,12 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/about.css">
 
+  <link rel="stylesheet" href="./css/stickyfooter.css">
+  <link rel="stylesheet" media="only screen and (min-width: 550px)" href="./css/header.css">
+  <link rel="stylesheet" media="only screen and (max-width: 550px)" href="./css/mobileheader.css">
+
+  <link rel="stylesheet" href="css/loginFiddle.css">
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -34,35 +42,75 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-
-  <!-- JUMBOTRON HEADER -->
-
-  <div class="container" id="jumbotron">
-    <div class="row">
-      <div class="twelve columns">
-        <img id="jumboImg" alt="" src="images/field.jpg">
-      </div>
-      <div class="twelve columns" id="jumbotronHeader">
-        <h3>Header Text</h3>
-        <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+<div id="header">
+    <div class="container">
+      <div class="row">
+        <div class="one column">
+          <a href="#" id="logo"><img src="./images/kappa.png" height=40 alt="SwimV Logo"></a>
+        </div>
+      <div class="eleven columns">
+        <ul class="u-pull-right" id="headerbuttons">
+          <li><a class="button button-primary" id="button0" href="swimkids.html">Swim Kids</a></li>
+          <li><a class="button button-primary" id="button1" href="preschool.html">Preschool</a></li>
+          <li><a class="button button-primary" id="button2" href="#">Drills</a></li>
+          <li><a class="button button-primary" id="button3" href="#">Water Safety</a></li>
+          <li><a class="button button-primary droplink" id="loginbutton" href="#" onclick="dropFunction()">Login</a></li>
+        </ul>
       </div>
     </div>
   </div>
+
+    <div class="container">
+      <div class="offset-by-five columns">
+      <div id="dropdown" class="dropContent seven columns">
+      
+
+        <div id="leftCol">
+            <h4>Login</h4>
+              <label for="username">Username</label>
+              <input class="u-full-width" id="user" type="text">
+              <label for="password">Password</label>
+              <input class="u-full-width" id="pass" type="password">
+              <input class="button-primary; u-pull-right" value="Login" type="submit">
+            </div>
+
+            <div id="rightCol" class="u-pull-right">
+              <h4>Register</h4>
+              <label for="username register">Username</label>
+              <input class="u-full-width" id="userRegister" type="text">
+              <label for="email">Email Address</label>
+              <input class="u-full-width" id="email" type="email">
+              <label for="password register">Password</label>
+              <input class="u-full-width" id="passRegister" type="password">
+              <label for="password confirm">Confirm Password</label>
+              <input class="u-full-width" id="passRegister" type="password">
+              <input class="button-primary; u-pull-right" value="Register" type="submit">
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- JUMBOTRON HEADER -->
+
 
   <!-- ABOUT -->
 
   <div class="container" id="aboutContainer">
     <div class="row">
-      <div class="eight columns" id="aboutSite">
+      <div class="five columns" id="aboutSite">
         <h3>About</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut mi turpis. Nulla ac accumsan orci. Vivamus sed lectus dolor. Ut interdum imperdiet tortor in porta. Suspendisse semper interdum sagittis. Vestibulum et viverra ex. Nunc rhoncus arcu odio, vitae dignissim nunc semper sit amet. Aenean neque eros, tempor vitae bibendum ac, rutrum quis tortor. Curabitur aliquet ipsum a ipsum varius dignissim. Quisque ullamcorper, lacus vel ornare fermentum, lorem massa pretium lacus, a hendrerit nisi massa non ligula. Suspendisse congue pulvinar aliquet.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut mi turpis. Nulla ac accumsan orci. Vivamus sed lectus dolor. Ut interdum imperdiet tortor in porta. Suspendisse semper interdum sagittis. Vestibulum et viverra ex. Nunc rhoncus arcu odio, vitae dignissim nunc semper sit amet.</p>
+
+        <div id="aboutSocial">
+          <h5>Get In Touch</h5>
+          <a href="#"><img src="images/facebook.gif" alt=""></a>
+          <a href="#"><img src="images/twitter.gif" alt=""></a>
+        </div>
       </div>
-      <div class="four columns" id="aboutContact">
-        <h5>Still Got Questions?</h5>
-        <a href="#"><img src="images/twitter.gif" alt="Twitter"></a>
-        <a href="#"><img src="images/facebook.gif" alt="Facebook"></a><br>
-        or<br>
-        <a href="#" class="button button-primary">Ask Us!</a>
+      <div class="seven columns" id="aboutImage">
+        <img src="images/swim_lessons_collage.jpg" alt="">
       </div>
     </div>
 
@@ -110,6 +158,21 @@
   </div>
 
   <!-- FOOTER -->
+
+  <div id="footer" class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="six columns">
+          <p id="copy">&copy; Huehue</p>
+        </div>
+        <div class="six columns">
+          <a class="button button-primary" id="placeholder" href="#">placeholder</a>
+          <!-- Buttons are placed from right to left so they float properly -->
+        </div>
+      </div>
+    </div>
+  </div>
+  
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Content Page</title>
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="../css/contentStyle.css">
+	<link rel="stylesheet" href="../css/normalize.css">
+  	<link rel="stylesheet" href="../css/skeleton.css">
+  	<link rel="stylesheet" href="../css/stickyfooter.css">
+	<link rel="stylesheet" media="only screen and (min-width: 550px)" href="../css/header.css">
+	<link rel="stylesheet" media="only screen and (max-width: 550px)" href="../css/mobileheader.css">
+	<link rel="stylesheet" href="../css/loginFiddle.css">
+	<!-- jQuery -->
+	<script src="../js/jquery-2.2.0.js"></script>
+  	<script type="text/javascript" src="../js/navbar.js"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+      <div class="one column">
+       <a href="#" id="logo"><img src="./images/kappa.png" height=40 alt="SwimV Logo"></a>
+      </div>
+      <div class="eleven columns">
+       <ul class="u-pull-right">
+          <li><a class="button button-primary" id="button0" href="swimkids.html">Swim Kids</a></li>
+          <li><a class="button button-primary" id="button1" href="preschool.html">Preschool</a></li>
+          <li><a class="button button-primary" id="button2" href="#">Button2</a></li>
+          <li><a class="button button-primary" id="button3" href="#">Button3</a></li>
+          <li><a class="button button-primary droplink" id="loginbutton" href="#" onclick="dropFunction()">Login</a></li>
+       </ul>
+      </div>
+    </div>
+    <!--login panel-->
+    <div class="container">
+     <div class="offset-by-five columns">
+      <div id="dropdown" class="dropContent seven columns">
+       <div id="leftCol">
+        <h4>Login</h4>
+         <label for="username">Username</label>
+         <input class="u-full-width" id="user" type="text">
+         <label for="password">Password</label>
+         <input class="u-full-width" id="pass" type="password">
+         <input class="button-primary; u-pull-right" value="Login" type="submit">
+       </div>
+
+       <div id="rightCol" class="u-pull-right">
+        <h4>Register</h4>
+         <label for="username register">Username</label>
+         <input class="u-full-width" id="userRegister" type="text">
+         <label for="email">Email Address</label>
+         <input class="u-full-width" id="email" type="email">
+         <label for="password register">Password</label>
+         <input class="u-full-width" id="passRegister" type="password">
+         <label for="password confirm">Confirm Password</label>
+         <input class="u-full-width" id="passRegister" type="password">
+         <input class="button-primary; u-pull-right" value="Register" type="submit">     
+       </div>
+      </div>
+     </div>
+    </div>
+</div>
+<div class="container" id="level">
+	<h1>Swim Kids 9</h1>
+</div>
+
+<div class="container" id="fitness">
+	<div class="four columns" id="category">
+		<h4>Fitness Activities</h4>
+	</div>
+	<div class="eight columns" id="criteria">
+		<ul>
+			<li>Travelling, Legs Only 3min</li>
+			<li>Distance Swim 400m</li>
+		</ul>
+	</div>
+</div>
+
+<div class="container" id="safety">
+	<div class="four columns" id="category">
+		<h4>Skill and Water Safety</h4>
+	</div>
+	<div class="eight columns" id="criteria">
+		<ul>
+			<li>Wise Choices and Peer Influence</li>
+			<li>Complications of Rescue Breathing</li>
+			<li>Boating Regulations</li>
+			<li>Self-Rescue: Fall Through Ice</li>
+			<li>Head-First Surface Dive</li>
+		</ul>
+	</div>
+</div>
+
+<div class="container" id="strokes">
+	<div class="four columns" id="category">
+		<h4>Swimming</h4>
+	</div>
+	<div class="eight columns" id="criteria">
+		<ul>
+			<li>Front Crawl 100m</li>	
+			<li>Back Crawl 100m</li>
+			<li>Elementary Back Stroke 50m</li>
+			<li>Breast Stroke 25m</li>
+			<li>Sidestroke Kick 15m</li>
+		</ul>
+	</div>
+</div>
+
+<div class="container">
+	<a href="contentSK8.html"><button>level 8</button></a>
+	<a href="contentSK10.html"><button>level 10</button></a>
+</div>
+
+<div id="footer" class="footer">
+	<div class="container">
+	    <div class="six columns">
+	        <p id="copy">&copy; Huehue</p>
+	    </div>
+	    <div class="six columns">
+	        <a class="button button-primary" id="placeholder" href="#">placeholder</a>
+	        <!-- Buttons are placed from right to left so they float properly -->
+	    </div>
+	</div>
+</div>
+
+</body>
+</html>

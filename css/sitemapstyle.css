@@ -1,21 +1,14 @@
-body {
-	background-color: #99ddbb;
-}
+
 a {
 	text-decoration: none;
-	color: white;
-}
-.container {
-	color: white;
-	background-color: #99ddbb;
-	margin-top: 10em;
-	margin-bottom: 10em;
+	color: black;
 }
 #topheading {
 	text-align: center;
 	font-size: 2rem;
 	border-bottom: 0.1rem white solid;
 	padding-top: 2rem;
+	margin-top: 8rem;
 	margin-bottom: 1rem;
 }
 .toplist {

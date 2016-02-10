@@ -1,31 +1,28 @@
 body {
-	background-color: #99ddbb;
 	font-family: Helvetica, Verdana, sans-serif;
 }
 label {
 	color: #666;
 }
 h3 {
-	color: white;
+	color: #191970;
 }
 span {
-	color: white;
-}
-.container {
-	padding: 5%;
+	color: #33C3F0;
 }
 .form {
 	margin-bottom: 0;
-	border-right: 0.1rem white solid;
+	border-right: 0.1rem #33C3F0 solid;
 	padding-right: 4%;
 }
 #formheader {
-	color: white;
+	color: #191970;
+	margin-top: 8rem;
 	text-align: center;
 	padding-bottom: 1.5rem;
 }
 #formrow {
-	border: 0.1rem white solid;
+	border: 0.1rem #33C3F0 solid;
 	padding:  1rem;
 }
 #name {
@@ -40,8 +37,8 @@ span {
 	resize: vertical;
 }
 #buttonid.button {
-	color: white;
-	border-color: white;
+	color: #33C3F0;
+	border-color: #666
 	font-size: 1.4rem;
 	width: 100%;
 }
@@ -58,4 +55,8 @@ span {
 	font-size: 2rem;
 	text-align: center;
 	margin-left: 2%;
+}
+#footer {
+	position: fixed;
+	bottom: 0;
 }
