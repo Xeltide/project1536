@@ -11,26 +11,28 @@ var currentTab = 1;
 function findSection(){
 	switch(currentTab){
 		case 1:
-			return '#one';
+			return '#home';
 		case 2:
-			return '#two';
+			return '#one';
 		case 3:
-			return '#three';
+			return '#two';
 		case 4:
-			return '#four';
+			return '#three';
 		case 5:
-			return '#five';
+			return '#four';
 		case 6:
-			return '#six';
+			return '#five';
 		case 7:
-			return '#seven';
+			return '#six';
 		case 8:
-			return '#eight';
+			return '#seven';
 		case 9:
-			return '#nine';
+			return '#eight';
 		case 10:
-			return '#ten';
+			return '#nine';
 		case 11:
+			return '#ten';
+		case 12:
 			return '#nowWhat';
 	}
 };
@@ -46,7 +48,7 @@ function scrollPrev(){
 };
 
 function scrollNext(){
-	if(currentTab === 11) {
+	if(currentTab === 12) {
 	}
 	else {
 		++currentTab;

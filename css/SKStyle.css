@@ -4,17 +4,19 @@ body {
 
 #left {
 	height: 100%;
-	padding-left: 5rem;
 }
 
 .subItem {
-	border-top: 1px dashed blue;
+	border-top: 1px solid blue;
+	padding-left: 5rem;
+}
+
+.jumbotron img {
+	width: 100%;
+	height: auto;
 }
 
 .panel {
-	background-size: auto 100%;
-	background-repeat: no-repeat;
-	background-position: top;
 	padding-top: 5rem;
 }
 
