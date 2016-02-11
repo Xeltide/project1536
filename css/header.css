@@ -55,36 +55,24 @@
 /* Fixes footer to the bottom of the page. */
 #footer {
     width: 100%;
-	background-color: #1E90FF;
+	background-color: #DCDCDC;
     z-index: 1;
     opacity: 1.0;
     bottom: 0;
-    height: 51px;
 }
-
-/* #footer li {
-    display: inline-block;
-    margin-bottom: 0;
-    min-width: 5em;
-}
-
-#footer ul{
-    display: flex;
-    list-style-type: none;
-    margin-bottom: 0;
-} */
 
 /* Formats the footer buttons. */
 #footer a.button-primary {
-    background-color: #1E90FF;
-    border-color: #1E90FF;
+    background-color: #DCDCDC;
+    border-color: #DCDCDC;
     /* background-color: #4169E1; */
     /* border-color: #4169E1; */
     height: 100%;
     margin: 0px;
-    padding: 0.5em;
+    /* padding: 0.5em; */
     border-radius: 0px;
     width: 100%;
+    color: #1f48c5;
 }
 /* Removes margins from copyright text */
 #copy {
@@ -131,4 +119,23 @@ div #rightCol {
 
 .show {
 	display: block;
+}
+
+
+
+/* sticky footer */
+
+* {
+    margin: 0px;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    margin: 0 auto -4rem;
+}
+.footer, .push {
+    height: 4rem;
 }
