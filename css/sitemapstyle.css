@@ -3,7 +3,7 @@ body {
 }
 a {
 	text-decoration: none;
-	color: black;
+	color: #333;
 	font-weight: bold;
 }
 .capsule {
@@ -26,17 +26,30 @@ a {
 	text-align: center;
 	margin-top: 2rem;
 }
+.toplist li:hover {
+	background-color: #88ddFF;
+	color: #333;
+}
 .table {
 	display: table;
 	margin: 0 auto;
 }
 .numlist li {
+	border: .1rem #999 solid;
+	border-radius: .2em;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	width: 2rem;
 	list-style-type: none;
 	display: inline;
 	text-align: center;
 	font-size: 2rem;
-	margin-left: 4rem;
-	margin-right: 4rem;
+}
+.numlist li:hover {
+	border-color: #333;
+	color: #333;
 }
 #footer {
 	margin-top: 2rem;
