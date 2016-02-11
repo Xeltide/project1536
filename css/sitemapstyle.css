@@ -1,19 +1,25 @@
-
+body {
+	font-family: Helvetica, Verdana, sans-serif;
+}
 a {
 	text-decoration: none;
 	color: black;
+	font-weight: bold;
 }
-#topheading {
+.four.columns .topheading {
+	margin-top: 12rem;
+}
+.topheading {
 	text-align: center;
 	font-size: 2rem;
-	border-bottom: 0.1rem white solid;
-	padding-top: 2rem;
+	border-bottom: 0.1rem #1E90FF solid;
 	margin-top: 8rem;
 	margin-bottom: 1rem;
 }
 .toplist {
 	list-style-type: none;
 	text-align: center;
+	margin-top: 2rem;
 }
 .table {
 	display: table;
