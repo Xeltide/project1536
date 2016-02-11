@@ -70,6 +70,23 @@ $(document).keydown(function(event){
 		case 40: // down arrow
 			scrollNext();
 			break;
+
+		case 33: // up arrow
+			scrollPrev();
+			break;
+
+		case 34: // down arrow
+			scrollNext();
+			break;		
+	}
+});
+
+$(document).bind('mousewheel', function(mouseEvent){
+	if(mouseEvent.originalEvent.wheelDelta > 0){
+		scrollPrev();
+	}
+	else {
+		scrollNext();
 	}
 });
 
