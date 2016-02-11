@@ -6,14 +6,19 @@ a {
 	color: black;
 	font-weight: bold;
 }
-.four.columns .topheading {
-	margin-top: 10rem;
+.capsule {
+	background-color: #eee;
+	padding-top: .5rem;
+	padding-bottom: .2rem;
+	margin-top: 6em;
+}
+.listCapsule {
+	margin-top: 6em;
 }
 .topheading {
 	text-align: center;
 	font-size: 2rem;
-	border-bottom: 0.1rem #1E90FF solid;
-	margin-top: 8rem;
+	border-bottom: 1rem #1E90FF solid;
 	margin-bottom: 1rem;
 }
 .toplist {
