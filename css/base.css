@@ -1,0 +1,155 @@
+/**************************************************************
+ * NAVBAR (HEADER)
+ **************************************************************/
+
+/* Fixes header to top of page. Z-index necessary to prevent text content from appearing over header. */
+#header {
+    position: fixed;
+    width: 100%;
+	background-color: #1E90FF;
+    z-index: 1;
+}
+
+/* Conditional classes applied to the header via javascript */
+.header-opaque {
+    opacity: 1.0;
+}
+.header-transparent {
+    opacity: 0.6;
+}
+/* Removes logo padding and resizes to height of the header. */
+#header img {
+    display: block;
+}
+
+#header li {
+    display: inline-block;
+    margin-bottom: 0;
+    min-width: 5em;
+}
+
+#header ul{
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+/* Formats the header buttons. */
+#header a.button-primary {
+    background-color: #1E90FF;
+    border-color: #1E90FF;
+    /* background-color: #4169E1; */
+    /* border-color: #4169E1; */
+    height: 100%;
+    margin: 0px;
+    padding: 0.5em;
+    border-radius: 0px;
+    width: 100%;
+}
+#header ul .highlightbuttonclass{
+    background-color: #1F48C5;
+    border-color: #1F48C5;
+}
+/* Hovering over a button changes its colour. */
+#header a.button-primary:hover {
+    background-color: #1F48C5;
+    border-color: #1F48C5;
+    /* border-color: #4169E1; */
+}
+/* Fixes footer to the bottom of the page. */
+#footer {
+    width: 100%;
+	background-color: #DCDCDC;
+    z-index: 1;
+    opacity: 1.0;
+    bottom: 0;
+}
+
+/* Formats the footer buttons. */
+#footer a.button-primary {
+    background-color: #DCDCDC;
+    border-color: #DCDCDC;
+    /* background-color: #4169E1; */
+    /* border-color: #4169E1; */
+    height: 100%;
+    margin: 0px;
+    /* padding: 0.5em; */
+    border-radius: 0px;
+    width: 100%;
+    color: #1F48C5;
+}
+/* Removes margins from copyright text */
+#copy {
+    margin: 0px;
+}
+/* Hovering over a button changes its colour. */
+#footer a.button-primary:hover {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+
+/**************************************************************
+ * COMMON ELEMENTS
+ **************************************************************/
+
+/* Headers */
+h3, h5 {
+    color: #1F48C5;
+}
+
+/**************************************************************
+ * LOGIN OVERLAY
+ **************************************************************/
+
+.dropContent {
+	background-color: #1F48C5;
+	padding: 1em 1.5em 1em 1.5em;
+	display: none;
+	position: absolute;
+	z-index: 1;
+    color: #FFFFFF;
+}
+
+#dropdown .button-primary {
+    background-color: #1E90FF;
+    border-color: #1E90FF;
+    color: #FFFFFF;
+}
+
+.droplink {
+}
+
+div #leftCol {
+	display: inline-block;
+	width: 45%;
+}
+
+div #rightCol {
+	width: 45%;
+	padding-left: 5%;
+	border-left: 1px solid black;
+}
+
+.show {
+	display: block;
+}
+
+/**************************************************************
+ * FOOTER
+ **************************************************************/
+
+* {
+    margin: 0px;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    margin: 0 auto -4rem;
+}
+.footer, .push {
+    height: 4rem;
+}
