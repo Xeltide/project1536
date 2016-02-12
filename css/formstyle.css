@@ -33,16 +33,29 @@ span {
 	height: 10rem;
 	resize: vertical;
 }
-#buttonid.button {
+#buttonid1.button {
 	color: #666;
 	font-weight: bold;
 	font-size: 1.4rem;
 	width: 100%;
 }
-#buttonid.button:hover {
+#buttonid1.button:hover {
 	border-color: #666;
 }
-#buttonid.button:active {
+#buttonid1.button:active {
+	background-color: #1E90FF;
+	color: #fff;
+}
+#buttonid2.button {
+	color: #666;
+	font-weight: bold;
+	font-size: 1.4rem;
+	width: 100%;
+}
+#buttonid2.button:hover {
+	border-color: #666;
+}
+#buttonid2.button:active {
 	background-color: #1E90FF;
 	color: #fff;
 }
