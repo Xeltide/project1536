@@ -2,15 +2,6 @@ body {
 	overflow: hidden;
 }
 
-#left {
-	height: 100%;
-}
-
-.subItem {
-	border-top: 1px solid blue;
-	padding-left: 5rem;
-}
-
 .jumbotron img {
 	width: 100%;
 	height: auto;
@@ -20,20 +11,7 @@ body {
 	padding-top: 5rem;
 }
 
-.panel:last-of-type {
-	padding-bottom: 6rem;
-}
-
-#footer {
-	position: fixed;
-	bottom: 0;
-}
-
-.links {
-	right: 0;
-}
-
-h3, h6 {
-	color: #1f48c5;
+h3, h5 {
+	color: #1F48C5;
 	text-transform: uppercase;
 }
