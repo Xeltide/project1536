@@ -1,129 +1,129 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Form Page 1</title>
-		<link rel="stylesheet" type="text/css" href="css/normalize.css">
-		<link rel="stylesheet" type="text/css" href="css/skeleton.css">
-		<link rel="stylesheet" type="text/css" href="css/formstyle.css">
-  		<link rel="stylesheet" href="./css/header.css">
-  		<link rel="stylesheet" href="./css/stickyfooter.css">
+<head>
+	<title>Form Page</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
+	<link rel="stylesheet" type="text/css" href="css/formstyle.css">
+	<link rel="stylesheet" href="./css/header.css">
+	<link rel="stylesheet" href="./css/stickyfooter.css">
 
-		<script src="./js/jquery-2.2.0.js"></script>
-  		<script type="text/javascript" src="js/navbar.js"></script>
+	<script src="./js/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="js/navbar.js"></script>
 
-    <!--- font -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	</head>
-	<body>
-		  <div id="header">
-    <div class="container">
-      <div class="row">
-        <div class="one column">
-          <a href="./index.html" id="logo"><img src="./images/kappa.png" height=51 alt="SwimV Logo"></a>
-        </div>
-        <div class="eleven columns">
-          <ul class="u-pull-right" id="headerbuttons">
-            <li><a class="button button-primary" id="button0" href="swimkids.html">Swim Kids</a></li>
-            <li><a class="button button-primary" id="button1" href="preschool.html">Preschool</a></li>
-            <li><a class="button button-primary" id="button2" href="#">Drills</a></li>
-            <li><a class="button button-primary" id="button3" href="#">Water Safety</a></li>
-            <li><a class="button button-primary droplink" id="loginbutton" href="#" onclick="dropFunction()">Login</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+	<!--- font -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="header">
+		<div class="container">
+			<div class="row">
+				<div class="one column">
+					<a href="./index.html" id="logo"><img src="./images/kappa.png" height=51 alt="SwimV Logo"></a>
+				</div>
+				<div class="eleven columns">
+					<ul class="u-pull-right" id="headerbuttons">
+						<li><a class="button button-primary" id="button0" href="swimkids.html">Swim Kids</a></li>
+						<li><a class="button button-primary" id="button1" href="preschool.html">Preschool</a></li>
+						<li><a class="button button-primary" id="button2" href="#">Drills</a></li>
+						<li><a class="button button-primary" id="button3" href="#">Water Safety</a></li>
+						<li><a class="button button-primary droplink" id="loginbutton" href="#" onclick="dropFunction()">Login</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
 
-    <div class="container">
-      <div class="offset-by-five columns">
-        <div id="dropdown" class="dropContent seven columns">
+		<div class="container">
+			<div class="offset-by-five columns">
+				<div id="dropdown" class="dropContent seven columns">
 
-          <div id="leftCol">
-            <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
-              <h4>Login</h4>
-              <label for="username">Username</label>
-              <input class="u-full-width" id="username" type="text" name="username">
-              <label for="password">Password</label>
-              <input class="u-full-width" id="password" type="password" name="password">
-              <input class="button-primary u-pull-right" value="Submit" type="submit">
-            </form>
-          </div>
-          
-          <div id="rightCol" class="u-pull-right">
-            <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
-              <h4>Register</h4>
-              <label for="username register">Username</label>
-              <input class="u-full-width" id="userRegister" type="text">
-              <label for="email">Email Address</label>
-              <input class="u-full-width" id="email" type="email">
-              <label for="password register">Password</label>
-              <input class="u-full-width" id="passRegister" type="password">
-              <label for="password confirm">Confirm Password</label>
-              <input class="u-full-width" id="passRegister" type="password">
-              <input class="button-primary u-pull-right" value="Register" type="submit">
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--Container div, used with skeleton to contain and format rows.-->
-  <div class="container">
-  	<!--Row div, used with skeleton to create rows with responsive columns-->
-  	<div class="row">
-  		<!--twelve column div, with id #formheader. Main heading for the form page-->
-  		<div id="formheader" class="twelve columns">
-  			<h2>Have a Question?</h2>
-  			<h2>Please Leave Us a Message!</h2>
-  		</div>
-  	</div>
-  	<!--Row div, used with skeleton to create rows with responsive columns. #formrow id adds a border and formats the form correctly-->
-  	<div id="formrow" class="row">
-  		<!--six column div, holds actual form-->
-  		<div class="six columns">
-  			<!--The form, with class .form-->
-  			<form class="form" name="Messager" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
-  				
-  				<label for="text">Name<span>*</span></label>
-  				<input type="text" name="name" id="name" placeholder="John Doe" required/>
+					<div id="leftCol">
+						<form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+							<h4>Login</h4>
+							<label for="username">Username</label>
+							<input class="u-full-width" id="username" type="text" name="username">
+							<label for="password">Password</label>
+							<input class="u-full-width" id="password" type="password" name="password">
+							<input class="button-primary u-pull-right" value="Submit" type="submit">
+						</form>
+					</div>
+					
+					<div id="rightCol" class="u-pull-right">
+						<form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+							<h4>Register</h4>
+							<label for="username register">Username</label>
+							<input class="u-full-width" id="userRegister" type="text">
+							<label for="email">Email Address</label>
+							<input class="u-full-width" id="email" type="email">
+							<label for="password register">Password</label>
+							<input class="u-full-width" id="passRegister" type="password">
+							<label for="password confirm">Confirm Password</label>
+							<input class="u-full-width" id="passRegister" type="password">
+							<input class="button-primary u-pull-right" value="Register" type="submit">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Container div, used with skeleton to contain and format rows.-->
+	<div class="container">
+		<!--Row div, used with skeleton to create rows with responsive columns-->
+		<div class="row">
+			<!--twelve column div, with id #formheader. Main heading for the form page-->
+			<div id="formheader" class="twelve columns">
+				<h2>Have a Question?</h2>
+				<h2>Please Leave Us a Message!</h2>
+			</div>
+		</div>
+		<!--Row div, used with skeleton to create rows with responsive columns. #formrow id adds a border and formats the form correctly-->
+		<div id="formrow" class="row">
+			<!--six column div, holds actual form-->
+			<div class="six columns">
+				<!--The form, with class .form-->
+				<form class="form" name="Messager" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
 
-  				
-  				<label for="email">Email Address<span>*</span></label>
-  				<input type="email" name="email" id="email" placeholder="yourmail@email.com" required/>
-  				
-  				<label for="text">Your Question</label>
-  				<textarea type="text" name="question" id="questionField" placeholder="Please leave a detailed message here!" required></textarea>
-  				
-  				<input id="buttonid" class="button" type="submit" value="Send Message">
-  				
-  				<input id="buttonid" class="button" type="reset" value="Reset Form">
-  				
-  			</form>
-  		</div>
-  		<!--six column div, containing the message for users in regards to the form. id #rightsideform styles and formats the right column appropriately -->
-  		<div id="rightsideform" class="six columns">
-  			
-  			<h3>Leave a Message!</h3>
-  			
-  			<div>
-  				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pellentesque tortor et dui vestibulum tristique. Curabitur a dolor ac tellus consectetur ultricies. Sed blandit enim ligula, ut egestas est aliquam quis. Sed cursus metus commodo tincidunt ullamcorper. Praesent non pulvinar lectus.
-  			</div>
-  			
-  		</div>
-  	</div>
-  </div>
+					<label for="text">Name<span>*</span></label>
+					<input type="text" name="name" id="name" placeholder="John Doe" required/>
 
-  <div id="footer" class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="six columns">
-          <a class="button button-primary" id="placeholder" href="./about.html">About Us</a>
-        </div>
-        <div class="six columns">
-          <a class="button button-primary" id="placeholder" href="./sitemap.html">Sitemap</a>
-        </div>
-      </div>
-    </div>
-  </div>
 
-	</body>
+					<label for="email">Email Address<span>*</span></label>
+					<input type="email" name="email" id="email" placeholder="yourmail@email.com" required/>
+
+					<label for="text">Your Question</label>
+					<textarea type="text" name="question" id="questionField" placeholder="Please leave a detailed message here!" required></textarea>
+
+					<input id="buttonid" class="button" type="submit" value="Send Message">
+
+					<input id="buttonid" class="button" type="reset" value="Reset Form">
+
+				</form>
+			</div>
+			<!--six column div, containing the message for users in regards to the form. id #rightsideform styles and formats the right column appropriately -->
+			<div id="rightsideform" class="six columns">
+
+				<h3>Leave a Message!</h3>
+
+				<div>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pellentesque tortor et dui vestibulum tristique. Curabitur a dolor ac tellus consectetur ultricies. Sed blandit enim ligula, ut egestas est aliquam quis. Sed cursus metus commodo tincidunt ullamcorper. Praesent non pulvinar lectus.
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div id="footer" class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="six columns">
+					<a class="button button-primary" id="placeholder" href="./about.html">About Us</a>
+				</div>
+				<div class="six columns">
+					<a class="button button-primary" id="placeholder" href="./sitemap.html">Sitemap</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
 </html>
