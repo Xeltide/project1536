@@ -25,11 +25,6 @@
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/about.css">
 
-  <link rel="stylesheet" href="./css/header.css">
-  <link rel="stylesheet" href="./css/stickyfooter.css">
-  <!-- <link rel="stylesheet" media="only screen and (min-width: 550px)" href="./css/header.css"> -->
-  <!-- <link rel="stylesheet" media="only screen and (max-width: 550px)" href="./css/mobileheader.css"> -->
-
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -37,10 +32,10 @@
 </head>
 <body>
 
-  <!-- Primary Page Layout
+  <!-- Navigation Bar
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<div id="header">
+  <div id="header">
     <div class="container">
       <div class="row">
         <div class="one column">
@@ -60,19 +55,21 @@
 
     <div class="container">
       <div class="offset-by-five columns">
-      <div id="dropdown" class="dropContent seven columns">
-      
+        <div id="dropdown" class="dropContent seven columns">
 
-        <div id="leftCol">
-            <h4>Login</h4>
+          <div id="leftCol">
+            <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+              <h4>Login</h4>
               <label for="username">Username</label>
-              <input class="u-full-width" id="user" type="text">
+              <input class="u-full-width" id="username" type="text" name="username">
               <label for="password">Password</label>
-              <input class="u-full-width" id="pass" type="password">
-              <input class="button-primary u-pull-right" value="Login" type="submit">
-            </div>
-
-            <div id="rightCol" class="u-pull-right">
+              <input class="u-full-width" id="password" type="password" name="password">
+              <input class="button-primary u-pull-right" value="Submit" type="submit">
+            </form>
+          </div>
+          
+          <div id="rightCol" class="u-pull-right">
+            <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
               <h4>Register</h4>
               <label for="username register">Username</label>
               <input class="u-full-width" id="userRegister" type="text">
@@ -83,26 +80,39 @@
               <label for="password confirm">Confirm Password</label>
               <input class="u-full-width" id="passRegister" type="password">
               <input class="button-primary u-pull-right" value="Register" type="submit">
-            </div>
-          </div>
+            </form>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- JUMBOTRON HEADER -->
 
+  <!-- Jumbotron Header
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <!-- ABOUT -->
+  <div class="container" id="jumbotron">
+    <div class="row">
+      <div class="twelve columns">
+        <img id="jumboImg" alt="" src="images/field.jpg">
+      </div>
+      <div class="twelve columns" id="jumbotronText">
+        <h3 class="overrideHColor">Header Text</h3>
+        <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+      </div>
+    </div>
+  </div>
 
-  <div class="container" id="aboutContainer">
+  <!-- Page Content
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="container">
     <div class="row">
       <div class="five columns" id="aboutSite">
         <h3>About</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut mi turpis. Nulla ac accumsan orci. Vivamus sed lectus dolor. Ut interdum imperdiet tortor in porta. Suspendisse semper interdum sagittis. Vestibulum et viverra ex. Nunc rhoncus arcu odio, vitae dignissim nunc semper sit amet.</p>
 
         <div id="aboutSocial">
-          <h5>Get In Touch</h5>
+          <h5 class="overrideHColor">Get In Touch</h5>
           <a href="#"><img src="images/facebook.gif" alt=""></a>
           <a href="#"><img src="images/twitter.gif" alt=""></a>
         </div>
@@ -121,17 +131,17 @@
     <div class="row">
       <div class="four columns aboutMember">
         <img src="images/profile_pic_placeholder.jpg" alt="">
-        <h5>Joshua Abe</h6>
+        <h5 class="memberName overrideHColor">Joshua Abe</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut mi turpis. Nulla ac accumsan orci. Vivamus sed lectus dolor. Ut interdum imperdiet tortor in porta. Suspendisse semper interdum sagittis. Vestibulum et viverra ex.</p>
       </div>
       <div class="four columns aboutMember">
         <img src="images/profile_pic_placeholder.jpg" alt="">
-        <h5>Stephen Cheng</h5>
+        <h5 class="memberName overrideHColor">Stephen Cheng</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut mi turpis. Nulla ac accumsan orci. Vivamus sed lectus dolor. Ut interdum imperdiet tortor in porta. Suspendisse semper interdum sagittis. Vestibulum et viverra ex.</p>
       </div>
       <div class="four columns aboutMember">
         <img src="images/profile_pic_placeholder.jpg" alt="">
-        <h5>Allen Li</h5>
+        <h5 class="memberName overrideHColor">Allen Li</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut mi turpis. Nulla ac accumsan orci. Vivamus sed lectus dolor. Ut interdum imperdiet tortor in porta. Suspendisse semper interdum sagittis. Vestibulum et viverra ex.</p>
       </div>
     </div>
@@ -139,17 +149,17 @@
     <div class="row">
       <div class="four columns aboutMember">
         <img src="images/profile_pic_placeholder.jpg" alt="">
-        <h5>Donald Watson</h5>
+        <h5 class="memberName overrideHColor">Donald Watson</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut mi turpis. Nulla ac accumsan orci. Vivamus sed lectus dolor. Ut interdum imperdiet tortor in porta. Suspendisse semper interdum sagittis. Vestibulum et viverra ex.</p>
       </div>
       <div class="four columns aboutMember">
         <img src="images/profile_pic_placeholder.jpg" alt="">
-        <h5>Wei Zhou</h5>
+        <h5 class="memberName overrideHColor">Wei Zhou</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut mi turpis. Nulla ac accumsan orci. Vivamus sed lectus dolor. Ut interdum imperdiet tortor in porta. Suspendisse semper interdum sagittis. Vestibulum et viverra ex.</p>
       </div>
       <div class="four columns aboutMember">
         <img src="images/profile_pic_placeholder.jpg" alt="">
-        <h5>Some Mascot</h5>
+        <h5 class="memberName overrideHColor">Some Mascot</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut mi turpis. Nulla ac accumsan orci. Vivamus sed lectus dolor. Ut interdum imperdiet tortor in porta. Suspendisse semper interdum sagittis. Vestibulum et viverra ex.</p>
       </div>
     </div>

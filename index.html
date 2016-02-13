@@ -25,48 +25,51 @@
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/homepage.css">
 
-  <link rel="stylesheet" href="./css/header.css">
-  <link rel="stylesheet" href="./css/stickyfooter.css">
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
 <body>
 
-  <!-- Primary Page Layout
+  <!-- Navigation Bar
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<div id="header">
+  <div id="header">
     <div class="container">
       <div class="row">
         <div class="one column">
-          <a href="#" id="logo"><img src="./images/kappa.png" height=51 alt="SwimV Logo"></a>
+          <a href="./index.html" id="logo"><img src="./images/kappa.png" height=51 alt="SwimV Logo"></a>
         </div>
-      <div class="eleven columns">
-        <ul class="u-pull-right" id="headerbuttons">
-          <li><a class="button button-primary" id="button0" href="./swimkids.html">Swim Kids</a></li>
-          <li><a class="button button-primary" id="button1" href="./preschool.html">Preschool</a></li>
-          <li><a class="button button-primary" id="button2" href="./drills.html">Drills</a></li>
-          <li><a class="button button-primary" id="button3" href="./safety.html">Water Safety</a></li>
-          <li><a class="button button-primary droplink" id="loginbutton" href="#" onclick="dropFunction()">Login</a></li>
-        </ul>
+        <div class="eleven columns">
+          <ul class="u-pull-right" id="headerbuttons">
+            <li><a class="button button-primary" id="button0" href="./swimkids.html">Swim Kids</a></li>
+            <li><a class="button button-primary" id="button1" href="./preschool.html">Preschool</a></li>
+            <li><a class="button button-primary" id="button2" href="./drills.html">Drills</a></li>
+            <li><a class="button button-primary" id="button3" href="./safety.html">Water Safety</a></li>
+            <li><a class="button button-primary droplink" id="loginbutton" href="#" onclick="dropFunction()">Login</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
 
     <div class="container">
       <div class="offset-by-five columns">
-      <div id="dropdown" class="dropContent seven columns">
-      
+        <div id="dropdown" class="dropContent seven columns">
 
-        <div id="leftCol">
-            <h4>Login</h4>
+          <div id="leftCol">
+            <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+              <h4>Login</h4>
               <label for="username">Username</label>
-              <input class="u-full-width" id="user" type="text">
+              <input class="u-full-width" id="username" type="text" name="username">
               <label for="password">Password</label>
-              <input class="u-full-width" id="pass" type="password">
-              <input class="button-primary u-pull-right" value="Login" type="submit">
-            </div>
-
-            <div id="rightCol" class="u-pull-right">
+              <input class="u-full-width" id="password" type="password" name="password">
+              <input class="button-primary u-pull-right" value="Submit" type="submit">
+            </form>
+          </div>
+          
+          <div id="rightCol" class="u-pull-right">
+            <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
               <h4>Register</h4>
               <label for="username register">Username</label>
               <input class="u-full-width" id="userRegister" type="text">
@@ -77,30 +80,32 @@
               <label for="password confirm">Confirm Password</label>
               <input class="u-full-width" id="passRegister" type="password">
               <input class="button-primary u-pull-right" value="Register" type="submit">
-            </div>
-          </div>
+            </form>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- TODO: add navbar -->
+  <!-- Jumbotron Header
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <div class="container" id="jumbotron">
     <div class="row">
       <div class="twelve columns">
         <img id="jumboImg" alt="" src="images/field.jpg">
       </div>
-      <div class="twelve columns" id="jumbotronHeader">
-        <h3>Header Text</h3>
+      <div class="twelve columns" id="jumbotronText">
+        <h3 class="overrideHColor">Header Text</h3>
         <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
       </div>
     </div>
   </div>
 
-  <!-- TODO: fix inconsistent height on boxes -->
-  <div class="container" id="homeMenu">
+  <!-- Page Content
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="container">
     <div class="row">
       <a href="swimkids.html" class="homeMenuItem three columns">
         <h3>Swim Kids</h3>
@@ -138,7 +143,8 @@
     </div>
   </div>
 
-  <!-- TODO: add footer -->
+  <!-- Footer
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   
   <div id="footer" class="footer">
     <div class="container">
@@ -152,6 +158,7 @@
       </div>
     </div>
   </div>
+
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>

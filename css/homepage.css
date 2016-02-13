@@ -1,34 +1,7 @@
-/* JUMOBOTRON HEADER BLOCK */
-#jumbotron {
-	padding-top: 5rem;
-}
-#jumboImg {
-	width: 100%;
-}
-#jumbotronHeader {
-	position: absolute;
-	bottom: 2rem;
-	padding-left: 2rem;
-}
-#jumbotronHeader h3 {
-	background-color: #ffffff;
-	padding: 0 1rem 0 1rem;
-	display: inline;
-}
-#jumbotronHeader p {
-	background-color: #ffffff;
-	padding: .2em 1rem .2em 1rem;
-	min-width: 1px;
-	display: inline;
-}
-@media (min-width: 550px) { /* TODO: small image for small screens */
-	#jumbotronHeader {
-		bottom: 7rem;
-	}
-}
+/**************************************************************
+ * HOME CATEGORY LINKS
+ **************************************************************/
 
-/* HOME MENU ITEMS */
-#homeMenu {}
 a.homeMenuItem {
 	display: block;
 	position: relative;
@@ -39,9 +12,6 @@ a.homeMenuItem {
 }
 a.homeMenuItem:hover {
 	background-color: #dcdcdc;
-}
-.homeMenuItem h3 {
-	text-transform: none;
 }
 .menuDesc {
 	color: #000000;
@@ -54,11 +24,20 @@ a.homeMenuItem:hover {
 	margin: 0;
 }
 
-/* TOFIX: breaks on ipad/iphone? */
+/**************************************************************
+ * LOAD WHEN SCREEN = FULL WIDTH
+ **************************************************************/
+
 @media (min-width: 550px) {
+	/* Overlap Jumbotron with menu items. */
 	a.homeMenuItem {
 		margin-top: -5rem;
 	}
+	/* Special Case: Move Jumbotron text upwards, due to overlapping menu items. */
+	#jumbotronText {
+		bottom: 7rem;
+	}
+	/* Arrow button styling on full-width */
 	.menuButton {
 		width: 80%;
 		right: 0;
@@ -67,7 +46,10 @@ a.homeMenuItem:hover {
 	}
 }
 
-/* HOME QUESTIONS BLOCK */
+/**************************************************************
+ * GOT QUESTIONS?
+ **************************************************************/
+
 #homeQuestionsBlock {
 	text-align: center;
 	margin-top: 5rem;
