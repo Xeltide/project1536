@@ -18,7 +18,8 @@
 	margin-bottom: 2rem;
 }
 #teamHeading {
-	padding-top: 1rem;
+	padding-top: 4rem;
+	margin-top: 2rem;
 	border-top: 1px dotted #000000;
 }
 #aboutMembers td {
