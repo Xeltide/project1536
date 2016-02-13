@@ -3,9 +3,8 @@
  **************************************************************/
 
 #aboutSite {
+	margin-top: 1rem;
 	margin-bottom: 2rem;
-}
-#aboutSocial {
 	text-align: center;
 }
 #aboutImage {
@@ -18,18 +17,21 @@
 #aboutContact {
 	margin-bottom: 2rem;
 }
-.aboutMember {
-	margin-top: 2rem;
+#teamHeading {
+	padding-top: 1rem;
+	border-top: 1px dotted #000000;
 }
-.aboutMember img {}
-.aboutMember h5 {
-	margin-top: 1rem;
+#aboutMembers td {
+	border: 0;
+}
+#aboutMembers h5 {
 	font-family: serif;
 }
-.aboutMember p {}
 
-.memberPhoto img {}
-@media (min-width: 550px) { /* TODO: small image for small screens */
+/**************************************************************
+ * LOAD WHEN SCREEN = FULL WIDTH
+ **************************************************************/
+@media (min-width: 550px) {
 	#aboutContact {
 		margin-top: 5.2rem;
 	}
