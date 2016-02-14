@@ -1,64 +1,54 @@
-label {
-	color: #666;
-}
-h3 {
-	color: #1E90FF;
-}
+/**Colors required asterisk*/
 span {
 	color: #1E90FF;
 }
+/**Styles page title*/
+#formheader {
+	color: #1f48c5;
+	margin-top: 8rem;
+	text-align: center;
+	padding-bottom: 1.5rem;
+}
+/**Correctly styles the entire form and side message*/
+#formrow {
+	border: 0.1rem #1E90FF solid;
+	padding:  1rem;
+}
+/**Colors the form label messages*/
+#formrow label {
+	color: #666;
+}
+/**Styles the actual form*/
 .form {
 	margin-bottom: 0;
 	border-right: 0.1rem #1E90FF solid;
 	padding-right: 4%;
 }
-#formheader {
-	color: #1E90FF;
-	margin-top: 8rem;
-	text-align: center;
-	padding-bottom: 1.5rem;
-}
-#formrow {
-	border: 0.1rem #1E90FF solid;
-	padding:  1rem;
-}
-#name {
+/**Sets full width for the forms input panes*/
+.form input {
 	width: 100%;
 }
-#email {
-	width: 100%;
-}
+/**Sets size of the question field*/
 #questionField {
 	width: 100%;
 	height: 10rem;
 	resize: vertical;
 }
-#buttonid1.button {
+/**Styles submit and reset buttons*/
+#formrow .button {
 	color: #666;
 	font-weight: bold;
 	font-size: 1.4rem;
-	width: 100%;
 }
-#buttonid1.button:hover {
-	border-color: #666;
+/**Styles submit and reset buttons when they are being hovered over*/
+#formrow .button:hover {
+	border-color: #1E90FF;
 }
-#buttonid1.button:active {
-	background-color: #1E90FF;
-	color: #fff;
+/**Styles submit and reset buttons when they are being activated*/
+#formrow .button:active {
+	background-color: #eee;
 }
-#buttonid2.button {
-	color: #666;
-	font-weight: bold;
-	font-size: 1.4rem;
-	width: 100%;
-}
-#buttonid2.button:hover {
-	border-color: #666;
-}
-#buttonid2.button:active {
-	background-color: #1E90FF;
-	color: #fff;
-}
+/**Styles the right side table, and the message inside*/
 #rightsideform {
 	display: inline-block;
 	height: 100%;
@@ -67,6 +57,11 @@ span {
 	text-align: center;
 	margin-left: 2%;
 }
+/**Sets Message title color*/
+#rightsideform h3 {
+	color: #1E90FF;
+}
+/**Makes sure footer is attached to the bottom pane of the viewing window*/
 #footer {
 	position: fixed;
 	bottom: 0;
