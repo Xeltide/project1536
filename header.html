@@ -42,6 +42,7 @@
             <li><a class="button button-primary" id="button1" href="./preschool.html">Preschool</a></li>
             <li><a class="button button-primary" id="button2" href="./drills.html">Drills</a></li>
             <li><a class="button button-primary" id="button3" href="./safety.html">Water Safety</a></li>
+            <li><a class="button button-primary" id="button4" href="./form.html">Questions</a></li>
             <li><a class="button button-primary droplink" id="loginbutton" href="#" onclick="dropFunction()">Login</a></li>
           </ul>
         </div>
@@ -55,10 +56,10 @@
           <div id="leftCol">
             <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
               <h4>Login</h4>
-              <label for="username">Username</label>
-              <input class="u-full-width" id="username" type="text" name="username">
-              <label for="password">Password</label>
-              <input class="u-full-width" id="password" type="password" name="password">
+              <label for="username_login">Username</label>
+              <input class="u-full-width" id="username_login" type="text" name="username_login">
+              <label for="password_login">Password</label>
+              <input class="u-full-width" id="password_login" type="password" name="password_login">
               <input class="button-primary u-pull-right" value="Submit" type="submit">
             </form>
           </div>
@@ -66,14 +67,14 @@
           <div id="rightCol" class="u-pull-right">
             <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
               <h4>Register</h4>
-              <label for="username register">Username</label>
-              <input class="u-full-width" id="userRegister" type="text">
+              <label for="username_register">Username</label>
+              <input class="u-full-width" id="username_register" type="text">
               <label for="email">Email Address</label>
               <input class="u-full-width" id="email" type="email">
-              <label for="password register">Password</label>
-              <input class="u-full-width" id="passRegister" type="password">
-              <label for="password confirm">Confirm Password</label>
-              <input class="u-full-width" id="passRegister" type="password">
+              <label for="password_register">Password</label>
+              <input class="u-full-width" id="password_register" type="password">
+              <label for="password_confirm">Confirm Password</label>
+              <input class="u-full-width" id="password_confirm" type="password">
               <input class="button-primary u-pull-right" value="Register" type="submit">
             </form>
           </div>
@@ -124,8 +125,8 @@
       </div>
     </div>
   </div>
-  <div class="push"></div>
-</div>
+  <div class="push">
+  </div>
 
   <div id="footer" class="footer">
     <div class="container">
