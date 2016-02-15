@@ -23,6 +23,7 @@ span {
 	margin-bottom: 0;
 	border-right: 0.1rem #1E90FF solid;
 	padding-right: 4%;
+	padding-left: 2%;
 }
 /**Sets full width for the forms input panes*/
 .form input {
