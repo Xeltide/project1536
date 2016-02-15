@@ -46,6 +46,15 @@ $( document ).ready(function() {
     if (currentPage == "preschool.html") {
         button1.classList.add("highlightbuttonclass");
     }
+    if (currentPage == "drills.html") {
+        button2.classList.add("highlightbuttonclass");
+    }
+    if (currentPage == "safety.html") {
+        button3.classList.add("highlightbuttonclass");
+    }
+    if (currentPage == "form.html") {
+        button4.classList.add("highlightbuttonclass");
+    }
 });
 
 function dropFunction() {
