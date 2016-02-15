@@ -1,6 +1,6 @@
 /**Colors required asterisk*/
 span {
-	color: #1E90FF;
+	color: #1f48c5;
 }
 /**Styles page title*/
 #formheader {
@@ -57,10 +57,6 @@ span {
 	font-size: 2rem;
 	text-align: center;
 	margin-left: 2%;
-}
-/**Sets Message title color*/
-#rightsideform h3 {
-	color: #1E90FF;
 }
 /**Makes sure footer is attached to the bottom pane of the viewing window*/
 #footer {
