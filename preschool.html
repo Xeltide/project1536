@@ -1,23 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Preschool Content Page</title>
-	<!-- jQuery -->
-	<script src="./js/jquery-2.2.0.js"></script>
-  	<script type="text/javascript" src="js/navbar.js"></script>
-	<script type="text/javascript" src="js/PSApp.js"></script>
-	 <!-- CSS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
-	<link rel="stylesheet" type="text/css" href="css/SKStyle.css">
-	<link rel="stylesheet" href="css/base.css">
-	<!-- FONT -->
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-</head>
 
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Preschool</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <script type="text/javascript" src="js/jquery-2.2.0.js"></script>
+  <script type="text/javascript" src="js/navbar.js"></script>
+  <script type="text/javascript" src="js/SKApp.js"></script>
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT –––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="css/base.css">
+  <link rel="stylesheet" type="text/css" href="css/SKStyle.css">
+
+</head>
 <body>
 
-<div id="header">
+  <!-- Navigation Bar
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div id="header">
     <div class="container">
       <div class="row">
         <div class="one column">
@@ -29,42 +44,50 @@
             <li><a class="button button-primary" id="button1" href="./preschool.html">Preschool</a></li>
             <li><a class="button button-primary" id="button2" href="./drills.html">Drills</a></li>
             <li><a class="button button-primary" id="button3" href="./safety.html">Water Safety</a></li>
+            <li><a class="button button-primary" id="button4" href="form.html">Questions</a></li>
             <li><a class="button button-primary droplink" id="loginbutton" href="#" onclick="dropFunction()">Login</a></li>
           </ul>
         </div>
       </div>
     </div>
-    <!--login panel-->
+
     <div class="container">
-     <div class="offset-by-five columns">
-      <div id="dropdown" class="dropContent seven columns">
-       <div id="leftCol">
-        <h4>Login</h4>
-         <label for="username">Username</label>
-         <input class="u-full-width" id="user" type="text">
-         <label for="password">Password</label>
-         <input class="u-full-width" id="pass" type="password">
-         <input class="button-primary u-pull-right" value="Login" type="submit">
-       </div>
+      <div class="offset-by-five columns">
+        <div id="dropdown" class="dropContent seven columns">
 
-       <div id="rightCol" class="u-pull-right">
-        <h4>Register</h4>
-         <label for="username register">Username</label>
-         <input class="u-full-width" id="userRegister" type="text">
-         <label for="email">Email Address</label>
-         <input class="u-full-width" id="email" type="email">
-         <label for="password register">Password</label>
-         <input class="u-full-width" id="passRegister" type="password">
-         <label for="password confirm">Confirm Password</label>
-         <input class="u-full-width" id="passRegister" type="password">
-         <input class="button-primary u-pull-right" value="Register" type="submit">     
-       </div>
+          <div id="leftCol">
+            <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+              <h4>Login</h4>
+              <label for="username">Username</label>
+              <input class="u-full-width" id="username" type="text" name="username">
+              <label for="password">Password</label>
+              <input class="u-full-width" id="password" type="password" name="password">
+              <input class="button-primary u-pull-right" value="Submit" type="submit">
+            </form>
+          </div>
+          
+          <div id="rightCol" class="u-pull-right">
+            <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+              <h4>Register</h4>
+              <label for="username register">Username</label>
+              <input class="u-full-width" id="userRegister" type="text">
+              <label for="email">Email Address</label>
+              <input class="u-full-width" id="email" type="email">
+              <label for="password register">Password</label>
+              <input class="u-full-width" id="passRegister" type="password">
+              <label for="password confirm">Confirm Password</label>
+              <input class="u-full-width" id="passRegister" type="password">
+              <input class="button-primary u-pull-right" value="Register" type="submit">
+            </form>
+          </div>
+        </div>
       </div>
-     </div>
     </div>
-</div>
+  </div>
 
-<div class="container" id="mainContent">
+<!-- Page Content -->
+
+<div class="container">
 	<div class="panel" id="home">
 		<div class="twelve columns">
 			<div class="jumbotron">
@@ -99,6 +122,7 @@
 			<div class="four columns">
 				<h5>Swimming Skills</h5>
 				<p>ipsum loremx</p>
+				<a href="./content/contentPS1.html"><button>Exact Criteria</button></a>
 			</div>
 		</row>
 	</div>
@@ -125,6 +149,7 @@
 			<div class="four columns">
 				<h5>Swimming Skills</h5>
 				<p>Lorem ipsum dolor sit amet, ut qui atqui interpretaris, pri cu facer graeco contentiones. No nonumy intellegam eam, sed ut suas inani antiopam, quando nullam legimus sed ad. Mei splendide interpretaris id, vel cu dicit molestie. Ut bonorum saperet consetetur sea. Ex mea alii labore intellegat, molestie delicata expetenda in nec, ex harum soluta est.</p>
+				<a href="./content/contentPS2.html"><button>Exact Criteria</button></a>
 			</div>
 		</row>
 	</div>
@@ -151,6 +176,7 @@
 			<div class="four columns">
 				<h5>Swimming Skills</h5>
 				<p>Lorem ipsum dolor sit amet, ut qui atqui interpretaris, pri cu facer graeco contentiones. No nonumy intellegam eam, sed ut suas inani antiopam, quando nullam legimus sed ad. Mei splendide interpretaris id, vel cu dicit molestie. Ut bonorum saperet consetetur sea. Ex mea alii labore intellegat, molestie delicata expetenda in nec, ex harum soluta est.</p>
+				<a href="./content/contentPS3.html"><button>Exact Criteria</button></a>
 			</div>
 		</row>
 	</div>
@@ -177,6 +203,7 @@
 			<div class="four columns">
 				<h5>Swimming Skills</h5>
 				<p>Lorem ipsum dolor sit amet, ut qui atqui interpretaris, pri cu facer graeco contentiones. No nonumy intellegam eam, sed ut suas inani antiopam, quando nullam legimus sed ad. Mei splendide interpretaris id, vel cu dicit molestie. Ut bonorum saperet consetetur sea. Ex mea alii labore intellegat, molestie delicata expetenda in nec, ex harum soluta est.</p>
+				<a href="./content/contentPS4.html"><button>Exact Criteria</button></a>
 			</div>
 		</row>
 	</div>
@@ -203,6 +230,7 @@
 			<div class="four columns">
 				<h5>Swimming Skills</h5>
 				<p>Lorem ipsum dolor sit amet, ut qui atqui interpretaris, pri cu facer graeco contentiones. No nonumy intellegam eam, sed ut suas inani antiopam, quando nullam legimus sed ad. Mei splendide interpretaris id, vel cu dicit molestie. Ut bonorum saperet consetetur sea. Ex mea alii labore intellegat, molestie delicata expetenda in nec, ex harum soluta est.</p>
+				<a href="./content/contentPS5.html"><button>Exact Criteria</button></a>
 			</div>
 		</row>
 	</div>
@@ -229,6 +257,7 @@
 			<div class="four columns">
 				<h5>Swimming Skills</h5>
 				<p>Lorem ipsum dolor sit amet, ut qui atqui interpretaris, pri cu facer graeco contentiones. No nonumy intellegam eam, sed ut suas inani antiopam, quando nullam legimus sed ad. Mei splendide interpretaris id, vel cu dicit molestie. Ut bonorum saperet consetetur sea. Ex mea alii labore intellegat, molestie delicata expetenda in nec, ex harum soluta est.</p>
+				<a href="./content/contentPS6.html"><button>Exact Criteria</button></a>
 			</div>
 		</row>
 	</div>
@@ -255,6 +284,7 @@
 			<div class="four columns">
 				<h5>Swimming Skills</h5>
 				<p>Lorem ipsum dolor sit amet, ut qui atqui interpretaris, pri cu facer graeco contentiones. No nonumy intellegam eam, sed ut suas inani antiopam, quando nullam legimus sed ad. Mei splendide interpretaris id, vel cu dicit molestie. Ut bonorum saperet consetetur sea. Ex mea alii labore intellegat, molestie delicata expetenda in nec, ex harum soluta est.</p>
+				<a href="./content/contentPS7.html"><button>Exact Criteria</button></a>
 			</div>
 		</row>
 	</div>
@@ -281,6 +311,7 @@
 			<div class="four columns">
 				<h5>Swimming Skills</h5>
 				<p>Lorem ipsum dolor sit amet, ut qui atqui interpretaris, pri cu facer graeco contentiones. No nonumy intellegam eam, sed ut suas inani antiopam, quando nullam legimus sed ad. Mei splendide interpretaris id, vel cu dicit molestie. Ut bonorum saperet consetetur sea. Ex mea alii labore intellegat, molestie delicata expetenda in nec, ex harum soluta est.</p>
+				<a href="./content/contentPS8.html"><button>Exact Criteria</button></a>
 			</div>
 		</row>
 	</div>
@@ -297,16 +328,17 @@
 		</row>
 		<row>
 			<div class="four columns">
-				<h5>Fitness</h5>
+				<h5>SwimClub</h5>
 				<p>Lorem ipsum dolor sit amet, ut qui atqui interpretaris, pri cu facer graeco contentiones. No nonumy intellegam eam, sed ut suas inani antiopam, quando nullam legimus sed ad. Mei splendide interpretaris id, vel cu dicit molestie. Ut bonorum saperet consetetur sea. Ex mea alii labore intellegat, molestie delicata expetenda in nec, ex harum soluta est.</p>
 			</div>
 			<div class="four columns">
-				<h5>Water Safety</h5>
+				<h5>Synchro</h5>
 				<p>Lorem ipsum dolor sit amet, ut qui atqui interpretaris, pri cu facer graeco contentiones. No nonumy intellegam eam, sed ut suas inani antiopam, quando nullam legimus sed ad. Mei splendide interpretaris id, vel cu dicit molestie. Ut bonorum saperet consetetur sea. Ex mea alii labore intellegat, molestie delicata expetenda in nec, ex harum soluta est.</p>
 			</div>
 			<div class="four columns">
-				<h5>Swimming Skills</h5>
+				<h5>SwimKids</h5>
 				<p>Lorem ipsum dolor sit amet, ut qui atqui interpretaris, pri cu facer graeco contentiones. No nonumy intellegam eam, sed ut suas inani antiopam, quando nullam legimus sed ad. Mei splendide interpretaris id, vel cu dicit molestie. Ut bonorum saperet consetetur sea. Ex mea alii labore intellegat, molestie delicata expetenda in nec, ex harum soluta est.</p>
+
 			</div>
 		</row>
 	</div>

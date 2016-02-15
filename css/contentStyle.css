@@ -4,11 +4,15 @@
 
 #criteria ul {
 	margin-left: 2rem;
-	list-style-image: url(box.png);
-	list-style-position: ;
 }
 
 #footer {
 	position: fixed;
 	bottom: 0;
+	/* to be fixed footer with js*/
+}
+
+h1, h4 {
+	color: #1F48C5;
+	text-transform: uppercase;
 }
