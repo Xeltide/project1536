@@ -1,65 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Content Page</title>
-	<!-- css -->
-	<link rel="stylesheet" type="text/css" href="../css/contentStyle.css">
-	<link rel="stylesheet" href="../css/normalize.css">
-  	<link rel="stylesheet" href="../css/skeleton.css">	
-	<link rel="stylesheet" href="../css/base.css">
-	<!-- jQuery -->
-	<script src="../js/jquery-2.2.0.js"></script>
-  	<script type="text/javascript" src="../js/navbar.js"></script>
-  	<!-- FONT -->
-  	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-</head>
 
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="../js/jquery-2.2.0.js"></script>
+  <script src="../js/navbar.js"></script>
+  <meta charset="utf-8">
+  <title>Preschool</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT –––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/skeleton.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/contentStyle.css">
+</head>
 <body>
 
-<div id="header">
-    <div class="container">
-      <div class="one column">
-       <a href="../index.html" id="logo"><img src="../images/kappa.png" height=51 alt="SwimV Logo"></a>
-      </div>
-      <div class="eleven columns">
-       <ul class="u-pull-right">
-          <li><a class="button button-primary" id="button0" href="../swimkids.html">Swim Kids</a></li>
-          <li><a class="button button-primary" id="button1" href="../preschool.html">Preschool</a></li>
-          <li><a class="button button-primary" id="button2" href="../drills.html">Drills</a></li>
-          <li><a class="button button-primary" id="button3" href="../safety.html">Water Safety</a></li>
-          <li><a class="button button-primary droplink" id="loginbutton" href="#" onclick="dropFunction()">Login</a></li>
-       </ul>
-      </div>
-    </div>
-    <!--login panel-->
-    <div class="container">
-     <div class="offset-by-five columns">
-      <div id="dropdown" class="dropContent seven columns">
-       <div id="leftCol">
-        <h4>Login</h4>
-         <label for="username">Username</label>
-         <input class="u-full-width" id="user" type="text">
-         <label for="password">Password</label>
-         <input class="u-full-width" id="pass" type="password">
-         <input class="button-primary u-pull-right" value="Login" type="submit">
-       </div>
+  <!-- Navigation Bar
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-       <div id="rightCol" class="u-pull-right">
-        <h4>Register</h4>
-         <label for="username register">Username</label>
-         <input class="u-full-width" id="userRegister" type="text">
-         <label for="email">Email Address</label>
-         <input class="u-full-width" id="email" type="email">
-         <label for="password register">Password</label>
-         <input class="u-full-width" id="passRegister" type="password">
-         <label for="password confirm">Confirm Password</label>
-         <input class="u-full-width" id="passRegister" type="password">
-         <input class="button-primary u-pull-right" value="Register" type="submit">     
-       </div>
+  <div id="header">
+    <div class="container">
+      <div class="row">
+        <div class="one column">
+          <a href="../index.html" id="logo"><img src="../images/kappa.png" height=51 alt="SwimV Logo"></a>
+        </div>
+        <div class="eleven columns">
+          <ul class="u-pull-right" id="headerbuttons">
+            <li><a class="button button-primary" id="button0" href="../swimkids.html">Swim Kids</a></li>
+            <li><a class="button button-primary" id="button1" href="../preschool.html">Preschool</a></li>
+            <li><a class="button button-primary" id="button2" href="../drills.html">Drills</a></li>
+            <li><a class="button button-primary" id="button3" href="../safety.html">Water Safety</a></li>
+            <li><a class="button button-primary" id="button4" href="../form.html">Questions</a></li>
+            <li><a class="button button-primary droplink" id="loginbutton" href="#" onclick="dropFunction()">Login</a></li>
+          </ul>
+        </div>
       </div>
-     </div>
     </div>
-</div>
+
+    <div class="container">
+      <div class="offset-by-five columns">
+        <div id="dropdown" class="dropContent seven columns">
+
+          <div id="leftCol">
+            <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+              <h4>Login</h4>
+              <label for="username">Username</label>
+              <input class="u-full-width" id="username" type="text" name="username">
+              <label for="password">Password</label>
+              <input class="u-full-width" id="password" type="password" name="password">
+              <input class="button-primary u-pull-right" value="Submit" type="submit">
+            </form>
+          </div>
+          
+          <div id="rightCol" class="u-pull-right">
+            <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+              <h4>Register</h4>
+              <label for="username register">Username</label>
+              <input class="u-full-width" id="userRegister" type="text">
+              <label for="email">Email Address</label>
+              <input class="u-full-width" id="email" type="email">
+              <label for="password register">Password</label>
+              <input class="u-full-width" id="passRegister" type="password">
+              <label for="password confirm">Confirm Password</label>
+              <input class="u-full-width" id="passRegister" type="password">
+              <input class="button-primary u-pull-right" value="Register" type="submit">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
 <div class="container" id="level">
 	<h1>Sunfish</h1>

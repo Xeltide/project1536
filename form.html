@@ -30,8 +30,9 @@
 					<ul class="u-pull-right" id="headerbuttons">
 						<li><a class="button button-primary" id="button0" href="swimkids.html">Swim Kids</a></li>
 						<li><a class="button button-primary" id="button1" href="preschool.html">Preschool</a></li>
-						<li><a class="button button-primary" id="button2" href="#">Drills</a></li>
-						<li><a class="button button-primary" id="button3" href="#">Water Safety</a></li>
+						<li><a class="button button-primary" id="button2" href="Drills.html">Drills</a></li>
+						<li><a class="button button-primary" id="button3" href="Safety.html">Water Safety</a></li>
+						<li><a class="button button-primary" id="button4" href="form.html">Questions</a></li>
 						<li><a class="button button-primary droplink" id="loginbutton" href="#" onclick="dropFunction()">Login</a></li>
 					</ul>
 				</div>
@@ -79,22 +80,21 @@
 			<!--twelve column div, with id #formheader. Main heading for the form page-->
 			<div id="formheader" class="twelve columns">
 				<h2>Have a Question?</h2>
-				<h2>Please Leave Us a Message!</h2>
 			</div>
 		</div>
 		<!--Row div, used with skeleton to create rows with responsive columns. #formrow id adds a border and formats the form correctly-->
 		<div id="formrow" class="row">
 			<!--six column div, holds actual form-->
-			<div class="six columns">
+			<div class="eight columns">
 				<!--The form, with class .form-->
 				<form class="form" name="Messager" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
 
 					<label for="formName">Name<span>*</span></label>
-					<input type="text" name="name" id="formName" placeholder="John Doe" required/>
+					<input type="text" name="name" id="formName" placeholder="Your Name" required/>
 
 
 					<label for="formEmail">Email Address<span>*</span></label>
-					<input type="email" name="email" id="formEmail" placeholder="yourmail@email.com" required/>
+					<input type="email" name="email" id="formEmail" placeholder="YourEmail@domain" required/>
 
 					<label for="questionField">Your Question</label>
 					<textarea name="question" id="questionField" placeholder="Please leave a detailed message here!" required></textarea>
@@ -106,7 +106,7 @@
 				</form>
 			</div>
 			<!--six column div, containing the message for users in regards to the form. id #rightsideform styles and formats the right column appropriately -->
-			<div id="rightsideform" class="six columns">
+			<div id="rightsideform" class="four columns">
 
 				<h3>Leave a Message!</h3>
 

@@ -30,8 +30,6 @@ function findSection(){
 			return '#seven';
 		case 9:
 			return '#eight';
-		case 10:
-			return '#nowWhat';
 	}
 };
 
@@ -46,7 +44,7 @@ function scrollPrev(){
 };
 
 function scrollNext(){
-	if(currentTab === 10) {
+	if(currentTab === 9) {
 	}
 	else {
 		++currentTab;

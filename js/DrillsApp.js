@@ -1,7 +1,9 @@
 
 function sizePanel(){
-	var currentHeight = .9 * $(window).height();
+	var currentHeight = $(window).height();
 	var currentWidth = $(window).width();
+
+	currentHeight = currentHeight - 90;
 
 	$('.panel').css({'height': currentHeight});
 };

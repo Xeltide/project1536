@@ -31,8 +31,8 @@ span {
 /**Sets size of the question field*/
 #questionField {
 	width: 100%;
-	height: 10rem;
-	resize: vertical;
+	height: 20rem;
+	resize: none;
 }
 /**Styles submit and reset buttons*/
 #formrow .button {
