@@ -62,6 +62,7 @@ function scrollNext(){
 function scrollResize(){
 	var i = findSection();
 	$('html, body').stop().animate({scrollTop:$(i).position().top}, 'slow');
+
 };
 
 $(window).resize(function(){
