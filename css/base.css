@@ -2,11 +2,6 @@
  * COMMON ELEMENTS
  **************************************************************/
 
-/* Font */
-body {
-	font-family: 'Open Sans', 'OpenSans', sans-serif;
-}
-
 /* Jumbotron (Header Image + Text) */
 #jumbotron {
 		padding-top: 5rem;

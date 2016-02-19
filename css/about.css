@@ -5,11 +5,13 @@
 #aboutSite {
 	margin-top: 1rem;
 	margin-bottom: 2rem;
+	padding-top: 5rem;
 	text-align: center;
 }
 #aboutImage {
 	text-align: right;
 	margin-bottom: 2rem;
+	padding-top: 5rem;
 }
 #aboutImage img {
 	width: 100%;

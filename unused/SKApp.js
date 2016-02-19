@@ -3,7 +3,8 @@ function sizePanel(){
 	var currentHeight = $(window).height();
 	var currentWidth = $(window).width();
 
-	currentHeight = currentHeight - 90;
+	//adjust for header size
+	currentHeight = currentHeight - 50;
 
 	$('.panel').css({'height': currentHeight});
 };
@@ -91,7 +92,7 @@ $(document).keydown(function(event){
 });
 
 $(document).bind('mousewheel', function(mouseEvent){
-	if(mouseEvent.originalEvent.wheelDelta > 0){
+	if(mouseEvent.originalEvent.wheelDelta > 1){
 		scrollPrev();
 	}
 	else {
