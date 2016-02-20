@@ -167,6 +167,11 @@ div #rightCol {
 	display: block;
 }
 
+input.error {
+	border: 2px solid #FF7777;
+	background-color: #FFDFDF;
+}
+
 /**************************************************************
  * FOOTER
  **************************************************************/

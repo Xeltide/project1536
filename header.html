@@ -3,6 +3,7 @@
 <head>
   <script src="./js/jquery-2.2.0.js"></script>
   <script src="./js/navbar.js"></script>
+  <script src="./js/validate.js"></script>
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
@@ -24,9 +25,9 @@
   <link rel="stylesheet" href="./css/skeleton.css">
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/stickyfooter.css">
+  <link rel="stylesheet" href="./css/base.css">
   <!-- <link rel="stylesheet" media="only screen and (min-width: 550px)" href="./css/header.css"> -->
   <!-- <link rel="stylesheet" media="only screen and (max-width: 550px)" href="./css/mobileheader.css"> -->
-
 
 </head>
 <body>
@@ -43,7 +44,7 @@
             <li><a class="button button-primary" id="button2" href="./drills.html">Drills</a></li>
             <li><a class="button button-primary" id="button3" href="./safety.html">Water Safety</a></li>
             <li><a class="button button-primary" id="button4" href="./form.html">Questions</a></li>
-            <li><a class="button button-primary droplink" id="loginbutton" href="#" onclick="dropFunction()">Login</a></li>
+            <li><a class="button button-primary droplink" id="loginbutton" onclick="dropFunction()">Login</a></li>
           </ul>
         </div>
       </div>
@@ -54,7 +55,7 @@
         <div id="dropdown" class="dropContent seven columns">
 
           <div id="leftCol">
-            <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+            <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp" onsubmit="return loginValidate()">
               <h4>Login</h4>
               <label for="username_login">Username</label>
               <input class="u-full-width" id="username_login" type="text" name="username_login">
@@ -65,12 +66,12 @@
           </div>
           
           <div id="rightCol" class="u-pull-right">
-            <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+            <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp" onsubmit="return signUpValidate()">
               <h4>Register</h4>
               <label for="username_register">Username</label>
               <input class="u-full-width" id="username_register" type="text">
               <label for="email">Email Address</label>
-              <input class="u-full-width" id="email" type="email">
+              <input class="u-full-width" id="email" type="text">
               <label for="password_register">Password</label>
               <input class="u-full-width" id="password_register" type="password">
               <label for="password_confirm">Confirm Password</label>
