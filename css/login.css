@@ -1,0 +1,44 @@
+#dropdown {
+    padding-top: 5rem;
+	position: relative;
+	/* background-color: #1F48C5; */
+	/* padding: 1em 1.5em 1em 1.5em; */
+    color: #1f48c5;
+}
+
+#dropdown .button-primary {
+    background-color: #1E90FF;
+    border-color: #1E90FF;
+    color: #FFFFFF;
+}
+
+
+div #leftCol {
+	display: inline-block;
+	width: 45%;
+}
+
+div #rightCol {
+	width: 45%;
+	padding-left: 5%;
+	border-left: 1px solid black;
+}
+
+#dropdown .button {
+	color: #666;
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+/**Styles submit and reset buttons when they are being hovered over*/
+#dropdown .button:hover {
+	border-color: #1E90FF;
+}
+/**Styles submit and reset buttons when they are being activated*/
+#dropdown .button:active {
+	background-color: #eee;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0;
+}

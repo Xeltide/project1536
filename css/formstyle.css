@@ -1,6 +1,6 @@
 /**Colors required asterisk*/
 span {
-	color: #1E90FF;
+	color: #1f48c5;
 }
 /**Styles page title*/
 #formheader {
@@ -23,6 +23,7 @@ span {
 	margin-bottom: 0;
 	border-right: 0.1rem #1E90FF solid;
 	padding-right: 4%;
+	padding-left: 2%;
 }
 /**Sets full width for the forms input panes*/
 .form input {
@@ -56,10 +57,6 @@ span {
 	font-size: 2rem;
 	text-align: center;
 	margin-left: 2%;
-}
-/**Sets Message title color*/
-#rightsideform h3 {
-	color: #1E90FF;
 }
 /**Makes sure footer is attached to the bottom pane of the viewing window*/
 #footer {

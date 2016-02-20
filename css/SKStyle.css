@@ -1,17 +1,36 @@
-body {
-	overflow: hidden;
-}
-
-.jumbotron img {
+.panelImage img {
 	width: 100%;
 	height: auto;
 }
 
 .panel {
-	padding-top: 5rem;
+	overflow: hidden;
+	background-color: #EEE;
+	margin-top: 2rem;
 }
 
-h3, h5 {
-	color: #1F48C5;
+.panel:first-of-type {
+	background-color: #FFF;
+	padding-top: 5rem;
+	margin-top: 0rem;
+}
+
+
+h3 {
+	color: #1E90FF;
+	font-style: italic;
+}
+
+h5 {
+	color: #1E90FF;
 	text-transform: uppercase;
+}
+
+.panel:nth-child(even){
+	background-color: #1E90FF;
+	color: #FFF;
+}
+
+.panel:nth-child(even) h3, h5{
+	color: #FFF;
 }

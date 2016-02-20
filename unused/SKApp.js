@@ -3,7 +3,8 @@ function sizePanel(){
 	var currentHeight = $(window).height();
 	var currentWidth = $(window).width();
 
-	currentHeight = currentHeight - 90;
+	//adjust for header size
+	currentHeight = currentHeight - 50;
 
 	$('.panel').css({'height': currentHeight});
 };
@@ -62,6 +63,7 @@ function scrollNext(){
 function scrollResize(){
 	var i = findSection();
 	$('html, body').stop().animate({scrollTop:$(i).position().top}, 'slow');
+
 };
 
 $(window).resize(function(){
@@ -90,7 +92,7 @@ $(document).keydown(function(event){
 });
 
 $(document).bind('mousewheel', function(mouseEvent){
-	if(mouseEvent.originalEvent.wheelDelta > 0){
+	if(mouseEvent.originalEvent.wheelDelta > 1){
 		scrollPrev();
 	}
 	else {

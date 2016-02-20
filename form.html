@@ -83,28 +83,28 @@
 		</div>
 		<!--Row div, used with skeleton to create rows with responsive columns. #formrow id adds a border and formats the form correctly-->
 		<div id="formrow" class="row">
-			<!--six column div, holds actual form-->
+			<!--eight column div, holds actual form-->
 			<div class="eight columns">
 				<!--The form, with class .form-->
 				<form class="form" name="Messager" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
 
 					<label for="formName">Name<span>*</span></label>
-					<input type="text" name="name" id="formName" placeholder="Your Name" required/>
+					<input alt="Name Input" type="text" name="name" id="formName" placeholder="Your Name" required/>
 
 
 					<label for="formEmail">Email Address<span>*</span></label>
-					<input type="email" name="email" id="formEmail" placeholder="YourEmail@domain" required/>
+					<input alt="Email Input" type="email" name="email" id="formEmail" placeholder="YourEmail@domain" required/>
 
 					<label for="questionField">Your Question</label>
 					<textarea name="question" id="questionField" placeholder="Please leave a detailed message here!" required></textarea>
 
-					<input class="button" type="submit" value="Send Message">
+					<input alt="Submit Button" class="button" type="submit" value="Send Message">
 
-					<input class="button" type="reset" value="Reset Form">
+					<input alt="Reset Button" class="button" type="reset" value="Reset Form">
 
 				</form>
 			</div>
-			<!--six column div, containing the message for users in regards to the form. id #rightsideform styles and formats the right column appropriately -->
+			<!--four column div, containing the message for users in regards to the form. id #rightsideform styles and formats the right column appropriately -->
 			<div id="rightsideform" class="four columns">
 
 				<h3>Leave a Message!</h3>
@@ -121,10 +121,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="six columns">
-					<a class="button button-primary" id="placeholder" href="./about.html">About Us</a>
+					<a class="button button-primary" href="./about.html">About Us</a>
 				</div>
 				<div class="six columns">
-					<a class="button button-primary" id="placeholder" href="./sitemap.html">Sitemap</a>
+					<a class="button button-primary" href="./sitemap.html">Sitemap</a>
 				</div>
 			</div>
 		</div>
