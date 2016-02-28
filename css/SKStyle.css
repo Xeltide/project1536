@@ -1,6 +1,9 @@
 .panelImage img {
 	width: 100%;
 	height: auto;
+
+	/*Don's handiwork. alter as you see fit*/
+	margin-top: 1rem;
 }
 
 .panel {

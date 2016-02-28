@@ -62,3 +62,9 @@ a.homeMenuItem:hover {
 	background-color: #1e90ff;
 	border-color: #1e90ff;
 }
+
+
+/*Don's handiwork. alter as you see fit*/
+#jumboImg {
+	margin-top: 1rem;
+}
