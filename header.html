@@ -69,13 +69,13 @@
             <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp" onsubmit="return signUpValidate()">
               <h4>Register</h4>
               <label for="username_register">Username</label>
-              <input class="u-full-width" id="username_register" type="text">
+              <input class="u-full-width" id="username_register" type="text" name="username_register">
               <label for="email">Email Address</label>
-              <input class="u-full-width" id="email" type="text">
+              <input class="u-full-width" id="email" type="email" name="email_register">
               <label for="password_register">Password</label>
-              <input class="u-full-width" id="password_register" type="password">
+              <input class="u-full-width" id="password_register" type="password" name="password_register">
               <label for="password_confirm">Confirm Password</label>
-              <input class="u-full-width" id="password_confirm" type="password">
+              <input class="u-full-width" id="password_confirm" type="password" name="password_confirm_register">
               <input class="button-primary u-pull-right" value="Register" type="submit">
             </form>
           </div>
