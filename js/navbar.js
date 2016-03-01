@@ -161,6 +161,9 @@ function signUpValidate() {
 	}
 }
 /*END FORM VALIDATION*/
-
+function testName(id) {
+	var regex = new RegExp (/^[a-zA-Z0-9]$/);
+	return regex.test($(id).value);
+}
 /*QUESTION FORM VALIDATION*/
 /*END QUESTION FORM VALIDATION*/
