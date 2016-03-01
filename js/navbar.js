@@ -161,9 +161,28 @@ function signUpValidate() {
 	}
 }
 /*END FORM VALIDATION*/
+/*QUESTION FORM VALIDATION*/
 function testName(id) {
-	var regex = new RegExp (/^[a-zA-Z0-9]$/);
+	var regex = new RegExp (/^[a-zA-Z]{2,12}$/);
 	return regex.test($(id).value);
 }
-/*QUESTION FORM VALIDATION*/
+
+function formValidate() {
+	if (testName('formName') && testEmail('formEmail')) {
+		return true;
+	} else {
+		if (!testName('formName')) {
+			$('formName').classList.add('error');
+		} else {
+			$('formName').classList.remove('error');
+		}
+		if (!testEmail('formEmail')) {
+			$('formEmail').classList.add('error');
+		} else {
+			$('formEmail').classList.remove('error');
+		}
+		return false;
+	}
+}
+
 /*END QUESTION FORM VALIDATION*/
