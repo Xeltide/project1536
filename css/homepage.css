@@ -13,20 +13,20 @@
 #jumbotron .row:first-of-type {
 	display: block;
 }
-#jumboImg {
+.jumboImg {
 	width: 100%;
 }
-#jumbotronText {
+.jumbotronText {
 	position: absolute;
 	bottom: 2rem;
 	padding-left: 2rem;
 }
-#jumbotronText h3 {
+.jumbotronText h3 {
 	background-color: #ffffff;
 	padding: 0 1rem 0 1rem;
 	display: inline;
 }
-#jumbotronText p {
+.jumbotronText p {
 	background-color: #ffffff;
 	padding: .2rem 1rem .2em 1rem;
 	display: inline;
@@ -50,7 +50,6 @@
 	font-size: 5rem;
 	color: #ffffff;
 	opacity: .7;
-	z-index: 1000;
 	text-shadow: 0 0 .1rem #000000;
 }
 #slidePrevButton {
@@ -80,7 +79,6 @@
 	background-color: #f8f8f8;
 	text-decoration: none;
 	padding-bottom: 5rem;
-	z-index: 1111;
 }
 .homeMenuItem:hover {
 	background-color: #dcdcdc;
@@ -134,7 +132,7 @@
 	.homeMenuItem:last-child {
 		margin-right: 0;
 	}
-	#jumbotronText {
+	.jumbotronText {
 		bottom: 7rem;
 	}
 }
@@ -158,6 +156,6 @@
 
 
 /*Don's handiwork. alter as you see fit*/
-#jumboImg {
+.jumboImg {
 	margin-top: 1rem;
 }
