@@ -10,6 +10,9 @@ a.homeMenuItem {
 	border-top: .4rem solid #1F48C5;
 	text-decoration: none;
 }
+a.homeMenuItem:last-child {
+	float: right;
+}
 a.homeMenuItem:hover {
 	background-color: #dcdcdc;
 }
