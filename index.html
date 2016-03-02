@@ -6,6 +6,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="./js/jquery-2.2.0.js"></script>
   <script src="./js/navbar.js"></script>
+  <script src="./js/jquery.pietimer.min.js"></script>
   <script src="./js/homepage.js"></script>
   <meta charset="utf-8">
   <title>Homepage</title>
@@ -93,6 +94,10 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <div class="container" id="jumbotron">
+    <span id="slideTimer"></span>
+    <span id="slidePrevButton">&laquo;</span>
+    <span id="slideNextButton">&raquo;</span>
+
     <div class="row">
       <div class="twelve columns">
         <img id="jumboImg" alt="" src="images/field.jpg">
@@ -123,8 +128,7 @@
       </div>
     </div>
   </div>
-  
-<a id="prevSlide">Prev</a> | <a id="nextSlide">Next</a>
+
   <!-- Page Content
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 

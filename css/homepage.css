@@ -5,11 +5,12 @@
 #jumbotron {
 	padding-top: 5rem;
 	position: relative;
+	overflow: hidden;
 }
 #jumbotron .row {
 	display: none;
 }
-#jumbotron .row:first-child {
+#jumbotron .row:first-of-type {
 	display: block;
 }
 #jumboImg {
@@ -29,6 +30,39 @@
 	background-color: #ffffff;
 	padding: .2rem 1rem .2em 1rem;
 	display: inline;
+}
+
+/* SLIDER */
+#slideTimer {
+	display: block;
+	position: absolute;
+	margin-top: 2rem;
+	margin-left: 1rem;
+}
+#slidePrevButton,
+#slideNextButton {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	width: 10%;
+	padding: 15% 1rem;
+	font-size: 5rem;
+	color: #ffffff;
+	opacity: .7;
+	z-index: 1000;
+	text-shadow: 0 0 .1rem #000000;
+}
+#slidePrevButton {
+	background: linear-gradient(to right, rgba(255,255,255,0.7), rgba(255,255,255,0));
+}
+#slideNextButton {
+	background: linear-gradient(to left, rgba(255,255,255,0.7), rgba(255,255,255,0));
+	right: 0;
+	text-align: right;
+}
+#slidePrevButton:hover,
+#slideNextButton:hover {
+	opacity: 1.0;
 }
 
 
