@@ -1,17 +1,16 @@
 /**************************************************************
  * About Site
  **************************************************************/
-
+ 
 #aboutSite {
-	margin-top: 1rem;
 	margin-bottom: 2rem;
-	padding-top: 5rem;
+	padding-top: 6rem;
 	text-align: center;
 }
 #aboutImage {
 	text-align: right;
 	margin-bottom: 2rem;
-	padding-top: 5rem;
+	padding-top: 6rem;
 }
 #aboutImage img {
 	width: 100%;
