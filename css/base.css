@@ -2,30 +2,6 @@
  * COMMON ELEMENTS
  **************************************************************/
 
-/* Jumbotron (Header Image + Text) */
-#jumbotron {
-	padding-top: 5rem;
-	position: relative;
-}
-#jumboImg {
-	width: 100%;
-}
-#jumbotronText {
-	position: absolute;
-	bottom: 2rem;
-	padding-left: 2rem;
-}
-#jumbotronText h3 {
-	background-color: #ffffff;
-	padding: 0 1rem 0 1rem;
-	display: inline;
-}
-#jumbotronText p {
-	background-color: #ffffff;
-	padding: .2rem 1rem .2em 1rem;
-	display: inline;
-}
-
 /* Headings */
 h3, h5 {
 	color: #1f48c5;
