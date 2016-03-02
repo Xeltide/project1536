@@ -35,8 +35,8 @@ $(document).ready(function() {
 	nextBut.hover(function() { pauseTimer(); }, function() { startTimer(); });
 
 	// Previous & Next Slide Buttons
-	prevBut.click(function() { prevSlide(); restartTimer(); });
-	nextBut.click(function() { nextSlide(); restartTimer(); });
+	prevBut.click(function() { prevSlide(); });
+	nextBut.click(function() { nextSlide(); });
 
 
 	/***********************************************
@@ -78,9 +78,10 @@ $(document).ready(function() {
 	function slideTo(hideThis, showThis) {
 		if (!locked) {
 			lock();
-			
-			hideThis.fadeOut(aniSpeed, function() {
-				showThis.fadeIn(aniSpeed, unlock());
+			current = showThis;
+
+			getSlide(hideThis).fadeOut(aniSpeed, function() {
+				getSlide(showThis).fadeIn(aniSpeed, function() { unlock(); });
 			});
 		}
 	}
@@ -98,24 +99,20 @@ $(document).ready(function() {
 	 * GET SLIDE OBJECTS
 	 */
 
+	function getSlide(slide) {
+		return $(slides.get(slide));
+	}
+
 	function getCurrentSlide() {
-		return $(slides.get(current));
+		return current;
 	}
 
 	function getPrevSlide() {
-		//Decrement, reset if necessary
-		if (--current < 0)
-			current = length - 1;
-
-		return getCurrentSlide();
+		return (current - 1) < 0 ? length - 1 : current - 1;
 	}
 
 	function getNextSlide() {
-		//Increment, reset if necessary
-		if (++current > length - 1)
-			current = 0;
-
-		return getCurrentSlide();
+		return (current + 1) > (length - 1) ? 0 : current + 1;
 	}
 
 

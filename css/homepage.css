@@ -45,6 +45,7 @@
 	display: block;
 	position: absolute;
 	width: 10%;
+	height: 100%;
 	padding: 15% 1rem;
 	font-size: 5rem;
 	color: #ffffff;
@@ -79,6 +80,7 @@
 	background-color: #f8f8f8;
 	text-decoration: none;
 	padding-bottom: 5rem;
+	z-index: 1111;
 }
 .homeMenuItem:hover {
 	background-color: #dcdcdc;
