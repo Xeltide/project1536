@@ -3,12 +3,14 @@
  **************************************************************/
 
 #homeMenuContainer {
-	display: table;
+	display: flex;
+	flex-flow: row wrap;
 }
 .homeMenuItem {
+	position: relative;
 	background-color: #f8f8f8;
 	text-decoration: none;
-	background-clip: padding-box;
+	padding-bottom: 5rem;
 }
 .homeMenuItem:hover {
 	background-color: #dcdcdc;
@@ -24,81 +26,46 @@
 	color: #000000;
 }
 .menuButton {
+	position: absolute;
+	right: 1rem;
+	bottom: 0;
+	width: 60%;
 }
 
 /**************************************************************
  * RESIZE BOXES AT DIFFERENT RESOLUTIONS
  **************************************************************/
 
-/* BELOW 600PX */
 @media screen and (max-width: 600px) {
 	.homeMenuItem {
-		display: block;
-	}
-	.menuButton {
-		margin-left: 47%;
-		width: 50%;
+		flex: 1 1 100%;
 	}
 }
 
-/* BETWEEN 601PX and 1000PX */
 @media screen and (min-width: 601px) and (max-width: 1000px) {
-	#homeMenuContainer {
-		margin-top: 1rem;
-	}
 	.homeMenuItem {
-		display: table-cell;
-		position: relative;
-		padding-bottom: 5rem;
-		width: 50%;
-		border-right: 1.5rem solid transparent;
-		border-bottom: 1.5rem solid transparent;
+		flex: 1 1 250px;
+		margin-right: 2rem;
+		margin-top: 2rem;
 	}
-	.homeMenuItem:last-child {
-		border-right: 0;
-	}
-	.homeMenuRow:last-child .homeMenuItem {
-		border-bottom: 0;
-	}
-	.menuButton {
-		position: absolute;
-		bottom: 0;
-		right: 1rem;
-		width: 65%;
+	.homeMenuItem:nth-of-type(even) {
+		margin-right: 0;
 	}
 }
 
-/* OVER 1001PX */
 @media screen and (min-width: 1001px) {
 	#homeMenuContainer {
 		margin-top: -5rem;
 	}
-	.homeMenuRow {
-		display: table-cell;
-		width: 50%;
-	}
 	.homeMenuItem {
-		display: table-cell;
-		width: 50%;
-		position: relative;
-		padding-bottom: 5rem;
-		border-right: 1.5rem solid transparent;
+		flex: 1 1;
+		margin-right: 2rem;
 	}
 	.homeMenuItem:last-child {
-		width: 50%;
-	}
-	.homeMenuRow:last-child .homeMenuItem:last-child {
-		border-right: 0;
-		width: 48%;
-	}
-	.menuButton {
-		position: absolute;
-		bottom: 0;
-		right: 1rem;
-		width: 65%;
+		margin-right: 0;
 	}
 	#jumbotronText {
-		bottom: 6.5rem;
+		bottom: 7rem;
 	}
 }
 
