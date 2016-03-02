@@ -44,7 +44,7 @@
 
 @media screen and (min-width: 601px) and (max-width: 1000px) {
 	.homeMenuItem {
-		flex: 1 1 250px;
+		flex: 1 1 40%;
 		margin-right: 2rem;
 		margin-top: 2rem;
 	}
