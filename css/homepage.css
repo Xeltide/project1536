@@ -2,50 +2,103 @@
  * HOME CATEGORY LINKS
  **************************************************************/
 
-a.homeMenuItem {
-	display: block;
-	position: relative;
-	padding: 1rem 2rem 7rem 2rem;
+#homeMenuContainer {
+	display: table;
+}
+.homeMenuItem {
 	background-color: #f8f8f8;
-	border-top: .4rem solid #1F48C5;
 	text-decoration: none;
+	background-clip: padding-box;
 }
-a.homeMenuItem:last-child {
-	float: right;
-}
-a.homeMenuItem:hover {
+.homeMenuItem:hover {
 	background-color: #dcdcdc;
+}
+.homeMenuItem h3 {
+	padding: 0 1rem;
+	border-top: .4rem solid #1F48C5;
+}
+.homeMenuItem p {
+	padding: 0 1rem;
 }
 .menuDesc {
 	color: #000000;
 }
 .menuButton {
-	position: absolute;
-	width: 50%;
-	bottom: 2rem;
-	right: 2rem;
-	margin: 0;
 }
 
 /**************************************************************
- * LOAD WHEN SCREEN = FULL WIDTH
+ * RESIZE BOXES AT DIFFERENT RESOLUTIONS
  **************************************************************/
 
-@media (min-width: 550px) {
-	/* Overlap Jumbotron with menu items. */
-	a.homeMenuItem {
+/* BELOW 600PX */
+@media screen and (max-width: 600px) {
+	.homeMenuItem {
+		display: block;
+	}
+	.menuButton {
+		margin-left: 47%;
+		width: 50%;
+	}
+}
+
+/* BETWEEN 601PX and 1000PX */
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+	#homeMenuContainer {
+		margin-top: 1rem;
+	}
+	.homeMenuItem {
+		display: table-cell;
+		position: relative;
+		padding-bottom: 5rem;
+		width: 50%;
+		border-right: 1.5rem solid transparent;
+		border-bottom: 1.5rem solid transparent;
+	}
+	.homeMenuItem:last-child {
+		border-right: 0;
+	}
+	.homeMenuRow:last-child .homeMenuItem {
+		border-bottom: 0;
+	}
+	.menuButton {
+		position: absolute;
+		bottom: 0;
+		right: 1rem;
+		width: 65%;
+	}
+}
+
+/* OVER 1001PX */
+@media screen and (min-width: 1001px) {
+	#homeMenuContainer {
 		margin-top: -5rem;
 	}
-	/* Special Case: Move Jumbotron text upwards, due to overlapping menu items. */
-	#jumbotronText {
-		bottom: 7rem;
+	.homeMenuRow {
+		display: table-cell;
+		width: 50%;
 	}
-	/* Arrow button styling on full-width */
+	.homeMenuItem {
+		display: table-cell;
+		width: 50%;
+		position: relative;
+		padding-bottom: 5rem;
+		border-right: 1.5rem solid transparent;
+	}
+	.homeMenuItem:last-child {
+		width: 50%;
+	}
+	.homeMenuRow:last-child .homeMenuItem:last-child {
+		border-right: 0;
+		width: 48%;
+	}
 	.menuButton {
-		width: 80%;
-		right: 0;
-		left: 0;
-		margin: auto;
+		position: absolute;
+		bottom: 0;
+		right: 1rem;
+		width: 65%;
+	}
+	#jumbotronText {
+		bottom: 6.5rem;
 	}
 }
 
