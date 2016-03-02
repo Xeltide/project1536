@@ -101,6 +101,10 @@ h3.overrideHColor, h5.overrideHColor {
     border-color: #FFFFFF;
 }
 
+#loginlist {
+    display: none;
+}
+
 /**************************************************************
  * LOGIN OVERLAY
  **************************************************************/

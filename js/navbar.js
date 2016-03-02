@@ -1,6 +1,8 @@
 /*HEADER OPACITY*/
 $(document).ready(function() {
-
+    
+    document.getElementById('loginbutton').removeAttribute("href");
+    
 	var headerclass = document.querySelector("#header");
 
 	$(window).scroll(function() {
