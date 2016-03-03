@@ -66,20 +66,12 @@ $(document).ready(function() {
 /*DROPDOWN MENU*/
 function dropFunction() {
 	document.getElementById("dropdown").classList.toggle("show");
-    document.getElementById("loginbutton").classList.toggle("highlightbuttonclass");
+	document.getElementById("loginbutton").classList.toggle("highlightbuttonclass");
 }
 
-window.onclick = function(e) {
-	if (!event.target.matches('droplink')) {
-		var dropdowns = document.getElementByClassName("dropContent");
-		var i;
-		for (i = 0; i < dropdowns.length; i++) {
-			var openDropdown = dropdowns[i];
-			if (openDropdown.classList.remove('show')) {
-				openDropdown.classList.remove('show');
-			}
-		}
-	}
+function closeFunction() {
+	document.getElementById("dropdown").classList.remove("show");
+	document.getElementById("loginbutton").classList.remove("highlightbuttonclass");
 }
 /*END DROPDOWN MENU*/
 
