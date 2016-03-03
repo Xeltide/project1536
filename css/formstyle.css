@@ -1,10 +1,10 @@
 /**Colors required asterisk*/
 span {
-	color: #1f48c5;
+	color: #1E90FF;;
 }
 /**Styles page title*/
 #formheader {
-	color: #1f48c5;
+	color: #1E90FF;;;
 	margin-top: 8rem;
 	text-align: center;
 	padding-bottom: 1.5rem;
@@ -13,10 +13,11 @@ span {
 #formrow {
 	border: 0.1rem #1E90FF solid;
 	padding:  1rem;
+	margin-bottom: 5rem;
 }
 /**Colors the form label messages*/
 #formrow label {
-	color: #666;
+	color: #333;
 }
 /**Styles the actual form*/
 .form {
@@ -37,8 +38,7 @@ span {
 }
 /**Styles submit and reset buttons*/
 #formrow .button {
-	color: #666;
-	font-weight: bold;
+	color: #333;
 	font-size: 1.4rem;
 }
 /**Styles submit and reset buttons when they are being hovered over*/
@@ -53,10 +53,10 @@ span {
 #rightsideform {
 	display: inline-block;
 	height: 100%;
-	color: #666;
+	color: #333;
 	font-size: 2rem;
 	text-align: center;
-	margin-left: 2%;
+	margin-left: 2.5%;
 }
 /**Makes sure footer is attached to the bottom pane of the viewing window*/
 #footer {
