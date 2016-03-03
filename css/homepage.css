@@ -33,12 +33,6 @@
 }
 
 /* SLIDER */
-#slideTimer {
-	display: block;
-	position: absolute;
-	margin-top: 2rem;
-	margin-left: 1rem;
-}
 #slidePrevButton,
 #slideNextButton {
 	cursor: pointer;
