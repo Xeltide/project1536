@@ -1,3 +1,4 @@
+/**Sets anchor tags format*/
 a {
 	text-decoration: none;
 	color: #333;
@@ -15,11 +16,8 @@ a {
 /**formats the anchors in the top menus, Helps creat "button" effect.*/
 .capsule a {
 	display: block;
-	width: 100%;
-	height: 100%;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	margin: 0;
 }
 /**controls format for the anchor tags when hovered over*/
 .capsule a:hover {
@@ -29,55 +27,52 @@ a {
 /**Formats the main menu titles*/
 .topheading {
 	text-align: center;
-	font-size: 2rem;
-	border-bottom: 1rem #1E90FF solid;
+	font-size: 2.2rem;
+	background-color: #fff;
+	font-weight: bold;
 }
 /**Formats the unordered lists in the top menus*/
 .toplist {
 	list-style-type: none;
 	text-align: center;
-	margin: 0;
+	border-top: .5rem #1e90ff solid;
 }
 /**Controls the container for the pre-school and swim kids menus*/
 .listCapsule {
-	margin-top: 6em;
 }
-/**Allows centered menu buttons for the Swim Kids and Pre-School menus*/
-.table {
-	display: table;
-	margin: 0 auto;
+.topNumList {
+	margin-top: 1rem;
 }
 /**Removes margin from the Pre-School and Swim Kids unordered lists*/
 .numlist {
-	margin: 0;
+	text-align: center;
+	background-color: #eee;
+	border-top: .5rem #1e90ff solid;
 }
 /**Styles the list items for the Pre-School and Swim kids menus*/
 .numlist li {
-	border: .1rem #999 solid;
-	border-radius: .2em;
-	width: 6rem;
-	list-style-type: none;
+	width: 24.5%;
 	display: inline-block;
-	text-align: center;
 	font-size: 2rem;
-	margin-top: 3rem;
-	background-color: #eee;
+	margin: 0;
 }
 /**Controls the anchor  tags in the Pre-School and Swim kids menus, helps create "button" effect*/
 .numlist a {
 	display: block;
-	width: 100%;
-	height: 100%;
+	padding: 1rem 0;
 }
 /**Controls format for anchor tags when hovered over*/
 .numlist a:hover {
 	border-color: #333;
-	background-color: #eee;
+	background-color: #fff;
 	color: #333;
+}
+.bottomList {
+	margin-top: 1rem;
+	margin-bottom: 4rem;
 }
 /**Attaches the footer to the bottom of the viewing panel*/
 #footer {
-	margin-top: 2rem;
 	position: fixed;
 	bottom: 0;
 }
