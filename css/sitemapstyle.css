@@ -61,6 +61,7 @@ a {
 	text-align: center;
 	font-size: 2rem;
 	margin-top: 3rem;
+	background-color: #eee;
 }
 /**Controls the anchor  tags in the Pre-School and Swim kids menus, helps create "button" effect*/
 .numlist a {
