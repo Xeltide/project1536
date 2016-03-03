@@ -3,60 +3,60 @@
  **************************************************************/
 
 #jumbotron {
-	padding-top: 5rem;
-	position: relative;
-	overflow: hidden;
+    padding-top: 5rem;
+    position: relative;
+    overflow: hidden;
 }
 #jumbotron .row {
-	display: none;
+    display: none;
 }
 #jumbotron .row:first-of-type {
-	display: block;
+    display: block;
 }
 .jumboImg {
-	width: 100%;
+    width: 100%;
 }
 .jumbotronText {
-	position: absolute;
-	bottom: 2rem;
-	padding-left: 2rem;
+    position: absolute;
+    bottom: 2rem;
+    padding-left: 2rem;
 }
 .jumbotronText h3 {
-	background-color: #ffffff;
-	padding: 0 1rem 0 1rem;
-	display: inline;
+    background-color: #ffffff;
+    padding: 0 1rem 0 1rem;
+    display: inline;
 }
 .jumbotronText p {
-	background-color: #ffffff;
-	padding: .2rem 1rem .2em 1rem;
-	display: inline;
+    background-color: #ffffff;
+    padding: .2rem 1rem .2em 1rem;
+    display: inline;
 }
 
 /* SLIDER */
 #slidePrevButton,
 #slideNextButton {
-	cursor: pointer;
-	display: none;
-	position: absolute;
-	width: 10%;
-	height: 100%;
-	padding: 15% 1rem;
-	font-size: 5rem;
-	color: #ffffff;
-	opacity: .7;
-	text-shadow: 0 0 .1rem #000000;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    padding: 15% 1rem;
+    font-size: 5rem;
+    color: #ffffff;
+    opacity: .7;
+    text-shadow: 0 0 .1rem #000000;
 }
 #slidePrevButton {
-	background: linear-gradient(to right, rgba(255,255,255,0.7), rgba(255,255,255,0));
+    background: linear-gradient(to right, rgba(255,255,255,0.7), rgba(255,255,255,0));
 }
 #slideNextButton {
-	background: linear-gradient(to left, rgba(255,255,255,0.7), rgba(255,255,255,0));
-	right: 0;
-	text-align: right;
+    background: linear-gradient(to left, rgba(255,255,255,0.7), rgba(255,255,255,0));
+    right: 0;
+    text-align: right;
 }
 #slidePrevButton:hover,
 #slideNextButton:hover {
-	opacity: 1.0;
+    opacity: 1.0;
 }
 
 
@@ -65,33 +65,33 @@
  **************************************************************/
 
 #homeMenuContainer {
-	display: flex;
-	flex-flow: row wrap;
+    display: flex;
+    flex-flow: row wrap;
 }
 .homeMenuItem {
-	position: relative;
-	background-color: #f8f8f8;
-	text-decoration: none;
-	padding-bottom: 5rem;
+    position: relative;
+    background-color: #f8f8f8;
+    text-decoration: none;
+    padding-bottom: 5rem;
 }
 .homeMenuItem:hover {
-	background-color: #dcdcdc;
+    background-color: #dcdcdc;
 }
 .homeMenuItem h3 {
-	padding: 0 1rem;
-	border-top: .4rem solid #1F48C5;
+    padding: 0 1rem;
+    border-top: .4rem solid #1F48C5;
 }
 .homeMenuItem p {
-	padding: 0 1rem;
+    padding: 0 1rem;
 }
 .menuDesc {
-	color: #000000;
+    color: #000000;
 }
 .menuButton {
-	position: absolute;
-	right: 1rem;
-	bottom: 0;
-	width: 60%;
+    position: absolute;
+    right: 1rem;
+    bottom: 0;
+    width: 60%;
 }
 
 /**
@@ -99,36 +99,36 @@
  */
 
 @media screen and (max-width: 600px) {
-	.homeMenuItem {
-		flex: 1 1 100%;
-	}
+    .homeMenuItem {
+        flex: 1 1 100%;
+    }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1000px) {
-	.homeMenuItem {
-		flex: 1 1 40%;
-		margin-right: 2rem;
-		margin-top: 2rem;
-	}
-	.homeMenuItem:nth-of-type(even) {
-		margin-right: 0;
-	}
+    .homeMenuItem {
+        flex: 1 1 40%;
+        margin-right: 2rem;
+        margin-top: 2rem;
+    }
+    .homeMenuItem:nth-of-type(even) {
+        margin-right: 0;
+    }
 }
 
 @media screen and (min-width: 1001px) {
-	#homeMenuContainer {
-		margin-top: -5rem;
-	}
-	.homeMenuItem {
-		flex: 1 1;
-		margin-right: 2rem;
-	}
-	.homeMenuItem:last-child {
-		margin-right: 0;
-	}
-	.jumbotronText {
-		bottom: 7rem;
-	}
+    #homeMenuContainer {
+        margin-top: -5rem;
+    }
+    .homeMenuItem {
+        flex: 1 1;
+        margin-right: 2rem;
+    }
+    .homeMenuItem:last-child {
+        margin-right: 0;
+    }
+    .jumbotronText {
+        bottom: 7rem;
+    }
 }
 
 /**************************************************************
@@ -136,20 +136,20 @@
  **************************************************************/
 
 #homeQuestionsBlock {
-	text-align: center;
-	margin-top: 5rem;
-	margin-bottom: 5rem;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 #homeAskButton {
-	padding: 0 8rem 0 8rem;
+    padding: 0 8rem 0 8rem;
 }
 #homeAskButton:hover {
-	background-color: #1e90ff;
-	border-color: #1e90ff;
+    background-color: #1e90ff;
+    border-color: #1e90ff;
 }
 
 
 /*Don's handiwork. alter as you see fit*/
 .jumboImg {
-	margin-top: 1rem;
+    margin-top: 1rem;
 }

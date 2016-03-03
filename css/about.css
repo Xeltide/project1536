@@ -3,42 +3,42 @@
  **************************************************************/
  
 #aboutSite {
-	margin-bottom: 2rem;
-	padding-top: 6rem;
-	text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 6rem;
+    text-align: center;
 }
 #aboutImage {
-	text-align: right;
-	margin-bottom: 2rem;
-	padding-top: 6rem;
+    text-align: right;
+    margin-bottom: 2rem;
+    padding-top: 6rem;
 }
 #aboutImage img {
-	width: 100%;
+    width: 100%;
 }
 #aboutContact {
-	margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 #teamHeading {
-	padding-top: 4rem;
-	margin-top: 2rem;
-	border-top: 1px dotted #000000;
+    padding-top: 4rem;
+    margin-top: 2rem;
+    border-top: 1px dotted #000000;
 }
 #aboutMembers td {
-	border: 0;
-	text-align: center;
+    border: 0;
+    text-align: center;
 }
 #aboutMembers h5 {
-	font-family: serif;
+    font-family: serif;
 }
 
 /**************************************************************
  * LOAD WHEN SCREEN = FULL WIDTH
  **************************************************************/
 @media (min-width: 550px) {
-	#aboutContact {
-		margin-top: 5.2rem;
-	}
-	#aboutContact {
-		text-align: center;
-	}
+    #aboutContact {
+        margin-top: 5.2rem;
+    }
+    #aboutContact {
+        text-align: center;
+    }
 }
