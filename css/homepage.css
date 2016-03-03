@@ -36,7 +36,7 @@
 #slidePrevButton,
 #slideNextButton {
 	cursor: pointer;
-	display: block;
+	display: none;
 	position: absolute;
 	width: 10%;
 	height: 100%;

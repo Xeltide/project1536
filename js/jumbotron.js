@@ -32,6 +32,10 @@ $(document).ready(function() {
 	// START TIMER
 	startTimer();
 
+	// MAKE PREV & NEXT BUTTONS VISIBLE
+	prevBut.css("display", "block");
+	nextBut.css("display", "block");
+
 	// PAUSE ON MOUSE OVER, RESUME ON MOUSE OUT
 	slides.hover(function() { pauseTimer(); }, function() { resumeTimer(); });
 	prevBut.hover(function() { pauseTimer(); }, function() { resumeTimer(); });
