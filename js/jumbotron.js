@@ -12,7 +12,6 @@ $(document).ready(function() {
 	var slides 		= $("#jumbotron .row");		// Array of slides
 	var prevBut		= $("#slidePrevButton");	// Previous button
 	var nextBut		= $("#slideNextButton");	// Next button
-	var slideTimer	= $("#slideTimer");			// Slide timer
 
 	// SLIDER
 	var length 		= slides.length;			// Total # of slides
