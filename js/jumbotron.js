@@ -51,7 +51,6 @@ $(document).ready(function() {
 
     // PUBLIC FUNCTIONS
     function restartTimer() {
-        clearTimer();
         startTimer();
     }
     function startTimer() {
