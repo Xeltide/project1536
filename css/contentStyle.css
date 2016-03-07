@@ -7,12 +7,20 @@
 }
 
 #footer {
-	position: fixed;
 	bottom: 0;
 	/* to be fixed footer with js*/
 }
 
-h1, h4 {
+#content {
+	min-height: 100%;
+}
+
+#content h1{
+	color: #1F48C5;
+	text-transform: uppercase;
+}
+
+#content h4{
 	color: #1F48C5;
 	text-transform: uppercase;
 }
