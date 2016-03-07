@@ -15,7 +15,7 @@
 
 .panel:first-of-type {
 	background-color: #FFF;
-	padding-top: 5rem;
+	padding: 5rem 0px 0px;
 	margin-top: 0rem;
 }
 
