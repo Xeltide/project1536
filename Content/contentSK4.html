@@ -4,8 +4,6 @@
 
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="../js/jquery-2.2.0.js"></script>
-  <script src="../js/navbar.js"></script>
   <meta charset="utf-8">
   <title>Preschool</title>
   <meta name="description" content="">
@@ -25,7 +23,7 @@
   <link rel="stylesheet" href="../css/base.css">
   <link rel="stylesheet" href="../css/contentStyle.css">
 </head>
-<body onscroll="closeFunction()">
+<body>
 
   <!-- Navigation Bar
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -43,7 +41,7 @@
             <li><a class="button button-primary" id="button2" href="../drills.html">Drills</a></li>
             <li><a class="button button-primary" id="button3" href="../safety.html">Water Safety</a></li>
             <li><a class="button button-primary" id="button4" href="../form.html">Questions</a></li>
-            <li><a class="button button-primary droplink" id="loginbutton" href="../login.html" onclick="dropFunction()">Login</a></li>
+            <li><a class="button button-primary droplink" id="loginbutton" href="../login.html">Login</a></li>
           </ul>
         </div>
       </div>
@@ -85,7 +83,7 @@
 
   <!-- Main Content
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<div onclick="closeFunction()">
+<div id="content">
   <div class="container" id="level">
   	<h1>Swim Kids 4</h1>
   </div>
@@ -150,6 +148,10 @@
   	</div>
   </div>
 </div>
+
+  <!--Javascripts-->
+  <script src="./js/jquery-2.2.0.js"></script>
+  <script type="text/javascript" src="js/navbar.js"></script>
 
 </body>
 </html>
