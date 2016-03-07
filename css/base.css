@@ -33,6 +33,8 @@ h3.overrideHColor, h5.overrideHColor {
 /* Removes logo padding and resizes to height of the header. */
 #header img {
     display: block;
+    height: 5.1rem;
+    width: auto;
 }
 
 #header li {
