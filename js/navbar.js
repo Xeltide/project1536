@@ -64,15 +64,21 @@ $(document).ready(function() {
 /*END SELECTED NAV LINK*/
 
 /*DROPDOWN MENU*/
-function dropFunction() {
+$('#loginbutton').click(function(){
 	document.getElementById("dropdown").classList.toggle("show");
 	document.getElementById("loginbutton").classList.toggle("highlightbuttonclass");
-}
+	var toggle = "on";
+});
 
-function closeFunction() {
+$(window).scroll(function(){
 	document.getElementById("dropdown").classList.remove("show");
 	document.getElementById("loginbutton").classList.remove("highlightbuttonclass");
-}
+});
+
+$("#content").click(function(){
+		document.getElementById("dropdown").classList.remove("show");
+		document.getElementById("loginbutton").classList.remove("highlightbuttonclass");
+});
 /*END DROPDOWN MENU*/
 
 /*FORM VALIDATION*/

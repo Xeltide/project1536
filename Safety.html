@@ -8,8 +8,6 @@
   <title>Safety</title>
   <meta name="description" content="">
   <meta name="author" content="">
-  <script type="text/javascript" src="js/jquery-2.2.0.js"></script>
-  <script type="text/javascript" src="js/navbar.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -31,7 +29,7 @@
   <link rel="stylesheet" type="text/css" href="css/SKStyle.css">
 
 </head>
-<body onscroll="closeFunction()">
+<body>
 
   <!-- Navigation Bar
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -49,7 +47,7 @@
             <li><a class="button button-primary" id="button2" href="./drills.html">Drills</a></li>
             <li><a class="button button-primary" id="button3" href="./safety.html">Water Safety</a></li>
             <li><a class="button button-primary" id="button4" href="./form.html">Questions</a></li>
-            <li><a class="button button-primary droplink" id="loginbutton" href="./login.html" onclick="dropFunction()">Login</a></li>
+            <li><a class="button button-primary droplink" id="loginbutton" href="./login.html">Login</a></li>
           </ul>
         </div>
       </div>
@@ -90,7 +88,7 @@
   </div>
 
 <!-- Page Content -->
-<div onclick="closeFunction()">
+<div id="content">
 	<div class="container">
 		<div class="panel" id="home">
 			<div class="twelve columns">
@@ -265,6 +263,9 @@
 	</div>
 </div>
 
+	<!--Javascripts-->
+	<script src="./js/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="js/navbar.js"></script>
 
 </body>
 </html>

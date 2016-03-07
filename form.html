@@ -16,14 +16,10 @@
 	<link rel="stylesheet" type="text/css" href="css/formstyle.css">
 	<link rel="stylesheet" href="./css/base.css">
 
-	<!--Javascripts-->
-	<script src="./js/jquery-2.2.0.js"></script>
-	<script type="text/javascript" src="js/navbar.js"></script>
-
 	<!--- FONT -->
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
-<body onscroll="closeFunction()">
+<body>
 
 <div id="header">
     <div class="container">
@@ -38,7 +34,7 @@
             <li><a class="button button-primary" id="button2" href="./drills.html">Drills</a></li>
             <li><a class="button button-primary" id="button3" href="./safety.html">Water Safety</a></li>
             <li><a class="button button-primary" id="button4" href="./form.html">Questions</a></li>
-            <li><a class="button button-primary droplink" id="loginbutton" href="./login.html" onclick="dropFunction()">Login</a></li>
+            <li><a class="button button-primary droplink" id="loginbutton" href="./login.html">Login</a></li>
           </ul>
         </div>
       </div>
@@ -78,7 +74,7 @@
     </div>
   </div>
 
-<div onclick="closeFunction()">
+<div id="content">
 	<!--Container div, used with skeleton to contain and format rows.-->
 	<div class="container">
 		<!--Row div, used with skeleton to create rows with responsive columns-->
@@ -137,6 +133,10 @@
 		</div>
 	</div>
 </div>
+
+	<!--Javascripts-->
+	<script src="./js/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="js/navbar.js"></script>
 	
 </body>
 </html>

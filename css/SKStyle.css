@@ -10,6 +10,7 @@
 	overflow: hidden;
 	background-color: #EEE;
 	margin-top: 2rem;
+	padding: 0px 2%;
 }
 
 .panel:first-of-type {
@@ -18,15 +19,25 @@
 	margin-top: 0rem;
 }
 
+.panel li{
+	display: inline;
+	padding-right: 4%;
+}
 
 h3 {
 	color: #1E90FF;
-	font-style: italic;
+	font-style: italic;	
+	text-transform: uppercase;
+	border-bottom: 1px solid #1E90FF;
+	text-align: center;
 }
 
 h5 {
 	color: #1E90FF;
 	text-transform: uppercase;
+	border-top: 1px solid #1E90FF;
+	border-bottom: 1px solid #1E90FF;
+	text-align: center;
 }
 
 .panel:nth-child(even){
@@ -34,6 +45,13 @@ h5 {
 	color: #FFF;
 }
 
-.panel:nth-child(even) h3, h5{
+.panel:nth-child(even) h3{
+	color: #FFF;	
+	border-bottom: 1px solid #FFF;
+}
+
+.panel:nth-child(even) h5{
 	color: #FFF;
+	border-top: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
 }
