@@ -2,8 +2,16 @@
 	padding-top: 5rem;
 }
 
-#criteria ul {
-	margin-left: 2rem;
+#fitness {
+	list-style-image: url('../images/fit.png');
+}
+
+#safety {
+	list-style-image: url('../images/safety.png');
+}
+
+#swim {
+	list-style-image: url('../images/swim.png');
 }
 
 #footer {
@@ -22,5 +30,11 @@
 
 #content h4{
 	color: #1F48C5;
-	text-transform: uppercase;
+	text-transform: uppercase;	
+	border-top: 1px solid #1E90FF;
 }
+
+#content ul{
+	border-top: 1px solid #1E90FF;
+}
+
