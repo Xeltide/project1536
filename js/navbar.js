@@ -93,7 +93,7 @@ function testUsername(id) {
 }
 
 function testPassword(id) {
-	var regex = new RegExp (/^\S{6,40}$/);
+	var regex = new RegExp (/^[a-z0-9_-\S]{6,18}$/);
 	return regex.test($_(id).value);
 }
 
