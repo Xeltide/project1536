@@ -64,10 +64,13 @@ $(document).ready(function() {
 /*END SELECTED NAV LINK*/
 
 /*DROPDOWN MENU*/
+var dropdownActivated = false;
+
 $('#loginbutton').click(function(){
 	document.getElementById("dropdown").classList.toggle("show");
 	document.getElementById("loginbutton").classList.toggle("highlightbuttonclass");
-	var toggle = "on";
+
+	dropdownActivated = (dropdownActivated) ? false : true;
 });
 
 $(window).scroll(function(){
@@ -75,9 +78,14 @@ $(window).scroll(function(){
 	document.getElementById("loginbutton").classList.remove("highlightbuttonclass");
 });
 
-$("#content").click(function(){
+$(document).click(function(e){
+	var target = $(e.target);
+	if (dropdownActivated && !target.closest('#dropdown').length && !target.is('#loginbutton')) {
 		document.getElementById("dropdown").classList.remove("show");
 		document.getElementById("loginbutton").classList.remove("highlightbuttonclass");
+
+		dropdownActivated = false;
+	}
 });
 /*END DROPDOWN MENU*/
 
