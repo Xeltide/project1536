@@ -1,3 +1,8 @@
+<?php
+  include("functions.php");
+  session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +14,7 @@
 </head>
 
 <body>
+  
 <div id="header">
   <div class="container">
     <div class="row">
@@ -22,7 +28,14 @@
           <li><a class="button button-primary" id="button2" href="./drills.php">Drills</a></li>
           <li><a class="button button-primary" id="button3" href="./safety.php">Water Safety</a></li>
           <li><a class="button button-primary" id="button4" href="./form.php">Questions</a></li>
-          <li><a class="button button-primary droplink" id="loginbutton" href="./login.html">Login</a></li>
+          <?php
+            if (isLoggedIn()){
+              echo '<li><a class="button button-primary" href="logout.php">Logout</a></li>';
+            } else {
+              echo '<li><a class="button button-primary droplink" id="loginbutton" href="./login.html">Login</a></li>';
+            }
+          ?>
+          
         </ul>
       </div>
     </div>
@@ -33,7 +46,7 @@
       <div id="dropdown" class="dropContent seven columns">
 
         <div id="leftCol">
-          <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp" onsubmit="return loginValidate()">
+          <form method="post" action="login.php" onsubmit="return loginValidate()">
             <h4>Login</h4>
             <label for="username_login">Username</label>
             <input class="u-full-width" id="username_login" type="text" name="username_login">
@@ -44,12 +57,14 @@
         </div>
         
         <div id="rightCol" class="u-pull-right">
-          <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp" onsubmit="return signUpValidate()">
+          <form method="post" action="register.php" onsubmit="return signUpValidate()">
             <h4>Register</h4>
             <label for="username_register">Username</label>
             <input class="u-full-width" id="username_register" type="text" name="username_register">
-            <label for="email">Email Address</label>
-            <input class="u-full-width" id="email" type="email" name="email_register">
+            <label for="fname">First Name</label>
+            <input class="u-full-width" id="fname" type="text" name="fname">
+            <label for="lname">Last Name</label>
+            <input class="u-full-width" id="lname" type="text" name="lname">
             <label for="password_register">Password</label>
             <input class="u-full-width" id="password_register" type="password" name="password_register">
             <label for="password_confirm">Confirm Password</label>
@@ -63,6 +78,16 @@
 </div>
 
 <div id="content">
+  <?php
+    if( isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count($_SESSION['ERRMSG_ARR']) >0 ) {
+      echo '<ul class="err">';
+      foreach($_SESSION['ERRMSG_ARR'] as $msg) {
+        echo '<li>',$msg,'</li>'; 
+      }
+      echo '</ul>';
+      unset($_SESSION['ERRMSG_ARR']);
+    }
+  ?>
 
   <script src="./js/jquery-2.2.0.js"></script>
   <script src="./js/navbar.js"></script>

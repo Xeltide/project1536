@@ -1,7 +1,3 @@
-<?php
-  session_start();
-?>
-
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -43,7 +39,7 @@
         <div id="dropdown" class="login">
 
           <div id="leftCol">
-            <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+            <form method="post" action="login.php">
               <h4>Login</h4>
               <label for="username_login">Username</label>
               <input class="u-full-width" id="username_login" type="text" name="username_login">
@@ -54,17 +50,19 @@
           </div>
           
           <div id="rightCol" class="u-pull-right">
-            <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+            <form method="post" action="register.php">
               <h4>Register</h4>
               <label for="username_register">Username</label>
               <input class="u-full-width" id="username_register" type="text" name="username_register">
-              <label for="email">Email Address</label>
-              <input class="u-full-width" id="email" type="email" name="email_register">
+              <label for="fname">First Name</label>
+              <input class="u-full-width" id="fname" type="text" name="fname">
+              <label for="lname">Last Name</label>
+              <input class="u-full-width" id="lname" type="text" name="lname">
               <label for="password_register">Password</label>
               <input class="u-full-width" id="password_register" type="password" name="password_register">
               <label for="password_confirm">Confirm Password</label>
               <input class="u-full-width" id="password_confirm" type="password" name="password_confirm_register">
-              <input class="button u-pull-right" value="Register" type="submit">
+              <input class="button-primary u-pull-right" value="Register" type="submit">
             </form>
           </div>
         </div>
