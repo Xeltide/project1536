@@ -67,7 +67,6 @@ $(document).ready(function() {
 $('#loginbutton').click(function(){
 	document.getElementById("dropdown").classList.toggle("show");
 	document.getElementById("loginbutton").classList.toggle("highlightbuttonclass");
-	var toggle = "on";
 });
 
 $(window).scroll(function(){
@@ -75,9 +74,12 @@ $(window).scroll(function(){
 	document.getElementById("loginbutton").classList.remove("highlightbuttonclass");
 });
 
-$("#content").click(function(){
+$(document).click(function(e){
+	var target = $(e.target);
+	if ($('#dropdown').is(':visible') && !target.is('#loginbutton') && !target.closest('#dropdown').length) {
 		document.getElementById("dropdown").classList.remove("show");
 		document.getElementById("loginbutton").classList.remove("highlightbuttonclass");
+	}
 });
 /*END DROPDOWN MENU*/
 
