@@ -7,7 +7,7 @@ a {
 /**Controls containers for the top menus*/
 .capsule {
 	background-color: #eee;
-	margin-top: 6em;
+	/*margin-top: 6em;*/
 }
 /**removes margins from the top menus list items*/
 .capsule li {

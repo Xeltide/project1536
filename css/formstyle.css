@@ -5,7 +5,8 @@ span {
 /**Styles page title*/
 #formheader {
 	color: #1E90FF;
-	margin-top: 8rem;
+	/*margin-top: 8rem;*/
+	margin-top: 2rem;
 	text-align: center;
 	padding-bottom: 1.5rem;
 }

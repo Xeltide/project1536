@@ -13,7 +13,6 @@
         </div>
     </div>
 </div>
-</div>
 
 <script src="<?php relativePath();?>js/jquery-2.2.0.js"></script>
 <script src="<?php relativePath();?>js/navbar.js"></script>

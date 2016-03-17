@@ -11,6 +11,11 @@ h3.overrideHColor, h5.overrideHColor {
 	color: #000000;
 }
 
+/* Login display */
+#loginMsg {
+    padding-top: 6rem;
+}
+
 /**************************************************************
  * NAVIGATION BAR
  **************************************************************/
