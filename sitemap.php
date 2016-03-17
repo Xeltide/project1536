@@ -1,34 +1,15 @@
-<?php
-  session_start();
-?>
-
+<?php include("shared/common.php");?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!--Basic Page Needs-->
-  <title>Site Map</title>
-  <meta charset="utf-8">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="./images/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="./images/favicon-16x16.png" sizes="16x16" />
-
-  <!--CSS-->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+    <title>Sitemap</title>
+    <?php head();?>
   <link rel="stylesheet" href="css/sitemapstyle.css">
-  <link rel="stylesheet" href="./css/base.css">
-
-  <!-- FONT -->
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-  
-<?php
-  include("header.php");
-?>
+
+<?php navbar();?>
   <!--Container div, used with skeleton to contain and format rows.-->
     <div class="container" id="mainBody">
       <!--Row div, used with skeleton to create rows with responsive columns-->
@@ -121,22 +102,8 @@
 
   </div>
   </div>
-  <div id="footer" class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="six columns">
-          <a class="button button-primary" href="./about.html">About Us</a>
-        </div>
-        <div class="six columns">
-          <a class="button button-primary" href="./sitemap.html">Sitemap</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-  <!--Javascripts-->
-  <script src="./js/jquery-2.2.0.js"></script>
+<?php footer();?>
   
 </body>
 </html>

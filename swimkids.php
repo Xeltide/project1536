@@ -1,45 +1,16 @@
-<?php
-	session_start();
-?>
-
+<?php include("shared/common.php");?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Swim Kids</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="./images/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="./images/favicon-16x16.png" sizes="16x16" />
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT –––––––––––––––––––––––––––––––––––––––– -->
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/skeleton.css">
-  <link rel="stylesheet" type="text/css" href="css/base.css">
+	<title>Homepage</title>
+	<?php head();?>
   <link rel="stylesheet" type="text/css" href="css/SKStyle.css">
-
 </head>
 <body>
 
   <!-- Navigation Bar
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<?php
-	include("header.php");
-?>
+  <?php navbar();?>
 <!-- Page Content -->
 <div class="container">
 	<div class="panel" id="home">
@@ -220,25 +191,7 @@
 		</div>
 	</div>
 
-	<!-- Footer -->
-
-	<div id="footer" class="footer">
-	  <div class="container">
-	    <div class="row">
-	      <div class="six columns">
-	        <a class="button button-primary" href="./about.html">About Us</a>
-	        </div>
-	      <div class="six columns">
-	          <a class="button button-primary" href="./sitemap.html">Sitemap</a>
-	      </div>
-	    </div>
-	  </div>
-	</div>
-</div>
-<!-- JQuery -->
-
-  <script type="text/javascript" src="js/jquery-2.2.0.js"></script>
-
+  <?php footer();?>
 
 </body>
 </html>
