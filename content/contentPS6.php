@@ -1,39 +1,17 @@
-<?php
-  session_start();
-?>
-
+<?php include("../shared/common.php");?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Preschool</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT –––––––––––––––––––––––––––––––––––––––– -->
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/skeleton.css">
-  <link rel="stylesheet" href="../css/base.css">
-  <link rel="stylesheet" href="../css/contentStyle.css">
+	<title>Preschool</title>
+	<?php head();?>
+	<link rel="stylesheet" href="../css/contentStyle.css">
 </head>
 <body>
 
-  <!-- Navigation Bar
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<?php
-  include("header.php");
-?>
+<!-- Navigation Bar
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<?php navbar();?>
+
   <!-- Main Content
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container" id="level">
@@ -92,22 +70,8 @@
   	<a class="button" href="contentPS5.php">level 5</a>
   	<a class="button u-pull-right" href="contentPS7.php">level 7</a>
   </div>
-</div>
 
-  <div id="footer" class="footer">
-    <div class="container">
-        <div class="six columns">
-            <a class="button button-primary" href="../about.html">About Us</a>
-        </div>
-        <div class="six columns">
-            <a class="button button-primary" href="../sitemap.html">Sitemap</a>
-            <!-- Buttons are placed from right to left so they float properly -->
-        </div>
-    </div>
-  </div>
-
-  <!--Javascripts-->
-  <script src="../js/jquery-2.2.0.js"></script>
+<?php footer();?>
 
 </body>
 </html>
