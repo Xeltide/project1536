@@ -70,8 +70,7 @@ h5 {
 .criteriaButton {
 	display: inline-block;
 	height: 38px;
-	width: 38px;
-	padding: 0;
+	padding: 0 1%;
 	color: #1E90FF;
 	text-align: center;
 	font-size: 11px;

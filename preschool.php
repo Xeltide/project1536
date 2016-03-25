@@ -4,7 +4,7 @@
 <head>
 	<title>Preschool</title>
 	<?php head();?>
-  <link rel="stylesheet" type="text/css" href="css/SKStyle.css">
+  <link rel="stylesheet" type="text/css" href="css/PreStyle.css">
 </head>
 <body>
 
@@ -18,7 +18,7 @@
 				<div class="panelImage">
 					<img src="images/preschool.jpg" alt="jumbotron image">
 				</div>
-					<h3>Red Cross Preschool</h3>
+					<h3>Preschool</h3>
 					<p>Preschool levels meant for childrean from 6 months old up to 6 years old. They will learn fundamental skills and self water safety while playing games and building confidence around </p>
 			</div>
 		</div>
@@ -36,9 +36,13 @@
 				<p>for the first time students will learn to sing songs and play gays to develop their comfortability in the water.</p>
 			</div>
 			<div class="eight columns">
-				<h5>Key Skills</h5>
+				<h5>Overview</h5>
 				<p><strong>Entries</strong> - parents will learn how to safety enter and exit the water with their child. From a graduate walk in, stairs or by the ledge of the pool.  All types of entries. Students will also experience jumps too.</p>
 				<p><strong>Blowing Bubbles</strong> - toddlers will learn to exhale around and in the water. Learning from blowing bubbles on their finger first to blowing bubbles underwater.</p>
+				<div class="criteria">Detailed Criteria
+				<a class="criteriaButton" href="./content/contentPS2.php">Duck</a>
+				<a class="criteriaButton" href="./content/contentPS1.php">Starfish</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -60,10 +64,14 @@
 				<p>PFD and Me</p>
 			</div>
 			<div class="eight columns">
-				<h5>Key Skills</h5>
+				<h5>Overview</h5>
 				<p><strong>Submersion</strong> - asdf</p>
 				<p><strong>Floats</strong> - asdf</p>
 				<p><strong>Glides</strong> - asdf</p>
+				<div class="criteria">Detailed Criteria
+				<a class="criteriaButton" href="./content/contentPS2.php">Sea Otter</a>
+				<a class="criteriaButton" href="./content/contentPS1.php">Sea Turtle</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -90,6 +98,10 @@
 				<p><strong>Floats and Glides</strong> - asdf</p>
 				<p><strong>Rollovers</strong> - asdf</p>
 				<p><strong>Front Swim</strong> - asdf</p>
+				<div class="criteria">Detailed Criteria
+				<a class="criteriaButton" href="./content/contentPS2.php">Sunfish</a>
+				<a class="criteriaButton" href="./content/contentPS1.php">Salamander</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -117,28 +129,10 @@
 				<p><strong>Front Glide / Side Glide</strong> - asdf</p>
 				<p><strong>Front Swim</strong> - asdf</p>
 				<p><strong>Back Swim</strong> - asdf</p>
-			</div>
-		</div>
-	</div>
-	<div class="panel" id="five">
-	
-			<div class="twelve columns">
-				<h3>Preschool 4 & 5</h3>
-				<p>Welcome to the first level of the Red Cross Swim Kids program. In this level, students will learn be introduced to floats, glides and rhythmic breathing.</p>
-				<ul>
-					<li>Class Size: Up to 4 Preschoolers.</li>
-					<li>Age group: 3 to 5 year olds.</li>
-				</ul>
-			</div>
-		
-		<div class="subItems">
-			<div class="four columns">
-				<h5>Fitness</h5>
-				<p>Lorem ipsum dolor sit amet, ut qui atqui interpretaris, pri cu facer graeco contentiones. No nonumy intellegam eam, sed ut suas inani antiopam, quando nullam legimus sed ad. Mei splendide interpretaris id, vel cu dicit molestie. Ut bonorum saperet consetetur sea. Ex mea alii labore intellegat, molestie delicata expetenda in nec, ex harum soluta est.</p>
-			</div>
-			<div class="eight columns">
-				<h5>Key Skills</h5>
-				<p>Lorem ipsum dolor sit amet, ut qui atqui interpretaris, pri cu facer graeco contentiones. No nonumy intellegam eam, sed ut suas inani antiopam, quando nullam legimus sed ad. Mei splendide interpretaris id, vel cu dicit molestie. Ut bonorum saperet consetetur sea. Ex mea alii labore intellegat, molestie delicata expetenda in nec, ex harum soluta est.</p>
+				<div class="criteria">Detailed Criteria
+				<a class="criteriaButton" href="./content/contentPS2.php">Whale</a>
+				<a class="criteriaButton" href="./content/contentPS1.php">Crocodile</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -175,14 +169,10 @@
 					<li>No water safety</li>
 					<li>more expensive and time consuming</li>
 				</ul>
-				<a class="button" href="#">Mantas</a>
-				<a class="button" href="#">Barricudas</a>
-				<a class="button" href="#">Dynamo</a>
 			</div>
 			<div class="four columns">
 				<h5>SwimKids</h5>
 				<p>Lorem ipsum dolor sit amet, ut qui atqui interpretaris, pri cu facer graeco contentiones. No nonumy intellegam eam, sed ut suas inani antiopam, quando nullam legimus sed ad. Mei splendide interpretaris id, vel cu dicit molestie. Ut bonorum saperet consetetur sea. Ex mea alii labore intellegat, molestie delicata expetenda in nec, ex harum soluta est.</p>
-				<a class="button" href="#">Link TBD</a>
 				</div>
 			</div>
 		</div>

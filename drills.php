@@ -4,7 +4,7 @@
 <head>
 	<title>Drills</title>
 	<?php head();?>
-  <link rel="stylesheet" type="text/css" href="css/SKStyle.css">
+  <link rel="stylesheet" type="text/css" href="css/DrillsStyle.css">
 </head>
 <body>
 
@@ -29,10 +29,6 @@
 				<div class="twelve columns">
 					<h3>Front Crawl</h3>
 					<p>Welcome to the first level of the Red Cross Swim Kids program. In this level, students will learn be introduced to floats, glides and rhythmic breathing.</p>
-					<ul>
-						<li>Class Size: 3 - 6 Swimmers</li>
-						<li>Age group: 6 - 14</li>
-					</ul>
 				</div>
 			</div>
 			<div>
@@ -48,7 +44,7 @@
 					  <tr>
 					  	<td>Kicking</td>
 					  	<td>Six Beat Kick</td>
-					  	<td>Green Light, Red Light</td>
+					  	<td colspan="2">Green Light / Red Light</td>
 					  </tr>
 					  <tr>
 					  	<td>Arms</td>
@@ -58,7 +54,7 @@
 					  </tr>
 					  <tr>
 					  	<td>Breathing</td>
-					  	<td>Front Glide / Side Glide</td>
+					  	<td colspan="3">Front Glide / Side Glide</td>
 					  </tr>
 					</table>
 				</div>
@@ -69,17 +65,13 @@
 				<div class="twelve columns">
 					<h3>Back Crawl</h3>
 					<p>Welcome to the first level of the Red Cross Swim Kids program. In this level, students will learn be introduced to floats, glides and rhythmic breathing.</p>
-					<ul>
-						<li>Class Size: 3 - 6 Swimmers</li>
-						<li>Age group: 6 - 14</li>
-					</ul>
 				</div>
 			</div>
 			<div>
 				<div class="four columns">
 					<img class="squareDrill" src="./images/backstroke.jpg">
 				</div>
-				<div class="eight columns">
+				<div class="eight columns" id="test">
 					<table>
 					  <tr>
 					  	<th>Focus</th>
@@ -106,10 +98,6 @@
 				<div class="twelve columns">
 					<h3>Elementary BackStroke</h3>
 					<p>Welcome to the first level of the Red Cross Swim Kids program. In this level, students will learn be introduced to floats, glides and rhythmic breathing.</p>
-					<ul>
-						<li>Class Size: 3 - 6 Swimmers</li>
-						<li>Age group: 6 - 14</li>
-					</ul>
 				</div>
 			</div>
 			<div>
@@ -143,10 +131,6 @@
 				<div class="twelve columns">
 					<h3>BreastStroke</h3>
 					<p>Welcome to the first level of the Red Cross Swim Kids program. In this level, students will learn be introduced to floats, glides and rhythmic breathing.</p>
-					<ul>
-						<li>Class Size: 3 - 6 Swimmers</li>
-						<li>Age group: 6 - 14</li>
-					</ul>
 				</div>
 			</div>
 			<div>
@@ -186,10 +170,6 @@
 				<div class="twelve columns">
 					<h3>Treading Water</h3>
 					<p>Welcome to the first level of the Red Cross Swim Kids program. In this level, students will learn be introduced to floats, glides and rhythmic breathing.</p>
-					<ul>
-						<li>Class Size: 3 - 6 Swimmers</li>
-						<li>Age group: 6 - 14</li>
-					</ul>
 				</div>
 			</div>
 			<div>
@@ -223,10 +203,6 @@
 				<div class="twelve columns">
 					<h3>Fitness</h3>
 					<p>Welcome to the first level of the Red Cross Swim Kids program. In this level, students will learn be introduced to floats, glides and rhythmic breathing.</p>
-					<ul>
-						<li>Class Size: 3 - 6 Swimmers</li>
-						<li>Age group: 6 - 14</li>
-					</ul>
 				</div>
 			</div>
 			<div>		
@@ -240,7 +216,7 @@
 					  </tr>
 					  <tr>			  
 					  	<td>Pyramid - Lengths</td>
-					  	<td>Pyramid - Breaths</td>
+					  	<td colspan="2">Pyramid - Breaths</td>
 					  </tr>
 					  <tr>
 					  	<td>Pull Ups / Dive</td>
@@ -248,7 +224,7 @@
 					  	<td>Intervals</td>
 					  </tr>
 					  <tr>
-					  	<td>Tow Boat</td>
+					  	<td colspan="4">Tow Boat</td>
 					  </tr>
 					</table>
 				</div>			
