@@ -26,7 +26,7 @@
 			</div>
 			<div class="six columns">
 				<h5>Starfish and Duck</h5>
-				<h3>Parents will be required to participate in the class with their toddlers. Toddlers will build confidence in the water with the assistance of their parents. Parents will be taught water safety skills.</h3>
+				<h3>Parents will be required to participate in the class with their toddlers. Toddlers will build confidence in the water with the assistance of their parents. Parents will learn water safety skills.</h3>
 				<ul>
 					<li>Class Size: Up to 10 families.</li>
 					<li>Age Group: 4 - 24 months.</li>
