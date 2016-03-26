@@ -8,9 +8,10 @@
 
 .panel {
 	overflow: hidden;
-	background-color: #EEE;
+	background-color: #DDD;
 	margin-top: 2rem;
 	padding: 0px 2%;
+	color: #1E90FF;
 }
 
 .panel:first-of-type {
@@ -27,17 +28,12 @@
 
 h3 {
 	color: #1E90FF;
-	text-transform: uppercase;
-	border-bottom: 1px solid #1E90FF;
-	text-align: center;
 }
 
 h5 {
 	color: #1E90FF;
 	text-transform: uppercase;
-	border-top: 1px solid #1E90FF;
 	border-bottom: 1px solid #1E90FF;
-	text-align: center;
 }
 
 .panel:nth-child(even){
@@ -46,13 +42,11 @@ h5 {
 }
 
 .panel:nth-child(even) h3{
-	color: #FFF;	
-	border-bottom: 1px solid #FFF;
+	color: #FFF;
 }
 
 .panel:nth-child(even) h5{
 	color: #FFF;
-	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 }
 
@@ -97,4 +91,9 @@ h5 {
 	margin: 0;
 	padding: 0 0 4%;
 	text-align: center;
+}
+
+#preImage {
+	width: 100%;
+	height: auto;
 }

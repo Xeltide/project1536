@@ -18,10 +18,6 @@
 			<div class="panelImage">
 				<img src="images/swimkids.jpg" alt="jumbotron image">
 			</div>
-			<div>
-				<h3> Swim Kids</h3>
-				<p>Swim Kids is designed for children 6 years old and upwards. A total of 10 levels are in the curriculum and each level consists of three categories: Fitness, Water Safety and Swimming.</p>
-			</div>
 		</div>
 	</div>
 	<div class="panel" id="one">

@@ -18,12 +18,7 @@
 				<div class="panelImage">
 					<img src="images/drills.jpg" alt="jumbotron image">
 				</div>
-					<h3>Drills and Practice Exercises</h3>
-					<p>Scroll down to find drills or practice exercises for the strokes and skills you are looking for.</p>
-					<p>As students progress through the level they will be able to swim increased distances up to half a kilometer. Every level will educate students on new safety items like boating safety, CPR, ice safety and many more. Upon completion, each student will know three resting strokes and two power strokes.</p>
-					<p>to add: scroll down sign</p>
 			</div>
-		</div>
 		<div class="panel" id="one">
 			<div>
 				<div class="twelve columns">
