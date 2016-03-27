@@ -30,13 +30,11 @@
                 <?php if (isLoggedIn()) { ?>
 
                     <div id="leftCol">
-                        <form method="post" action="<?php relativePath();?>login.php" onsubmit="return loginValidate()">
-                            <h4>Login</h4>
-                            <label for="username_login">Username</label>
-                            <input class="u-full-width" id="username_login" type="text" name="username_login">
-                            <label for="password_login">Password</label>
-                            <input class="u-full-width" id="password_login" type="password" name="password_login">
-                            <input class="button-primary u-pull-right" value="Submit" type="submit">
+                        <form method="post" action="<?php relativePath();?>deregister.php">
+                            <h4>Delete Account</h4>
+                            <label for="password_login">Enter password to confirm</label>
+                            <input class="u-full-width" id="password_login" type="password" name="password_deregister">
+                            <input class="button-primary u-pull-right" value="Delete" id="deleteAccButton" type="submit">
                         </form>
                     </div>
 
