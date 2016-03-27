@@ -38,6 +38,11 @@
                         </form>
                     </div>
 
+                    <div id="rightCol" class="u-pull-right">
+                        <h4>Logout</h4>
+                        <a class="button-primary u-pull-right" href="<?php relativePath();?>logout.php">Logout</a>
+                    </div>
+
                 <?php } else { ?>
 
                     <div id="leftCol">
