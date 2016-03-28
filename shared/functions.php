@@ -32,6 +32,9 @@ function navbar() {
 function footer() {
     include("footer.php");
 }
+function forum() {
+	include("forum.php");
+}
 
 /****************************************
  * User session details.
