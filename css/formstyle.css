@@ -59,23 +59,20 @@ span {
 	text-align: center;
 	margin-left: 2.5%;
 }
-#forum:link {
-	text-decoration: none;
-	color: #1E90FF;
-}
-#forum:visited {
-	text-decoration: none;
-}
+/**Allows forum to not fall below footer*/
 #forum {
 	margin-bottom: 5rem;
 }
+/**Aligns specific table data elements*/
 td.centerData {
 	text-align: center;
 }
+/**Styles forum header*/
 #forum h2 {
 	color: #1E90FF;
 	text-align: center;
 }
+/**Colors error message red.*/
 #forum .error {
 	color: #ff3333;
 }

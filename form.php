@@ -33,7 +33,7 @@
 					<input type="email" name="formEmail" id="formEmail" placeholder="YourEmail@domain" required/>
 
 					<label for="questionField">Your Question</label>
-					<textarea name="questionField" id="questionField" placeholder="Please leave a detailed message here!" required></textarea>
+					<tegit statxtarea name="questionField" id="questionField" placeholder="Please leave a detailed message here!" required></textarea>
 
 					<input class="button" type="submit" value="Send Message">
 
@@ -52,6 +52,7 @@
 
 			</div>
 		</div>
+		<!--Division that Displays a forum if the user is logged in, otherwise it shows an error message-->
 		<div class="row">
 			<div id="forum" class="twelve columns">
 				<?php
