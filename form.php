@@ -35,7 +35,7 @@
 					<label for="questionField">Your Question</label>
 					<textarea name="questionField" id="questionField" placeholder="Please leave a detailed message here!" required></textarea>
 
-					<input class="button" type="submit" value="Send Message" href="email.php">
+					<input class="button" type="submit" value="Send Message">
 
 					<input class="button" type="reset" value="Reset Form">
  
