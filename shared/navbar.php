@@ -8,9 +8,8 @@
                 <ul class="u-pull-right" id="headerbuttons">
                     <li><a class="button button-primary" id="button0" href="<?php relativePath();?>preschool.php">Preschool</a></li>
                     <li><a class="button button-primary" id="button1" href="<?php relativePath();?>swimkids.php">Swim Kids</a></li>
-                    <li><a class="button button-primary" id="button2" href="<?php relativePath();?>adults.php">Adults</a></li>
-                    <li><a class="button button-primary" id="button3" href="<?php relativePath();?>drills.php">Drills</a></li>
-                    <li><a class="button button-primary" id="button4" href="<?php relativePath();?>form.php">Questions</a></li>
+                    <li><a class="button button-primary" id="button2" href="<?php relativePath();?>drills.php">Drills</a></li>
+                    <li><a class="button button-primary" id="button3" href="<?php relativePath();?>form.php">Questions</a></li>
                     <?php
                     if (isLoggedIn()){
                         echo '<li><a class="button button-primary droplink" id="loginbutton" href="' . getRelativePath() . '">' . getUsername() . '</a></li>';

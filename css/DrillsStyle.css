@@ -6,11 +6,11 @@
 	/*margin-top: 1rem;*/
 }
 
-.panel {
+.selection {
 	overflow: hidden;
-	background-color: #EEE;
-	margin-top: 2rem;
-	padding: 0px 2%;
+	background-color: #1E90FF;
+	color: #FFF;
+	margin: 0 0 1rem 0;
 }
 
 .panel:first-of-type {
@@ -20,54 +20,49 @@
 	margin-top: 0rem;
 }
 
-.panel li{
-	display: inline;
-	padding-right: 4%;
-}
-
 h3 {
-	color: #1E90FF;
+	color: #FFF;
 	text-transform: uppercase;
-	border-bottom: 1px solid #1E90FF;
 	text-align: center;
 }
 
 h5 {
-	color: #1E90FF;
+	color: #FFF;
 	text-transform: uppercase;
-	border-top: 1px solid #1E90FF;
-	border-bottom: 1px solid #1E90FF;
 	text-align: center;
+	margin: 0;
 }
 
-.panel:nth-child(even){
+.drillbox {
+	width: 25%;
+	overflow: hidden;
 	background-color: #1E90FF;
-	color: #FFF;
+	float: left;
 }
 
-.panel:nth-child(even) h3{
-	color: #FFF;	
-	border-bottom: 1px solid #FFF;
-}
-
-.panel:nth-child(even) h5{
-	color: #FFF;
-	border-top: 1px solid #FFF;
-	border-bottom: 1px solid #FFF;
-}
-
-.squareDrill {
+.drillbox img {
+	display: block;
 	width: 100%;
 	height: auto;
-	-webkit-border-radius: 200px;
-	-moz-border-radius: 200px;
- 	border-radius: 200px;
+	margin: 0 auto;
+	-webkit-border-radius: 460px;
+	-moz-border-radius: 460px;
+ 	border-radius: 460px;
+ 	-webkit-margin-bottom: -30px;
 }
 
-table {
-	width: 100%;
+.hidden {
+
 }
 
-p {
-	margin-bottom: 10px;
+#labels2 {
+	padding: 0;
+	margin: 0;
+	background-color: #1E90FF;
+}
+
+#labels {	
+	padding: 0;
+	margin: 2rem 0 0 0;	
+	background-color: #1E90FF;
 }

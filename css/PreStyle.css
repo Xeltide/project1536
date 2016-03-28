@@ -45,9 +45,17 @@ h5 {
 	color: #FFF;
 }
 
+.panel:last-of-type h3{
+	border-bottom: 1px solid #FFF;
+}
+
 .panel:nth-child(even) h5{
 	color: #FFF;
 	border-bottom: 1px solid #FFF;
+}
+
+.panel:last-of-type {
+	margin-bottom: 1rem;
 }
 
 .squareDrill {
