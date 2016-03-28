@@ -22,7 +22,7 @@
             <div class="topheading">Main</div>
             <ul class="toplist">
              <li><a href="login.html">Login</a></li>
-             <li><a href="index.html">Home</a></li>
+             <li><a href="index.php">Home</a></li>
            </ul>
          </div>
        </div>
@@ -33,8 +33,7 @@
           <!--topheading div, used to style and format the headers for the top sections-->
           <div class="topheading">Safety / Drills</div>
           <ul class="toplist">
-           <li><a href="safety.html">Safety</a></li>
-           <li><a href="drills.html">Drills</a></li>
+           <li><a href="drills.php">Drills</a></li>
          </ul>
        </div>
      </div>
@@ -45,8 +44,8 @@
         <!--topheading div, used to style and format the headers for the top sections-->
         <div class="topheading">Info</div>
         <ul class="toplist">
-         <li><a href="form.html">Questions?</a></li>
-         <li><a href="about.html">About Us</a></li>
+         <li><a href="form.php">Questions?</a></li>
+         <li><a href="about.php">About Us</a></li>
        </ul>
      </div>
    </div>
@@ -59,18 +58,18 @@
       <!--listCapsule div, enables styling and format of Pre-School section-->
       <div class="topNumList">
         <!--topheading div, used to style and format the headers for the top sections-->
-        <div class="topheading"><a href="preschool.html">Pre-School</a></div>
+        <div class="topheading"><a href="preschool.php">Pre-School</a></div>
         <!--table div, enables styling and formatting for the numlist-->
         <div class="table">
           <ul class="numlist">
-            <li><a href="content/contentPS1.html">1</a></li>
-            <li><a href="content/contentPS2.html">2</a></li>
-            <li><a href="content/contentPS3.html">3</a></li>
-            <li><a href="content/contentPS4.html">4</a></li>
-            <li><a href="content/contentPS5.html">5</a></li>
-            <li><a href="content/contentPS6.html">6</a></li>
-            <li><a href="content/contentPS7.html">7</a></li>
-            <li><a href="content/contentPS8.html">8</a></li>
+            <li><a href="content/contentPS1.php">1</a></li>
+            <li><a href="content/contentPS2.php">2</a></li>
+            <li><a href="content/contentPS3.php">3</a></li>
+            <li><a href="content/contentPS4.php">4</a></li>
+            <li><a href="content/contentPS5.php">5</a></li>
+            <li><a href="content/contentPS6.php">6</a></li>
+            <li><a href="content/contentPS7.php">7</a></li>
+            <li><a href="content/contentPS8.php">8</a></li>
           </ul>
         </div>
       </div>
@@ -81,20 +80,20 @@
    <div class="twelve columns">
     <div class="bottomList">
       <!--topheading div, used to style and format the headers for the top sections-->
-      <div class="topheading"><a href="swimkids.html">Swim Kids</a></div>
+      <div class="topheading"><a href="swimkids.php">Swim Kids</a></div>
       <!--table div, enables styling and formatting for the numlist-->
       <div class="table">
         <ul class="numlist">
-          <li><a href="content/contentSK1.html">1</a></li>
-          <li><a href="content/contentSK2.html">2</a></li>
-          <li><a href="content/contentSK3.html">3</a></li>
-          <li><a href="content/contentSK4.html">4</a></li>
-          <li><a href="content/contentSK5.html">5</a></li>
-          <li><a href="content/contentSK6.html">6</a></li>
-          <li><a href="content/contentSK7.html">7</a></li>
-          <li><a href="content/contentSK8.html">8</a></li>
-          <li><a href="content/contentSK9.html">9</a></li>
-          <li><a href="content/contentSK10.html">10</a></li>
+          <li><a href="content/contentSK1.php">1</a></li>
+          <li><a href="content/contentSK2.php">2</a></li>
+          <li><a href="content/contentSK3.php">3</a></li>
+          <li><a href="content/contentSK4.php">4</a></li>
+          <li><a href="content/contentSK5.php">5</a></li>
+          <li><a href="content/contentSK6.php">6</a></li>
+          <li><a href="content/contentSK7.php">7</a></li>
+          <li><a href="content/contentSK8.php">8</a></li>
+          <li><a href="content/contentSK9.php">9</a></li>
+          <li><a href="content/contentSK10.php">10</a></li>
         </ul>
       </div>
     </div>
