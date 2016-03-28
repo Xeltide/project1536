@@ -61,9 +61,9 @@
           <div class="button button-primary menuButton">>></div>
         </a>
 
-        <a href="adults.php" class="homeMenuItem">
-          <h3>Adults</h3>
-          <p class="menuDesc">Upon completion, each student will know three resting strokes and two power strokes.</p>
+        <a href="./content/contentSK2.php" class="homeMenuItem">
+          <h3>Criteria</h3>
+          <p class="menuDesc">Check out the exact criteria and requirements for Swim Kids 2.</p>
           <div class="button button-primary menuButton">>></div>
         </a>
         <a href="drills.php" class="homeMenuItem">
