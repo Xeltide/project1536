@@ -103,8 +103,6 @@
     color: #FFFFFF;
 }
 
-.droplink {
-}
 
 div #leftCol {
 	display: inline-block;
@@ -119,6 +117,10 @@ div #rightCol {
 
 .show {
 	display: block;
+}
+
+.hide {
+    display: none;
 }
 
 

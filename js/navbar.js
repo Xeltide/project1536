@@ -110,13 +110,17 @@ function loginValidate() {
 	} else {
 		if (!testUsername('username_login')) {
 			$_('username_login').classList.add('error');
+			$_('userErr').classList.remove('hide');
 		} else {
 			$_('username_login').classList.remove('error');
+			$_('userErr').classList.add('hide');
 		}
 		if (!testPassword('password_login')) {
 			$_('password_login').classList.add('error');
+			$_('passErr').classList.remove('hide');
 		} else {
 			$_('password_login').classList.remove('error');
+			$_('passErr').classList.add('hide');
 		}
 		return false;
 	}
@@ -127,37 +131,48 @@ function testMatchPassword(id1, id2) {
 }
 
 function signUpValidate() {
-	if (testUsername('username_register') && testEmail('email') && testPassword('password_register') && testPassword('password_confirm') && testMatchPassword('password_register','password_confirm')) {
+	if (testUsername('username_register') && testName('fname') && testName('lname') && testPassword('password_register') && testPassword('password_confirm') && testMatchPassword('password_register','password_confirm')) {
 		return true;
 	} else {
 		if (!testUsername('username_register')) {
 			$_('username_register').classList.add('error');
+			$_('userRegErr').classList.remove('hide');
 		} else {
 			$_('username_register').classList.remove('error');
+			$_('userRegErr').classList.add('hide');
 		}
 
-		if (!testEmail('email')) {
-			$_('email').classList.add('error');
+		if (!testName('fname')) {
+			$_('fname').classList.add('error');
+			$_('fnameErr').classList.remove('hide');
 		} else {
-			$_('email').classList.remove('error');
+			$_('fname').classList.remove('error');
+			$_('fnameErr').classList.add('hide');
 		}
 
-		if (!testPassword('password_confirm')) {
-			if (!testPassword('password_register')) {
-				$_('password_register').classList.add('error');
-				$_('password_confirm').classList.add('error');
-			} else {
-				$_('password_confirm').classList.add('error');
-				$_('password_register').classList.remove('error');
-			}
-		} else if (testPassword('password_register')) {
-			if (!testMatchPassword('password_register','password_confirm')) {
-				$_('password_confirm').classList.add('error');
-				$_('password_register').classList.remove('error');
-			} else {
-				$_('password_register').classList.remove('error');
-				$_('password_confirm').classList.remove('error');
-			}
+		if (!testName('lname')) {
+			$_('lname').classList.add('error');
+			$_('lnameErr').classList.remove('hide');
+		} else {
+			$_('lname').classList.remove('error');
+			$_('lnameErr').classList.add('hide');
+		}
+
+		if (!testPassword('password_register')) {
+			$_('password_register').classList.add('error');
+			$_('password_confirm').classList.add('error');
+			$_('passRegErr').classList.remove('hide');
+			$_('passMatchErr').classList.add('hide');
+		} else if (testPassword('password_register') && !testMatchPassword('password_register','password_confirm')) {
+			$_('password_register').classList.add('error');
+			$_('password_confirm').classList.add('error');
+			$_('passRegErr').classList.add('hide');
+			$_('passMatchErr').classList.remove('hide');
+		} else {
+			$_('password_register').classList.remove('error');
+			$_('password_confirm').classList.remove('error');
+			$_('passRegErr').classList.add('hide');
+			$_('passMatchErr').classList.add('hide');
 		}
 		return false;
 	}

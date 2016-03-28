@@ -145,6 +145,10 @@ div #rightCol {
 	display: block;
 }
 
+.hide {
+    display: none;
+}
+
 input.error {
 	border: 2px solid #FF7777;
 	background-color: #FFDFDF;
