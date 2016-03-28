@@ -1,6 +1,6 @@
 /**Colors required asterisk*/
 span {
-	color: #1E90FF;;
+	color: #1E90FF;
 }
 /**Styles page title*/
 #formheader {
@@ -58,6 +58,23 @@ span {
 	font-size: 2rem;
 	text-align: center;
 	margin-left: 2.5%;
+}
+/**Allows forum to not fall below footer*/
+#forum {
+	margin-bottom: 5rem;
+}
+/**Aligns specific table data elements*/
+td.centerData {
+	text-align: center;
+}
+/**Styles forum header*/
+#forum h2 {
+	color: #1E90FF;
+	text-align: center;
+}
+/**Colors error message red.*/
+#forum .error {
+	color: #ff3333;
 }
 /**Makes sure footer is attached to the bottom pane of the viewing window*/
 #footer {

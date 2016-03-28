@@ -23,7 +23,7 @@
 			<!--eight column div, holds actual form-->
 			<div class="eight columns">
 				<!--The form, with class .form-->
-				<form class="form" name="Messager" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp" onsubmit="return formValidate()">
+				<form class="form" name="Messager" method="post" action="email.php" onsubmit="return formValidate()">
 
 					<label for="formName">Name<span>*</span></label>
 					<input type="text" name="formName" id="formName" placeholder="Your Name" required/>
@@ -38,7 +38,7 @@
 					<input class="button" type="submit" value="Send Message">
 
 					<input class="button" type="reset" value="Reset Form">
-
+ 
 				</form>
 			</div>
 			<!--four column div, containing the message for users in regards to the form. id #rightsideform styles and formats the right column appropriately -->
@@ -52,8 +52,24 @@
 
 			</div>
 		</div>
+		<!--Division that Displays a forum if the user is logged in, otherwise it shows an error message-->
+		<div class="row">
+			<div id="forum" class="twelve columns">
+				<?php
+				echo '<h2>Join the Conversation!</h2>';
+				if (isLoggedIn()) {
+					forum();
+				} else { 
+					echo '<div class="row">';
+					echo '<div class="twelve columns">';
+					echo '<h2 class="error">Please log in to use forum</h2>';
+					echo '</div>';
+					echo '</div>';
+				}
+				?>
+			</div>
+		</div>
 	</div>
-
 <?php footer();?>
 </body>
 </html>

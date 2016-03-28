@@ -90,7 +90,9 @@
 	}
 
 	//Create INSERT query
-	$qry = "INSERT INTO members(firstname, lastname, login, passwd) VALUES('$fname','$lname','$login','".md5($_POST['password_confirm_register'])."')";
+	//$qry = "INSERT INTO members(firstname, lastname, login, passwd) VALUES('$fname','$lname','$login','".md5($_POST['password_confirm_register'])."')";
+	$qry = "INSERT INTO members(firstname, lastname, login, passwd) VALUES('$fname','$lname','$login','".md5($cpassword)."')";
+	// echo $qry;
 	$result = @mysql_query($qry);
 	
 	//Check whether the query was successful or not

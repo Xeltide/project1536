@@ -55,26 +55,26 @@
   <div class="container">
     <div class="row">
       <div id="homeMenuContainer" class="twelve columns">
+        <a href="preschool.php" class="homeMenuItem">
+          <h3>Preschool</h3>
+          <p class="menuDesc">Toddlers will build confidence in the water with the assistance of their parents.</p>
+          <div class="button button-primary menuButton">>></div>
+        </a>
+
         <a href="swimkids.php" class="homeMenuItem">
           <h3>Swim Kids</h3>
-          <p class="menuDesc">Swim Kids is designed for children 6 years old and upwards. A total of 10 levels are in the curriculum and each level consists of three categories: Fitness, Water Safety and Swimming.</p>
+          <p class="menuDesc">Many instructors take their students on a tour around the pool area to point out dangers and meeting areas.</p>
           <div class="button button-primary menuButton">>></div>
         </a>
 
-        <a href="preschool.php" class="homeMenuItem">
-          <h3>Pre-School</h3>
-          <p class="menuDesc">Preschool program is designed for children ranging from age 6 months up to 6 years old. A total of 10 levels are in the curriculum and each level consits of three key categories: Fitness, Water Safety and Swimming Stokes.</p>
+        <a href="adults.php" class="homeMenuItem">
+          <h3>Adults</h3>
+          <p class="menuDesc">Upon completion, each student will know three resting strokes and two power strokes.</p>
           <div class="button button-primary menuButton">>></div>
         </a>
-
         <a href="drills.php" class="homeMenuItem">
           <h3>Drills</h3>
-          <p class="menuDesc">As students progress through the level they will be able to swim increased distances up to half a kilometer. Every level will educate students on new safety items like boating safety, CPR, ice safety and many more. Upon completion, each student will know three resting strokes and two power strokes.</p>
-          <div class="button button-primary menuButton">>></div>
-        </a>
-        <a href="safety.php" class="homeMenuItem">
-          <h3>Water Safety</h3>
-          <p class="menuDesc">As students progress through the level they will be able to swim increased distances up to half a kilometer. Every level will educate students on new safety items like boating safety, CPR, ice safety and many more. Upon completion, each student will know three resting strokes and two power strokes.</p>
+          <p class="menuDesc">Students will be able to learn different crawl and strokes as well as general water treading exercises.</p>
           <div class="button button-primary menuButton">>></div>
         </a>
       </div>

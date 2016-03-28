@@ -33,11 +33,12 @@
 	}
 	
 	//Sanitize the REQUEST values - parameters may come from GET or POST
-	$login = clean($_REQUEST['username_login']);
-	$password = clean($_REQUEST['password_login']);
+	// $login = clean($_REQUEST['username_login']);
+	$loginid = $_SESSION['SESS_MEMBER_ID'];
+	$password = clean($_REQUEST['password_deregister']);
 	
 	//Input Validations
-	if($login == '') {
+	if($loginid == '') {
 		$errmsg_arr[] = 'Login ID missing';
 		$errflag = true;
 	}
@@ -55,25 +56,24 @@
 	}
 	
 	//Create query
-	$qry="SELECT * FROM members WHERE login='$login' AND passwd='".md5($password)."'";
+	$qry="DELETE FROM members WHERE member_id='$loginid' AND passwd='".md5($password)."'";
 	$result=mysql_query($qry);
 	
 	//Check whether the query was successful or not
 	if($result) {
-		if(mysql_num_rows($result) == 1) {
-			//Login Successful
-			session_regenerate_id();
-			$member = mysql_fetch_assoc($result);
-			$_SESSION['SESS_MEMBER_LOGIN'] = $login;
-			$_SESSION['SESS_MEMBER_ID'] = $member['member_id'];
-			$_SESSION['SESS_FIRST_NAME'] = $member['firstname'];
-			$_SESSION['SESS_LAST_NAME'] = $member['lastname'];
+		if(mysql_affected_rows() == 1) {
+			//Unset the variables stored in session
+			unset($_SESSION['SESS_MEMBER_ID']);
+			unset($_SESSION['SESS_MEMBER_LOGIN']);
+			unset($_SESSION['SESS_FIRST_NAME']);
+			unset($_SESSION['SESS_LAST_NAME']);
 			session_write_close();
-			header("location: ".HOMEURL);
+
+			header("location: " . DEREGISTEREDURL);
 			exit();
 		}else {
 			//Login failed
-			$errmsg_arr[] = 'Login failed';
+			$errmsg_arr[] = 'Incorrect password, cannot delete your account.';
 			$_SESSION['ERRMSG_ARR'] = $errmsg_arr;
 			header("location: " . $_SERVER['HTTP_REFERER']);
 			exit();

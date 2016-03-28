@@ -13,222 +13,97 @@
   <?php navbar();?>
 <!-- Page Content -->
 	<div class="container">
-		<div class="panel" id="home">
-			<div class="twelve columns">
+		<div class="panel">
+			<div class="twelve coslumns">
 				<div class="panelImage">
 					<img src="images/drills.jpg" alt="jumbotron image">
 				</div>
 			</div>
-		<div class="panel" id="one">
-			<div>
-				<div class="twelve columns">
-					<h3>Front Crawl</h3>
-					<p>Welcome to the first level of the Red Cross Swim Kids program. In this level, students will learn be introduced to floats, glides and rhythmic breathing.</p>
+		</div>
+		<div class="row" id="labels">
+			<div class="three columns">
+				<h5>Basics</h5>
+			</div>
+			<div class="three columns">
+				<h5>Front Crawl</h5>
+			</div>
+			<div class="three columns">
+				<h5>Back Crawl</h5>
+			</div>
+			<div class="three columns">
+				<h5>EleBack Stroke</h5>
+			</div>
+		</div>
+		<div class="selection">
+			<div class="drillbox">
+				<img src="./images/basics.jpg">
+				<div class="hidden">
+					<h5>compilation of items you will need and how to get started swimming</h5>
 				</div>
 			</div>
-			<div>
-				<div class="four columns">
-					<img class="squareDrill" src="./images/frontstroke.jpg">
+			<div class="drillbox">
+				<img src="./images/frontstroke.jpg">
+				<div class="hidden">
+					<h5>Drills for catch-up, high elbows, breathing and reach</h5>
 				</div>
-				<div class="eight columns">
-					<table>
-					  <tr>
-					  	<th>Focus</th>
-					  	<th colspan="3">Drill and Exercise</th>
-					  </tr>
-					  <tr>
-					  	<td>Kicking</td>
-					  	<td>Six Beat Kick</td>
-					  	<td colspan="2">Green Light / Red Light</td>
-					  </tr>
-					  <tr>
-					  	<td>Arms</td>
-					  	<td>Shark Fin</td>
-					  	<td>Finger Drag</td>
-					  	<td>Zipper</td>
-					  </tr>
-					  <tr>
-					  	<td>Breathing</td>
-					  	<td colspan="3">Front Glide / Side Glide</td>
-					  </tr>
-					</table>
+			</div>
+			<div class="drillbox">
+				<img src="./images/backstroke.jpg">
+				<div class="hidden">
+					<h5>Drills for shoulder rolls, catch-up, kicking and reach</h5>
+				</div>
+			</div>
+			<div class="drillbox">
+				<img src="./images/elebackstroke.jpg">
+				<div class="hidden">
+					<h5>Drills for scissor kick, frog kick, body position and coordination</h5>
 				</div>
 			</div>
 		</div>
-		<div class="panel" id="two">
-			<div>
-				<div class="twelve columns">
-					<h3>Back Crawl</h3>
-					<p>Welcome to the first level of the Red Cross Swim Kids program. In this level, students will learn be introduced to floats, glides and rhythmic breathing.</p>
-				</div>
+		<div class="row" id="labels2">
+			<div class="three columns">
+				<h5>Breast Stroke</h5>
 			</div>
-			<div>
-				<div class="four columns">
-					<img class="squareDrill" src="./images/backstroke.jpg">
-				</div>
-				<div class="eight columns" id="test">
-					<table>
-					  <tr>
-					  	<th>Focus</th>
-					  	<th colspan="3">Drill and Exercise</th>
-					  </tr>
-					  <tr>
-					  	<td>Kicking</td>
-					  	<td>Six Beat Kick</td>
-					  	<td>Green Light, Red Light</td>
-					  	<td>Streamline</td>
-					  </tr>
-					  <tr>
-					  	<td>Arms</td>
-					  	<td>Shoulder Rolls</td>
-					  	<td>Gates</td>
-					  	<td>Pause n Go</td>
-					  </tr>
-					</table>
-				</div>
+			<div class="three columns">
+				<h5>Butterfly</h5>
+			</div>
+			<div class="three columns">
+				<h5>Eggbeater</h5>
+			</div>
+			<div class="three columns">
+				<h5>Fitness</h5>
 			</div>
 		</div>
-		<div class="panel" id="three">
-			<div>
-				<div class="twelve columns">
-					<h3>Elementary BackStroke</h3>
-					<p>Welcome to the first level of the Red Cross Swim Kids program. In this level, students will learn be introduced to floats, glides and rhythmic breathing.</p>
+		<div class="selection">
+			<div class="drillbox">
+				<img src="./images/breaststroke.jpg">
+				<div class="hidden">
+					<h5>Drills for arms, whip kick and coordination</h5>
 				</div>
 			</div>
-			<div>
-				<div class="four columns">
-					<img class="squareDrill" src="#">
-				</div>
-				<div class="eight columns">
-					<table>
-					  <tr>
-					  	<th>Focus</th>
-					  	<th colspan="3">Drill and Exercise</th>
-					  </tr>
-					  <tr>
-					  	<td>Kicking</td>
-					  	<td>Duck Walk</td>
-					  	<td>Kickboard over knees</td>
-					  	<td>Wall pushoffs</td>
-					  </tr>
-					  <tr>
-					  	<td>Arms</td>
-					  	<td>Extended Glides</td>
-					  	<td>Soldier Chicken Airplane</td>
-					  	<td>Back Scull - Head First</td>
-					  </tr>
-					</table>
+			<div class="drillbox">
+				<img src="./images/butterfly.jpg">
+				<div class="hidden">
+					<h5>Drills for dolphin kick, arms and coordination</h5>
 				</div>
 			</div>
-		</div>
-		<div class="panel" id="four">
-			<div>
-				<div class="twelve columns">
-					<h3>BreastStroke</h3>
-					<p>Welcome to the first level of the Red Cross Swim Kids program. In this level, students will learn be introduced to floats, glides and rhythmic breathing.</p>
+			<div class="drillbox">
+				<img src="./images/eggbeater.jpg">
+				<div class="hidden">
+					<h5>Drills to learn, improve and perfect your eggbeater</h5>
 				</div>
 			</div>
-			<div>
-				<div class="four columns">
-					<img class="squareDrill" src="./images/breaststroke.jpg">
+			<div class="drillbox">
+				<img src="./images/fitness.jpg">
+				<div class="hidden">
+					<h5>Variety of sets for your daily fitness, competitive swimmer or triathlete</h5>
 				</div>
-				<div class="eight columns">
-					<table>
-					  <tr>
-					  	<th>Focus</th>
-					  	<th colspan="3">Drill and Exercise</th>
-					  </tr>
-					  <tr>
-					  	<td>Kicking</td>
-					  	<td>Duck Walk</td>
-					  	<td>Assisted with Kickboard</td>
-					  	<td>Rubberband</td>
-					  </tr>
-					  <tr>
-					  	<td>Arms</td>
-					  	<td>Front Scull - Head First</td>
-					  	<td>Arms with Flutter Kick</td>
-					  	<td>Arms with Noodle</td>
-					  </tr>
-					  <tr>
-					  	<td>Breathing / Coordination</td>
-					  	<td>Double Kick</td>
-					  	<td>Extended Glide</td>
-					  	<td>Least Strokes</td>
-					  </tr>
-					</table>
-				</div>
-			</div>
-		</div>
-		<div class="panel" id="five">
-			<div>
-				<div class="twelve columns">
-					<h3>Treading Water</h3>
-					<p>Welcome to the first level of the Red Cross Swim Kids program. In this level, students will learn be introduced to floats, glides and rhythmic breathing.</p>
-				</div>
-			</div>
-			<div>
-				<div class="four columns">
-					<img class="squareDrill" src="./images/eggbeater.jpg">
-				</div>
-				<div class="eight columns">
-					<table>
-					  <tr>
-					  	<th>Focus</th>
-					  	<th colspan="3">Drill and Exercise</th>
-					  </tr>
-					  <tr>
-					  	<td>Kicking</td>
-					  	<td>Stationary Spin</td>
-					  	<td>Balance Board</td>
-					  	<td>Newpaper Delivery</td>
-					  </tr>
-					  <tr>
-					  	<td>Arms</td>
-					  	<td>MahJong Shuffle</td>
-					  	<td>Back Scull - Head First</td>
-					  	<td>Swirlpool</td>
-					  </tr>
-					</table>
-				</div>
-			</div>
-		</div>
-		<div class="panel" id="six">
-			<div>
-				<div class="twelve columns">
-					<h3>Fitness</h3>
-					<p>Welcome to the first level of the Red Cross Swim Kids program. In this level, students will learn be introduced to floats, glides and rhythmic breathing.</p>
-				</div>
-			</div>
-			<div>		
-				<div class="four columns">
-					<img class="squareDrill" src="./images/fitness.jpg">
-				</div>
-				<div class="eight columns">
-					<table>
-					  <tr>
-					  	<th colspan="3">Drill and Exercise</th>
-					  </tr>
-					  <tr>			  
-					  	<td>Pyramid - Lengths</td>
-					  	<td colspan="2">Pyramid - Breaths</td>
-					  </tr>
-					  <tr>
-					  	<td>Pull Ups / Dive</td>
-					  	<td>Combo, Arm, Kick</td>
-					  	<td>Intervals</td>
-					  </tr>
-					  <tr>
-					  	<td colspan="4">Tow Boat</td>
-					  </tr>
-					</table>
-				</div>			
 			</div>
 		</div>
 	</div>
 
-
   <?php footer();?>
+  <script type="text/javascript" src="./js/box.js"></script>
 
 </body>
 </html>

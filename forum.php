@@ -12,11 +12,11 @@
 	$result=mysql_query($sql);
 ?>
 
-<table width="90%" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#CCCCCC">
+<table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#CCCCCC">
 <tr>
-<td width="6%" align="center" bgcolor="#E6E6E6"><strong>#</strong></td>
-<td width="53%" align="center" bgcolor="#E6E6E6"><strong>Topic</strong></td>
-<td width="13%" align="center" bgcolor="#E6E6E6"><strong>Date/Time</strong></td>
+<td width="6%" bgcolor="#E6E6E6" class="centerData"><strong>#</strong></td>
+<td width="53%" bgcolor="#E6E6E6"><strong>Topic</strong></td>
+<td width="13%" bgcolor="#E6E6E6"><strong>Date/Time</strong></td>
 </tr>
 
 <?php
@@ -24,7 +24,7 @@ while($rows=mysql_fetch_array($result)){ // Start looping table row
 ?>
 
 <tr>
-<td bgcolor="#FFFFFF"><?php echo $rows['id']; ?></td>
+<td bgcolor="#FFFFFF" class="centerData"><?php echo $rows['id']; ?></td>
 <td bgcolor="#FFFFFF"><a href="view_topic.php?id=<?php echo $rows['id']; ?>"><?php echo $rows['topic']; ?></a><BR></td>
 <td align="center" bgcolor="#FFFFFF"><?php echo $rows['datetime']; ?></td>
 </tr>
@@ -35,6 +35,6 @@ while($rows=mysql_fetch_array($result)){ // Start looping table row
 mysql_close();
 ?>
 <tr>
-<td colspan="5" align="right" bgcolor="#E6E6E6"><a href="add_topic_form.php"><strong>Create New Topic</strong> </a></td>
+<td colspan="5" align="right" bgcolor="#E6E6E6" class="centerData"><a href="add_topic_form.php"><strong>Create New Topic</strong> </a></td>
 </tr>
 </table>

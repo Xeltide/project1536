@@ -154,6 +154,11 @@ input.error {
 	background-color: #FFDFDF;
 }
 
+/* Account Delete */
+input#deleteAccButton:hover {
+    background-color: red;
+}
+
 /**************************************************************
  * FOOTER
  **************************************************************/

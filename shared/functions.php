@@ -32,5 +32,36 @@ function navbar() {
 function footer() {
     include("footer.php");
 }
+function forum() {
+	include("forum.php");
+}
+
+/****************************************
+ * User session details.
+ */
+function userid() {
+	echo getUserid();
+}
+function username() {
+	echo getUsername();
+}
+function firstname() {
+	echo getFirstname();
+}
+function lastname() {
+	echo getLastname();
+}
+function getUserid() {
+	return $_SESSION['SESS_MEMBER_ID'];
+}
+function getUsername() {
+	return $_SESSION['SESS_MEMBER_LOGIN'];
+}
+function getFirstname() {
+	return $_SESSION['SESS_FIRST_NAME'];
+}
+function getLastname() {
+	return $_SESSION['SESS_LAST_NAME'];
+}
 
 ?>
