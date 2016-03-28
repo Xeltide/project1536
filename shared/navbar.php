@@ -27,43 +27,7 @@
         <div class="offset-by-five columns">
             <div id="dropdown" class="dropContent seven columns">
                 <?php if (isLoggedIn()) { ?>
-
-<<<<<<< HEAD
-                <div id="leftCol">
-                    <form method="post" action="<?php relativePath();?>login.php" onsubmit="return loginValidate()">
-                        <h4>Login</h4>
-                        <label for="username_login">Username</label>
-                        <input class="u-full-width" id="username_login" type="text" name="username_login">
-                        <div id="userErr" class="hide">Invalid username.</div>
-                        <label for="password_login">Password</label>
-                        <input class="u-full-width" id="password_login" type="password" name="password_login">
-                        <div id="passErr" class="hide">Invalid password.</div>
-                        <input class="button-primary u-pull-right" value="Submit" type="submit">
-                    </form>
-                </div>
-
-                <div id="rightCol" class="u-pull-right">
-                    <form method="post" action="<?php relativePath();?>register.php" onsubmit="return signUpValidate()">
-                        <h4>Register</h4>
-                        <label for="username_register">Username</label>
-                        <input class="u-full-width" id="username_register" type="text" name="username_register">
-                        <div id="userRegErr" class="hide">Invalid username.</div>
-                        <label for="fname">First Name</label>
-                        <input class="u-full-width" id="fname" type="text" name="fname">
-                        <div id="fnameErr" class="hide">Invalid; only letters accepted.</div>
-                        <label for="lname">Last Name</label>
-                        <input class="u-full-width" id="lname" type="text" name="lname">
-                        <div id="lnameErr" class="hide">Invalid; only letters accepted.</div>
-                        <label for="password_register">Password</label>
-                        <input class="u-full-width" id="password_register" type="password" name="password_register">
-                        <div id="passRegErr" class="hide">Invalid password.</div>
-                        <label for="password_confirm">Confirm Password</label>
-                        <input class="u-full-width" id="password_confirm" type="password" name="password_confirm_register">
-                        <div id="passMatchErr" class="hide">Passwords do not match.</div>
-                        <input class="button-primary u-pull-right" value="Register" type="submit">
-                    </form>
-                </div>
-=======
+                
                     <div id="leftCol">
                         <form method="post" action="<?php relativePath();?>deregister.php">
                             <h4>Delete Account</h4>
@@ -86,8 +50,10 @@
                             <h4>Login</h4>
                             <label for="username_login">Username</label>
                             <input class="u-full-width" id="username_login" type="text" name="username_login">
+                            <div id="userErr" class="hide">Invalid username.</div>
                             <label for="password_login">Password</label>
                             <input class="u-full-width" id="password_login" type="password" name="password_login">
+                            <div id="passErr" class="hide">Invalid password.</div>
                             <input class="button-primary u-pull-right" value="Submit" type="submit">
                         </form>
                     </div>
@@ -97,20 +63,24 @@
                             <h4>Register</h4>
                             <label for="username_register">Username</label>
                             <input class="u-full-width" id="username_register" type="text" name="username_register">
+                            <div id="userRegErr" class="hide">Invalid username.</div>
                             <label for="fname">First Name</label>
                             <input class="u-full-width" id="fname" type="text" name="fname">
+                            <div id="fnameErr" class="hide">Invalid; only letters accepted.</div>
                             <label for="lname">Last Name</label>
                             <input class="u-full-width" id="lname" type="text" name="lname">
+                            <div id="lnameErr" class="hide">Invalid; only letters accepted.</div>
                             <label for="password_register">Password</label>
                             <input class="u-full-width" id="password_register" type="password" name="password_register">
+                            <div id="passRegErr" class="hide">Invalid password.</div>
                             <label for="password_confirm">Confirm Password</label>
                             <input class="u-full-width" id="password_confirm" type="password" name="password_confirm_register">
+                            <div id="passMatchErr" class="hide">Passwords do not match.</div>
                             <input class="button-primary u-pull-right" value="Register" type="submit">
                         </form>
                     </div>
                     
                 <?php } ?>
->>>>>>> 40ba678fa64ca416391b62c1eb433a9531d73ee9
             </div>
         </div>
     </div>
