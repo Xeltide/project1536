@@ -100,7 +100,7 @@ h5 {
 	text-align: center;
 }
 
-#SKImage {
+.panel img {
 	width: 100%;
 	height: auto;
 }

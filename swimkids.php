@@ -23,7 +23,7 @@
 	<div class="panel">
 		<div class="twelve columns">
 			<div>
-				<img src="./images/sk12.png" id="SKImage">
+				<img src="./images/sk12.png" alt="swim kids level 1 and 2">
 			</div>
 		</div>
 		<div class="subItems">
@@ -49,7 +49,7 @@
 	<div class="panel">	
 		<div class="twelve columns">
 			<div>
-				<img src="./images/sk34.png" id="SKImage">
+				<img src="./images/sk34.png" alt="swim kids level 3 and 4">
 			</div>
 		</div>		
 		<div class="subItems">
@@ -76,7 +76,7 @@
 	<div class="panel">
 		<div class="twelve columns">
 			<div>
-				<img src="./images/sk5.png" id="SKImage">
+				<img src="./images/sk5.png" alt="swim kids level 5">
 			</div>
 		</div>	
 		<div class="subItems">
@@ -101,7 +101,7 @@
 	<div class="panel">
 		<div class="twelve columns">
 			<div>
-				<img src="./images/sk67.png" id="SKImage">
+				<img src="./images/sk67.png" alt="swim kids level 6 and 7">
 			</div>
 		</div>	
 		<div class="subItems">
@@ -128,7 +128,7 @@
 	<div class="panel">
 		<div class="twelve columns">
 			<div>
-				<img src="./images/sk890.png" id="SKImage">
+				<img src="./images/sk890.png" alt="swim kids level 8, 9 and 10">
 			</div>
 		</div>	
 		<div class="subItems">

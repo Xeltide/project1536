@@ -20,31 +20,25 @@
 
     <div class="row">
       <div class="twelve columns">
-        <img class="jumboImg" alt="" src="images/field.jpg">
-      </div>
-      <div class="twelve columns jumbotronText">
-        <h3 class="overrideHColor">Swim Kids</h3>
-        <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+        <img class="jumboImg" alt="" src="images/home.jpg">
       </div>
     </div>
 
     <div class="row">
       <div class="twelve columns">
-        <img class="jumboImg" alt="" src="images/watersafety.jpg">
+        <img class="jumboImg" alt="" src="images/preschool.jpg">
       </div>
-      <div class="twelve columns jumbotronText">
-        <h3 class="overrideHColor">Water Safety</h3>
-        <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+    </div>
+
+    <div class="row">
+      <div class="twelve columns">
+        <img class="jumboImg" alt="" src="images/swimkids.jpg">
       </div>
     </div>
 
     <div class="row">
       <div class="twelve columns">
         <img class="jumboImg" alt="" src="images/drills.jpg">
-      </div>
-      <div class="twelve columns jumbotronText">
-        <h3 class="overrideHColor">Drills</h3>
-        <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
       </div>
     </div>
   </div>
@@ -85,7 +79,7 @@
     <div class="row">
       <div class="eight columns offset-by-two">
         <h3>Got Questions?</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>If you have any questions or comments that you would like to share with us, please let us know! Give a brief message detailing your concerns and we will get back to you as soon as possible.</p>
         <a href="form.php" class="button button-primary" id="homeAskButton">Ask Us!</a>
       </div>
     </div>

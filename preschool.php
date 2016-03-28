@@ -22,7 +22,7 @@
 		</div>
 		<div class="panel">
 			<div class="six columns">
-				<img src="./images/starduck.png" id="preImage">
+				<img src="./images/starduck.png" alt="starfish and duck">
 			</div>
 			<div class="six columns">
 				<h5>Starfish and Duck</h5>
@@ -51,12 +51,12 @@
 				</div>
 			</div>
 			<div class="six columns">
-				<img src="./images/turtleotter.png" id="preImage">
+				<img src="./images/turtleotter.png" alt="sea turtle and sea otter">
 			</div>
 		</div>
 		<div class="panel">
 			<div class="six columns">
-				<img src="./images/salsun.png" id="preImage">
+				<img src="./images/salsun.png" alt="salamander and sunfish">
 			</div>
 			<div class="six columns">
 				<h5>Salamander and Sunfish</h5>
@@ -85,7 +85,7 @@
 				</div>
 			</div>
 			<div class="six columns">
-				<img src="./images/crocwhale.png" id="preImage">
+				<img src="./images/crocwhale.png" alt="crocodile and whale">
 			</div>
 		</div>
 		<div class="panel" id="nowWhat">
