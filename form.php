@@ -33,7 +33,7 @@
 					<input type="email" name="formEmail" id="formEmail" placeholder="YourEmail@domain" required/>
 
 					<label for="questionField">Your Question</label>
-					<tegit statxtarea name="questionField" id="questionField" placeholder="Please leave a detailed message here!" required></textarea>
+					<textarea name="questionField" id="questionField" placeholder="Please leave a detailed message here!" required></textarea>
 
 					<input class="button" type="submit" value="Send Message">
 
