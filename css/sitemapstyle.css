@@ -8,6 +8,7 @@ a {
 .capsule {
 	background-color: #eee;
 	/*margin-top: 6em;*/
+	border-radius: 1rem;
 }
 /**removes margins from the top menus list items*/
 .capsule li {
@@ -26,16 +27,24 @@ a {
 }
 /**Formats the main menu titles*/
 .topheading {
+	color: #FFF;
 	text-align: center;
 	font-size: 2.2rem;
-	background-color: #fff;
+	background-color: #1E90FF;
+	font-weight: bold;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+}
+.topheading a {
+	text-decoration: none;
+	color: #FFF;
 	font-weight: bold;
 }
 /**Formats the unordered lists in the top menus*/
 .toplist {
 	list-style-type: none;
 	text-align: center;
-	border-top: .5rem #1e90ff solid;
+	border-top: .5rem #CCC solid;
 }
 /**Controls the container for the pre-school and swim kids menus*/
 .listCapsule {
@@ -47,7 +56,9 @@ a {
 .numlist {
 	text-align: center;
 	background-color: #eee;
-	border-top: .5rem #1e90ff solid;
+	border-top: .5rem #CCC solid;
+	border-bottom-left-radius: 1rem;
+	border-bottom-right-radius: 1rem;
 }
 /**Styles the list items for the Pre-School and Swim kids menus*/
 .numlist li {

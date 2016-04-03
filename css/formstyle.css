@@ -1,29 +1,36 @@
 /**Colors required asterisk*/
 span {
-	color: #1E90FF;
+	color: #FFFFFF;
 }
 /**Styles page title*/
 #formheader {
-	color: #1E90FF;
-	/*margin-top: 8rem;*/
-	margin-top: 2rem;
+	color: #666;
+	border: solid 1.5rem #1E90FF;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
 	text-align: center;
-	padding-bottom: 1.5rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+#formheader h2 {
+	margin-bottom: 1rem;
 }
 /**Correctly styles the entire form and side message*/
 #formrow {
-	border: 0.1rem #1E90FF solid;
 	padding:  1rem;
 	margin-bottom: 5rem;
+	background-color: #1E90FF;
+	border-bottom-left-radius: 1rem;
+	border-bottom-right-radius: 1rem;
 }
 /**Colors the form label messages*/
 #formrow label {
-	color: #333;
+	color: #FFF;
 }
 /**Styles the actual form*/
 .form {
 	margin-bottom: 0;
-	border-right: 0.1rem #1E90FF solid;
+	border-right: 0.1rem #FFFFFF solid;
 	padding-right: 4%;
 	padding-left: 2%;
 }
@@ -41,20 +48,21 @@ span {
 #formrow .button {
 	color: #333;
 	font-size: 1.4rem;
+	background-color: #EEE;
 }
 /**Styles submit and reset buttons when they are being hovered over*/
 #formrow .button:hover {
-	border-color: #1E90FF;
+	border-color: #333;
 }
 /**Styles submit and reset buttons when they are being activated*/
 #formrow .button:active {
-	background-color: #eee;
+	background-color: #FFF;
 }
 /**Styles the right side table, and the message inside*/
 #rightsideform {
 	display: inline-block;
 	height: 100%;
-	color: #333;
+	color: #FFF;
 	font-size: 2rem;
 	text-align: center;
 	margin-left: 2.5%;
@@ -69,7 +77,7 @@ td.centerData {
 }
 /**Styles forum header*/
 #forum h2 {
-	color: #1E90FF;
+	color: #1e90ff;
 	text-align: center;
 }
 /**Colors error message red.*/

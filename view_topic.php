@@ -26,7 +26,7 @@
 </tr>
 
 <tr>
-<td bgcolor="#F8F7F1"><strong>By :</strong> <strong></td>
+<td bgcolor="#F8F7F1"><strong>By :</strong></td>
 </tr>
 
 <tr>
