@@ -16,7 +16,7 @@
 .jumboImg {
     width: 100%;
 }
-.jumbotronText {
+/*.jumbotronText {
     position: absolute;
     bottom: 2rem;
     padding-left: 2rem;
@@ -30,7 +30,7 @@
     background-color: #ffffff;
     padding: .2rem 1rem .2em 1rem;
     display: inline;
-}
+}*/
 
 /* SLIDER */
 #slidePrevButton,
@@ -70,16 +70,19 @@
 }
 .homeMenuItem {
     position: relative;
-    background-color: #f8f8f8;
+    background-color: #eee;
     text-decoration: none;
     padding-bottom: 5rem;
+    border-radius: 1rem;
 }
 .homeMenuItem:hover {
-    background-color: #dcdcdc;
+    background-color: #dadada;
 }
 .homeMenuItem h3 {
-    padding: 0 1rem;
-    border-top: .4rem solid #1F48C5;
+    padding: .5rem 1rem;
+    /*border-top: .4rem solid #1F48C5;*/
+    color: #fff;
+    background-color: #1e90ff;
 }
 .homeMenuItem p {
     padding: 0 1rem;
@@ -91,7 +94,8 @@
     position: absolute;
     right: 1rem;
     bottom: 0;
-    width: 60%;
+    width: 70%;
+    background-color: #1e90ff;
 }
 
 /**
@@ -101,6 +105,8 @@
 @media screen and (max-width: 600px) {
     .homeMenuItem {
         flex: 1 1 100%;
+        margin-top: 2rem;
+        overflow: hidden;
     }
 }
 
@@ -109,6 +115,7 @@
         flex: 1 1 40%;
         margin-right: 2rem;
         margin-top: 2rem;
+        overflow: hidden;
     }
     .homeMenuItem:nth-of-type(even) {
         margin-right: 0;
@@ -117,7 +124,7 @@
 
 @media screen and (min-width: 1001px) {
     #homeMenuContainer {
-        margin-top: -5rem;
+        margin-top: -6.2rem;
     }
     .homeMenuItem {
         flex: 1 1;
@@ -144,8 +151,8 @@
     padding: 0 8rem 0 8rem;
 }
 #homeAskButton:hover {
-    background-color: #1e90ff;
-    border-color: #1e90ff;
+    background-color: #1F48C5;
+    border-color: #1F48C5;
 }
 
 
