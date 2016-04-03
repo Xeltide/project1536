@@ -80,6 +80,9 @@ td.centerData {
 	color: #1e90ff;
 	text-align: center;
 }
+#forumTable {
+	background-color: red;
+}
 /**Colors error message red.*/
 #forum .error {
 	color: #ff3333;
