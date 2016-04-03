@@ -4,7 +4,7 @@ span {
 }
 /**Styles page title*/
 #formheader {
-	color: #666;
+	color: #1E90FF;
 	border: solid 1.5rem #1E90FF;
 	border-top-left-radius: 1rem;
 	border-top-right-radius: 1rem;
@@ -82,6 +82,9 @@ td.centerData {
 }
 /**Colors error message red.*/
 #forum .error {
+	color: #ff3333;
+}
+.message {
 	color: #ff3333;
 }
 /**Makes sure footer is attached to the bottom pane of the viewing window*/

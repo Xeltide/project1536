@@ -180,8 +180,12 @@ function signUpValidate() {
 /*END FORM VALIDATION*/
 /*QUESTION FORM VALIDATION*/
 function testName(id) {
-	var regex = new RegExp (/^[a-zA-Z]{2,12}$/);
+	var regex = new RegExp (/^[a-zA-Z]{1,12}$/);
 	return regex.test($_(id).value);
+}
+
+function messageUpdate() {
+	$_('updatedMessage').innerHTML='<h2>Have a Question?</h2>';
 }
 
 function formValidate() {
@@ -190,13 +194,21 @@ function formValidate() {
 	} else {
 		if (!testName('formName')) {
 			$_('formName').classList.add('error');
+			$_('updatedMessage').classList.add('message');
+			$_('updatedMessage').innerHTML='<h2>Invalid Name Entry</h2>';
 		} else {
 			$_('formName').classList.remove('error');
 		}
 		if (!testEmail('formEmail')) {
 			$_('formEmail').classList.add('error');
+			$_('updatedMessage').classList.add('message');
+			$_('updatedMessage').innerHTML='<h2>Invalid Email Entry</h2>';
 		} else {
 			$_('formEmail').classList.remove('error');
+		}
+		if(!testName('formName') && !testEmail('formEmail')) {
+			$_('updatedMessage').classList.add('message');
+			$_('updatedMessage').innerHTML='<h2>Invalid Name and Email Entry</h2>';
 		}
 		return false;
 	}

@@ -6,7 +6,7 @@
 	<?php head();?>
 	<link rel="stylesheet" type="text/css" href="css/formstyle.css">
 </head>
-<body>
+<body onload="messageUpdate()">
 
 <?php navbar();?>
 	<!--Container div, used with skeleton to contain and format rows.-->
@@ -15,7 +15,8 @@
 		<div class="row">
 			<!--twelve column div, with id #formheader. Main heading for the form page-->
 			<div id="formheader" class="twelve columns">
-				<h2>Have a Question?</h2>
+				<div id="updatedMessage">
+				</div>
 			</div>
 		</div>
 		<!--Row div, used with skeleton to create rows with responsive columns. #formrow id adds a border and formats the form correctly-->
