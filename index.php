@@ -51,13 +51,13 @@
       <div id="homeMenuContainer" class="twelve columns">
         <a href="preschool.php" class="homeMenuItem">
           <h3>Preschool</h3>
-          <p class="menuDesc">Toddlers will build confidence in the water with the assistance of their parents.</p>
+          <p class="menuDesc">Make time to bond with your child and help them build confidence in the water before kindergarten.</p>
           <div class="button button-primary menuButton">Read more &raquo;</div>
         </a>
 
         <a href="swimkids.php" class="homeMenuItem">
           <h3>Swim Kids</h3>
-          <p class="menuDesc">Many instructors take their students on a tour around the pool area to point out dangers and meeting areas.</p>
+          <p class="menuDesc">Allows your kids to practice simple swimming techniques and learn to work with their peers.</p>
           <div class="button button-primary menuButton">Read more &raquo;</div>
         </a>
 
@@ -68,7 +68,7 @@
         </a>
         <a href="drills.php" class="homeMenuItem">
           <h3>Drills</h3>
-          <p class="menuDesc">Students will be able to learn different crawl and strokes as well as general water treading exercises.</p>
+          <p class="menuDesc">Practice and explore different drills to improve your skills and health.</p>
           <div class="button button-primary menuButton">Read more &raquo;</div>
         </a>
       </div>
