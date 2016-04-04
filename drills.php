@@ -36,21 +36,21 @@
 				<img src="./images/basics.jpg" alt="basics information">
 				<div class="hidden">
 					<h5>You'll find a list of items you might need to get started swimming. You will also find some basic drills to get you started on the right path.</h5>
-					<div class="button">Basics</div>
+					<a href="./content/basics.php" class="button">Basics</a>
 				</div>
 			</div>
 			<div class="drillbox">
 				<img src="./images/frontstroke.jpg" alt="front crawl drills">
 				<div class="hidden">
 					<h5>A complilation of the best drills for front crawl correction and improve.</h5>
-					<div class="button">Front Crawl</div>
+					<a href="./content/frontcrawl.php" class="button">Front Crawl</a>
 				</div>
 			</div>
 			<div class="drillbox">
 				<img src="./images/backstroke.jpg" alt="back crawl drills">
 				<div class="hidden">
 					<h5>Here you will find drills for kicking, arms and coordination related to back crawl.</h5>
-					<div class="button">Back Crawl</div>
+					<a href="./content/backcrawl.php" class="button">Back Crawl</a>
 				</div>
 			</div>
 		</div>
@@ -70,21 +70,21 @@
 				<img src="./images/breaststroke.jpg" alt="breaststroke drills">
 				<div class="hidden">
 					<h5>Drills for arms, whip kick and coordination</h5>
-					<div class="button">Breaststroke</div>
+					<a href="./content/breaststroke.php" class="button">Breaststroke</a>
 				</div>
 			</div>
 			<div class="drillbox">
 				<img src="./images/butterfly.jpg" alt="butterfly drills">
 				<div class="hidden">
 					<h5>Drills for dolphin kick, arms and coordination</h5>
-					<div class="button">Butterfly</div>
+					<a href="./content/butterfly.php" class="button">Butterfly</a>
 				</div>
 			</div>
 			<div class="drillbox">
 				<img src="./images/fitness.jpg" alt="eggbeater drills">
 				<div class="hidden">
 					<h5>Variety of drills and exercises for casual swimmers to triatheletes.</h5>
-					<div class="button">Fitness</div>
+					<a href="./content/fitness.php" class="button">Fitness</a>
 				</div>
 			</div>
 		</div>
