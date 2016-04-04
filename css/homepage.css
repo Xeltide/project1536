@@ -72,8 +72,9 @@
     position: relative;
     background-color: #eee;
     text-decoration: none;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
     border-radius: 1rem;
+    text-align: center;
 }
 .homeMenuItem:hover {
     background-color: #dadada;
@@ -83,12 +84,21 @@
     /*border-top: .4rem solid #1F48C5;*/
     color: #fff;
     background-color: #1e90ff;
+    margin-bottom: 0;
+}
+.homeMenuItem .itemIcon {
+    display: block;
+    width: 100%;
+    background-color: #ccc;
 }
 .homeMenuItem p {
-    padding: 0 1rem;
+    padding: 1rem 1.2rem;
+    text-align: left;
 }
 .menuDesc {
     color: #000000;
+    font-weight: 600;
+    font-size: 1.1em;
 }
 .menuButton {
     position: absolute;

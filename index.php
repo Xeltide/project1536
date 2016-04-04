@@ -51,24 +51,28 @@
       <div id="homeMenuContainer" class="twelve columns">
         <a href="preschool.php" class="homeMenuItem">
           <h3>Preschool</h3>
+          <div class="itemIcon"><img src="images/icon_preschool.png" alt="Preschool"></div>
           <p class="menuDesc">Make time to bond with your child and help them build confidence in the water before kindergarten.</p>
           <div class="button button-primary menuButton">Read more &raquo;</div>
         </a>
 
         <a href="swimkids.php" class="homeMenuItem">
           <h3>Swim Kids</h3>
+          <div class="itemIcon"><img src="images/icon_sk.png" alt="Swim Kids"></div>
           <p class="menuDesc">Allows your kids to practice simple swimming techniques and learn to work with their peers.</p>
           <div class="button button-primary menuButton">Read more &raquo;</div>
         </a>
 
         <a href="./content/contentSK2.php" class="homeMenuItem">
           <h3>Criteria</h3>
+          <div class="itemIcon"><img src="images/icon_criteria.png" alt="Criteria"></div>
           <p class="menuDesc">Check out the exact criteria and requirements for Swim Kids 2.</p>
           <div class="button button-primary menuButton">Read more &raquo;</div>
         </a>
         <a href="drills.php" class="homeMenuItem">
           <h3>Drills</h3>
-          <p class="menuDesc">Practice and explore different drills to improve your skills and health.</p>
+          <div class="itemIcon"><img src="images/icon_drills.png" alt="Drills"></div>
+          <p class="menuDesc">Practice and explore different drills to improve your skills and overall long-term health.</p>
           <div class="button button-primary menuButton">Read more &raquo;</div>
         </a>
       </div>
