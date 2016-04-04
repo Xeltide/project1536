@@ -7,7 +7,7 @@ a {
 /**Controls containers for the top menus*/
 .capsule {
 	background-color: #eee;
-	margin-top: 2rem;
+	margin-top: 3rem;
 	border-radius: 1rem;
 }
 /**removes margins from the top menus list items*/
@@ -63,7 +63,7 @@ a {
 	border-bottom-right-radius: 1rem;
 }
 .topNumList {
-	margin-top: 2rem;
+	margin-top: 4rem;
 }
 /**Removes margin from the Pre-School and Swim Kids unordered lists*/
 .numlist {
@@ -93,7 +93,7 @@ a {
 	color: #333;
 }
 .bottomList {
-	margin-top: 2rem;
+	margin-top: 4rem;
 	margin-bottom: 4rem;
 }
 /**Attaches the footer to the bottom of the viewing panel*/
