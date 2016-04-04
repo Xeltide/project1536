@@ -35,51 +35,47 @@
       </div>
 
       <div class="row">
-        <div class="twelve columns" id="aboutMembers">
-          <table>
-            <tr>
-              <td>
-                <img src="images/profile_pic_placeholder.jpg" alt="">
-                <h5 class="overrideHColor">Joshua Abe</h5>
-                <h6>The Talent</h6>
-                <p>Talent young developer who wants to make unique and fresh indie games.</p>
-              </td>
-              <td>
-                <img src="images/profile_pic_placeholder.jpg" alt="">
+        <div class="four columns">
+          <img class="profile" src="images/joshua.jpg" alt="">
+          <h5 class="overrideHColor">Joshua Abe</h5>
+          <h6>The Talent</h6>
+          <p>Talent young developer who wants to make unique and fresh indie games.</p>
+          </div>
+        <div class="four columns">
+                <img class="profile" src="images/stephen.jpg" alt="">
                 <h5 class="overrideHColor">Stephen Cheng</h5>
                 <h6>The ShotCaller</h6>
                 <p>Laid back but smart developer. Currently working on tool for optimizing player decisions for video games.</p>
-              </td>
-              <td>
-                <img src="images/profile_pic_placeholder.jpg" alt="">
+                </div>
+        <div class="four columns">
+                <img class="profile" src="images/allen.jpg" alt="">
                 <h5 class="overrideHColor">Allen Li</h5>
                 <h6>The Average</h6>
                 <p>Developer whos balanced in all aspected. Interested in front end and back end for web development.</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="images/profile_pic_placeholder.jpg" alt="">
+                </div>
+        </div>
+      <div class="row">
+              <div class="four columns">
+                <img class="profile" src="images/donald.jpg" alt="">
                 <h5 class="overrideHColor">Donald Watson</h5>
                 <h6>The Rocker</h6>
                 <p>Heavy metal and rock loving guy. Extremely hard working and has a ton of Grit.</p>
-              </td>
-              <td>
-                <img src="images/profile_pic_placeholder.jpg" alt="">
+              </div>
+              <div class="four columns">
+                <img class="profile" src="images/mike.jpg" alt="">
                 <h5 class="overrideHColor">Wei Zhou</h5>
                 <h6>Mystery Man</h6>
                 <p>Mysterious developer who whos as a lone wolf. Able to bring past experiences from many fields.</p>
-              </td>
-              <td>
-                <img src="images/profile_pic_placeholder.jpg" alt="">
+              </div>
+              <div class="four columns">
+                <img class="profile" src="images/profile_pic_placeholder.jpg" alt="">
                 <h5 class="overrideHColor">SwimVan</h5>
+                <h6>Comp 1536 Proj</h6>
                 <p>Our website is meant to share information and to educate general public on swimming..</p>
-              </td>
-            </tr>
-          </table>
+              </div>
+
         </div>
       </div>
-    </div>
 
   <?php footer();?>
 <!-- End Document

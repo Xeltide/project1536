@@ -17,21 +17,25 @@
 #aboutContact {
     margin-bottom: 2rem;
 }
-#teamHeading {
-    padding-top: 4rem;
-    margin-top: 2rem;
-    border-top: 1px dotted #000000;
-}
-#aboutMembers td {
-    border: 0;
+
+h3 {
+    border-bottom: 1px solid;
     text-align: center;
 }
-#aboutMembers h5 {
-    font-family: serif;
+h5 {
+    text-align: center;
+}
+h6 {
+    text-align: center;
+    color: #1e09ff;
 }
 
-h6 {
-    color: #1e09ff;
+.profile {
+    width: 100%;
+    height: auto;    
+    -webkit-border-radius: 250px;
+    -moz-border-radius: 250px;
+    border-radius: 250px;
 }
 
 /**************************************************************
