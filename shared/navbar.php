@@ -40,7 +40,9 @@
                     <div id="rightCol" class="u-pull-right">
                         <h4><?php firstname();?> <?php lastname();?></h4>
                         <p>You are user # <?php userid();?></p>
-                        <a class="button button-primary u-pull-right" href="<?php relativePath();?>logout.php">Logout</a>
+                        <a href="<?php relativePath();?>logout.php">
+                            <input class="button-primary u-pull-right" value="Logout" type="button">
+                        </a>
                     </div>
 
                 <?php } else { ?>

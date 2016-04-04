@@ -155,8 +155,14 @@ input.error {
 }
 
 /* Account Delete */
-input#deleteAccButton:hover {
+#dropdown input#deleteAccButton:hover {
     background-color: red;
+    border-color: red;
+}
+
+#dropdown .button-primary:hover {
+    /*background-color: #848484;*/
+    border-color: #fff;
 }
 
 /**************************************************************
