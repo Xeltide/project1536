@@ -1,7 +1,3 @@
-#level {
-	/*padding-top: 5rem;*/
-}
-
 #fitness {
 	list-style-image: url('../images/fit.png');
 }
@@ -19,22 +15,18 @@
 	/* to be fixed footer with js*/
 }
 
-#content {
-	min-height: 100%;
+h1 {
+	color: #1E90FF;
 }
 
-#content h1{
-	color: #1F48C5;
+h4 {
+	color: #1E90FF;
 	text-transform: uppercase;
+	border-bottom: 1px solid #1E90FF;
 }
 
-#content h4{
-	color: #1F48C5;
-	text-transform: uppercase;	
-	border-top: 1px solid #1E90FF;
-}
-
-#content ul{
-	border-top: 1px solid #1E90FF;
+img {
+	width: 100%;
+	height: auto;
 }
 

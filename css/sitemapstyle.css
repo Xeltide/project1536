@@ -6,7 +6,7 @@ a {
 }
 /**Controls containers for the top menus*/
 .capsule {
-	background-color: #eee;
+	background-color: #DDD;
 	/*margin-top: 6em;*/
 	border-radius: 1rem;
 }
@@ -44,7 +44,7 @@ a {
 .toplist {
 	list-style-type: none;
 	text-align: center;
-	border-top: .5rem #CCC solid;
+	border-top: .5rem #DDD solid;
 }
 /**Controls the container for the pre-school and swim kids menus*/
 .listCapsule {
@@ -55,8 +55,8 @@ a {
 /**Removes margin from the Pre-School and Swim Kids unordered lists*/
 .numlist {
 	text-align: center;
-	background-color: #eee;
-	border-top: .5rem #CCC solid;
+	background-color: #DDD;
+	border-top: .5rem #DDD solid;
 	border-bottom-left-radius: 1rem;
 	border-bottom-right-radius: 1rem;
 }
