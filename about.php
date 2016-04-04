@@ -39,19 +39,19 @@
           <img class="profile" src="images/joshua.jpg" alt="">
           <h5 class="overrideHColor">Joshua Abe</h5>
           <h6>The Talent</h6>
-          <p>Talent young developer who wants to make unique and fresh indie games.</p>
+          <p>Talented young developer with a desire to make unique and fresh indie games.</p>
           </div>
         <div class="four columns">
                 <img class="profile" src="images/stephen.jpg" alt="">
                 <h5 class="overrideHColor">Stephen Cheng</h5>
                 <h6>The ShotCaller</h6>
-                <p>Laid back but smart developer. Currently working on tool for optimizing player decisions for video games.</p>
+                <p>Laid back, smart developer. Currently developing a tool for optimizing player decisions in a video game.</p>
                 </div>
         <div class="four columns">
                 <img class="profile" src="images/allen.jpg" alt="">
                 <h5 class="overrideHColor">Allen Li</h5>
                 <h6>The Average</h6>
-                <p>Developer whos balanced in all aspected. Interested in front end and back end for web development.</p>
+                <p>Developer who's balanced in all aspects. Interested in front-end and back-end web development.</p>
                 </div>
         </div>
       <div class="row">
@@ -65,7 +65,7 @@
                 <img class="profile" src="images/mike.jpg" alt="">
                 <h5 class="overrideHColor">Wei Zhou</h5>
                 <h6>Mystery Man</h6>
-                <p>Mysterious developer who whos as a lone wolf. Able to bring past experiences from many fields.</p>
+                <p>Mysterious developer who's a lone wolf. Able to bring past experiences from many fields.</p>
               </div>
               <div class="four columns">
                 <img class="profile" src="images/profile_pic_placeholder.jpg" alt="">
