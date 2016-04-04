@@ -16,7 +16,7 @@
 .jumboImg {
     width: 100%;
 }
-.jumbotronText {
+/*.jumbotronText {
     position: absolute;
     bottom: 2rem;
     padding-left: 2rem;
@@ -30,7 +30,7 @@
     background-color: #ffffff;
     padding: .2rem 1rem .2em 1rem;
     display: inline;
-}
+}*/
 
 /* SLIDER */
 #slidePrevButton,
@@ -72,26 +72,45 @@
     position: relative;
     background-color: #DDD;
     text-decoration: none;
-    padding-bottom: 5rem;
+    padding-bottom: 2.5rem;
+    border-radius: 1rem;
+    text-align: center;
 }
 .homeMenuItem:hover {
     background-color: #CCC;
 }
 .homeMenuItem h3 {
-    padding: 0 1rem;
-    border-top: .4rem solid #1F48C5;
+    padding: .5rem 1rem;
+    /*border-top: .4rem solid #1F48C5;*/
+    color: #fff;
+    background-color: #1e90ff;
+    margin-bottom: 0;
+}
+.homeMenuItem .itemIcon {
+    display: block;
+    width: 100%;
+    background-color: #ccc;
+    border-bottom: 2px solid #b6b6b6;
 }
 .homeMenuItem p {
-    padding: 0 1rem;
+    padding: 1rem 1.2rem;
+    text-align: left;
 }
 .menuDesc {
     color: #000000;
+    font-weight: 600;
+    font-size: 1.1em;
 }
 .menuButton {
     position: absolute;
-    right: 1rem;
     bottom: 0;
-    width: 60%;
+    width: 100%;
+    background-color: #1e90ff;
+    color: #fff;
+    padding: .4rem 0;
+    box-sizing: border-box;
+    border-top: 2px solid #b6b6b6;
+    border-radius: 0 0 1rem 1rem;
 }
 
 /**
@@ -101,6 +120,8 @@
 @media screen and (max-width: 600px) {
     .homeMenuItem {
         flex: 1 1 100%;
+        margin-top: 2rem;
+        overflow: hidden;
     }
 }
 
@@ -109,6 +130,7 @@
         flex: 1 1 40%;
         margin-right: 2rem;
         margin-top: 2rem;
+        overflow: hidden;
     }
     .homeMenuItem:nth-of-type(even) {
         margin-right: 0;
@@ -117,7 +139,7 @@
 
 @media screen and (min-width: 1001px) {
     #homeMenuContainer {
-        margin-top: -5rem;
+        margin-top: -6.2rem;
     }
     .homeMenuItem {
         flex: 1 1;
@@ -144,8 +166,8 @@
     padding: 0 8rem 0 8rem;
 }
 #homeAskButton:hover {
-    background-color: #1e90ff;
-    border-color: #1e90ff;
+    background-color: #1F48C5;
+    border-color: #1F48C5;
 }
 
 
