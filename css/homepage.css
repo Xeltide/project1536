@@ -90,7 +90,6 @@
     display: block;
     width: 100%;
     background-color: #ccc;
-    border-bottom: 2px solid #b6b6b6;
 }
 .homeMenuItem p {
     padding: 1rem 1.2rem;
@@ -109,7 +108,7 @@
     color: #fff;
     padding: .4rem 0;
     box-sizing: border-box;
-    border-top: 2px solid #b6b6b6;
+    border-top: 4px solid #ccc;
     border-radius: 0 0 1rem 1rem;
 }
 
@@ -139,7 +138,7 @@
 
 @media screen and (min-width: 1001px) {
     #homeMenuContainer {
-        margin-top: -6.2rem;
+        margin-top: -4rem;
     }
     .homeMenuItem {
         flex: 1 1;
