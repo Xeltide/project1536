@@ -20,10 +20,12 @@
           <div class="capsule">
             <!--topheading div, used to style and format the headers for the top sections-->
             <div class="topheading">Main</div>
+            <div class="table">
             <ul class="toplist">
              <li><a href="login.html">Login</a></li>
              <li><a href="index.php">Home</a></li>
            </ul>
+           </div>
          </div>
        </div>
        <!--four column div, making a responsive sizing container for the Tips/Drills section-->
@@ -32,9 +34,11 @@
         <div class="capsule">
           <!--topheading div, used to style and format the headers for the top sections-->
           <div class="topheading">Safety / Drills</div>
+          <div class="table">
           <ul class="toplist">
            <li><a href="drills.php">Drills</a></li>
          </ul>
+         </div>
        </div>
      </div>
      <!--four column div, making a responsive sizing container for the Info section-->
@@ -43,10 +47,12 @@
       <div class="capsule">
         <!--topheading div, used to style and format the headers for the top sections-->
         <div class="topheading">Info</div>
+        <div class="table">
         <ul class="toplist">
          <li><a href="form.php">Questions?</a></li>
          <li><a href="about.php">About Us</a></li>
        </ul>
+       </div>
      </div>
    </div>
 
@@ -58,7 +64,7 @@
       <!--listCapsule div, enables styling and format of Pre-School section-->
       <div class="topNumList">
         <!--topheading div, used to style and format the headers for the top sections-->
-        <div class="topheading"><a href="preschool.php">Pre-School</a></div>
+        <div class="topheading"><a href="preschool.php">Pre-School Levels</a></div>
         <!--table div, enables styling and formatting for the numlist-->
         <div class="table">
           <ul class="numlist">
@@ -80,7 +86,7 @@
    <div class="twelve columns">
     <div class="bottomList">
       <!--topheading div, used to style and format the headers for the top sections-->
-      <div class="topheading"><a href="swimkids.php">Swim Kids</a></div>
+      <div class="topheading"><a href="swimkids.php">Swim Kids Levels</a></div>
       <!--table div, enables styling and formatting for the numlist-->
       <div class="table">
         <ul class="numlist">

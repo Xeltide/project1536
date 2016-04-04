@@ -15,42 +15,41 @@
 
 <!-- Main Content
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container" id="level">
-  	<h1>Swim Kids 9</h1>
+  <div class="container">
+    <div class="twelve columns">
+      <img src="../images/swimkids9.png" alt="swimkids 9">
+    </div>
   </div>
 
   <div class="container">
-  	<div class="four columns">
-  		<h4>Fitness Activities</h4>
-  	</div>
-  	<div class="eight columns">
-  		<ul id="fitness">
-  			<li>Travelling, Legs Only 3min</li>
-  			<li>Distance Swim 400m</li>
-  		</ul>
-  	</div>
+    <div class="three columns">
+      <h4>Fitness</h4>
+    </div>
+    <div class="five columns">
+      <h4>Skills and Water Safety</h4>
+    </div>
+    <div class="four columns">
+      <h4>Swimming</h4>
+    </div>
   </div>
 
   <div class="container">
-  	<div class="four columns">
-  		<h4>Skill and Water Safety</h4>
-  	</div>
-  	<div class="eight columns">
+    <div class="three columns">
+      <ul id="fitness">
+        <li>Travelling, Legs Only 3min</li>
+        <li>Distance Swim 400m</li>
+      </ul>
+    </div>
+  	<div class="five columns">
   		<ul id="safety">
-  			<li>Wise Choices and Peer Influence</li>
-  			<li>Complications of Rescue Breathing</li>
-  			<li>Boating Regulations</li>
-  			<li>Self-Rescue: Fall Through Ice</li>
-  			<li>Head-First Surface Dive</li>
-  		</ul>
+        <li>Wise Choices and Peer Influence</li>
+        <li>Complications of Rescue Breathing</li>
+        <li>Boating Regulations</li>
+        <li>Self-Rescue: Fall Through Ice</li>
+        <li>Head-First Surface Dive</li>
+      </ul>
   	</div>
-  </div>
-
-  <div class="container">
   	<div class="four columns">
-  		<h4>Swimming</h4>
-  	</div>
-  	<div class="eight columns">
   		<ul id="swim">
   			<li>Front Crawl 100m</li>	
   			<li>Back Crawl 100m</li>
@@ -62,8 +61,8 @@
   </div>
 
   <div class="container">
-  	<a class="button" href="contentSK8.php">level 8</a>
-  	<a class="button u-pull-right" href="contentSK10.php">level 10</a>
+  	<a class="button" href="contentSK8.php">Swim Kids 8</a>
+  	<a class="button u-pull-right" href="contentSK10.php">Swim Kids 10</a>
   </div>
 
 <?php footer();?>

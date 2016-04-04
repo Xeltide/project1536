@@ -5,15 +5,23 @@ span {
 /**Styles page title*/
 #formheader {
 	color: #1E90FF;
-	border: solid 1.5rem #1E90FF;
-	border-top-left-radius: 1rem;
-	border-top-right-radius: 1rem;
+	background-color: #1E90FF;
+	border-top: solid .5rem #1E90FF;
+	border-left: solid 1.5rem #1E90ff;
+	border-right: solid 1.5rem #1E90ff;
+	border-top-left-radius: 2rem;
+	border-top-right-radius: 2rem;
 	text-align: center;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
+	margin-top: 1rem;
 }
 #formheader h2 {
-	margin-bottom: 1rem;
+	border-radius: 1rem;
+	padding: 1rem;
+	margin: 0;
+	padding-top: .5rem;
+	background-color: white;
 }
 /**Correctly styles the entire form and side message*/
 #formrow {

@@ -7,7 +7,7 @@ a {
 /**Controls containers for the top menus*/
 .capsule {
 	background-color: #eee;
-	/*margin-top: 6em;*/
+	margin-top: 2rem;
 	border-radius: 1rem;
 }
 /**removes margins from the top menus list items*/
@@ -22,7 +22,7 @@ a {
 }
 /**controls format for the anchor tags when hovered over*/
 .capsule a:hover {
-	background-color: #fff;
+	background-color: #FFF;
 	color: #333;
 }
 /**Formats the main menu titles*/
@@ -32,6 +32,8 @@ a {
 	font-size: 2.2rem;
 	background-color: #1E90FF;
 	font-weight: bold;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	border-top-left-radius: 1rem;
 	border-top-right-radius: 1rem;
 }
@@ -39,26 +41,38 @@ a {
 	text-decoration: none;
 	color: #FFF;
 	font-weight: bold;
+	
 }
 /**Formats the unordered lists in the top menus*/
 .toplist {
 	list-style-type: none;
 	text-align: center;
 	border-top: .5rem #CCC solid;
+	margin-bottom: 0;
+	border-bottom-left-radius: .5rem;
+	border-bottom-right-radius: .5rem;
 }
 /**Controls the container for the pre-school and swim kids menus*/
 .listCapsule {
 }
+.table {
+	border-left: solid .5rem #1E90FF;
+	border-right: solid .5rem #1E90FF;
+	border-bottom: solid .5rem #1E90FF;
+	border-bottom-left-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+}
 .topNumList {
-	margin-top: 1rem;
+	margin-top: 2rem;
 }
 /**Removes margin from the Pre-School and Swim Kids unordered lists*/
 .numlist {
 	text-align: center;
 	background-color: #eee;
 	border-top: .5rem #CCC solid;
-	border-bottom-left-radius: 1rem;
-	border-bottom-right-radius: 1rem;
+	margin-bottom: 0;
+	border-bottom-left-radius: .5rem;
+	border-bottom-right-radius: .5rem;
 }
 /**Styles the list items for the Pre-School and Swim kids menus*/
 .numlist li {
@@ -75,11 +89,11 @@ a {
 /**Controls format for anchor tags when hovered over*/
 .numlist a:hover {
 	border-color: #333;
-	background-color: #fff;
+	background-color: #FFF;
 	color: #333;
 }
 .bottomList {
-	margin-top: 1rem;
+	margin-top: 2rem;
 	margin-bottom: 4rem;
 }
 /**Attaches the footer to the bottom of the viewing panel*/

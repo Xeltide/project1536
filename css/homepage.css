@@ -70,14 +70,14 @@
 }
 .homeMenuItem {
     position: relative;
-    background-color: #eee;
+    background-color: #DDD;
     text-decoration: none;
     padding-bottom: 2.5rem;
     border-radius: 1rem;
     text-align: center;
 }
 .homeMenuItem:hover {
-    background-color: #dadada;
+    background-color: #CCC;
 }
 .homeMenuItem h3 {
     padding: .5rem 1rem;

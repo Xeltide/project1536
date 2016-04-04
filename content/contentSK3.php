@@ -15,43 +15,42 @@
 
 <!-- Main Content
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container" id="level">
-  	<h1>Swim Kids 3</h1>
+  <div class="container">
+    <div class="twelve columns">
+      <img src="../images/swimkids3.png" alt="swimkids 3">
+    </div>
   </div>
 
   <div class="container">
-  	<div class="four columns">
-  		<h4>Fitness Activities</h4>
-  	</div>
-  	<div class="eight columns">
-  		<ul id="fitness">
-  			<li>Flutter Kick 15m (Assisted)</li>
-  			<li>Distance Swim 15m</li>
-  		</ul>
-  	</div>
+    <div class="three columns">
+      <h4>Fitness</h4>
+    </div>
+    <div class="five columns">
+      <h4>Skills and Water Safety</h4>
+    </div>
+    <div class="four columns">
+      <h4>Swimming</h4>
+    </div>
   </div>
 
   <div class="container">
-  	<div class="four columns">
-  		<h4>Skill and Water Safety</h4>
-  	</div>
-  	<div class="eight columns">
+    <div class="three columns">
+      <ul id="fitness">
+        <li>Flutter Kick 15m (Assisted)</li>
+        <li>Distance Swim 15m</li>
+      </ul>
+    </div>
+  	<div class="five columns">
   		<ul id="safety">
-  			<li>When and Where to Swim</li>
-  			<li>PFDs/Lifejackets, Deep Water</li>
-  			<li>Deep Water Float 5sec</li>
-  			<li>Jump In, Change Direction, Return to Safety, Deep Water</li>
-  			<li>Surface Support, Deep Water 20 sec</li>
-  			<li>Sitting Dive, Change Direction, Return to Safety</li>
-  		</ul>
+        <li>When and Where to Swim</li>
+        <li>PFDs/Lifejackets, Deep Water</li>
+        <li>Deep Water Float 5sec</li>
+        <li>Jump In, Change Direction, Return to Safety, Deep Water</li>
+        <li>Surface Support, Deep Water 20 sec</li>
+        <li>Sitting Dive, Change Direction, Return to Safety</li>
+      </ul>
   	</div>
-  </div>
-
-  <div class="container">
   	<div class="four columns">
-  		<h4>Swimming</h4>
-  	</div>
-  	<div class="eight columns">
   		<ul id="swim">
   			<li>Rhythmic Breathing 15 Times</li>	
   			<li>Front Glide with Flutter Kick 15m</li>
@@ -64,8 +63,8 @@
   </div>
 
   <div class="container">
-  	<a class="button" href="contentSK2.php">level 2</a>
-  	<a class="button u-pull-right" href="contentSK4.php">level 4</a>
+  	<a class="button" href="contentSK2.php">Swim Kids 2</a>
+  	<a class="button u-pull-right" href="contentSK4.php">Swim Kids 4</a>
   </div>
 
 <?php footer();?>

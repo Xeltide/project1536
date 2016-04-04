@@ -14,42 +14,41 @@
 
   <!-- Main Content
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container" id="level">
-  	<h1>Sea Otter</h1>
+  <div class="container">
+    <div class="twelve columns">
+      <img src="../images/seaotter.png" alt="purple starfish">
+    </div>
   </div>
 
   <div class="container">
+    <div class="three columns">
+      <h4>Fitness</h4>
+    </div>
+  	<div class="five columns">
+  		<h4>Skills and Water Safety</h4>
+  	</div>
   	<div class="four columns">
-  		<h4>Fitness Activities</h4>
-  	</div>
-  	<div class="eight columns">
-  		<ul id="fitness">
-  			<li>Play and Songs</li>
-  			<li>Kick on Front with Buoyant Object 1m</li>
-  			<li>Distance Swim 1m (Assisted)</li>
-  		</ul>
-  	</div>
-  </div>
-
-  <div class="container">
-  	<div class="four columns">
-  		<h4>Skill and Water Safety</h4>
-  	</div>
-  	<div class="eight columns">
-  		<ul id="safety">
-  			<li>Facility/Site Orientation and Active Supervision</li>
-  			<li>Stop! Look! Ask! (Find the Adult)</li>
-  			<li>Safe Entries and Exits</li>
-  			<li>PFD/Lifejacket and Me (Assisted)</li>
-  		</ul>
+      <h4>Swimming</h4>
   	</div>
   </div>
 
   <div class="container">
-  	<div class="four columns">
-  		<h4>Swimming</h4>
+    <div class="three columns">
+      <ul id="fitness">
+        <li>Play and Songs</li>
+        <li>Kick on Front with Buoyant Object 1m</li>
+        <li>Distance Swim 1m (Assisted)</li>
+      </ul>
+    </div>
+  	<div class="five columns">
+      <ul id="safety">
+        <li>Facility/Site Orientation and Active Supervision</li>
+        <li>Stop! Look! Ask! (Find the Adult)</li>
+        <li>Safe Entries and Exits</li>
+        <li>PFD/Lifejacket and Me (Assisted)</li>
+      </ul>
   	</div>
-  	<div class="eight columns">
+  	<div class="four columns">
   		<ul id="swim">
   			<li>Open Eyes Underwater (Attempted)</li>
   			<li>Rhythmic Breathing 3 Times</li>
@@ -63,8 +62,8 @@
   </div>
 
   <div class="container">
-  	<a class="button" href="contentPS3.php">level 3</a>
-  	<a class="button u-pull-right" href="contentPS5.php">level 5</a>
+  	<a class="button" href="contentPS3.php">Sea Turtle</a>
+  	<a class="button u-pull-right" href="contentPS5.php">Salamander</a>
   </div>
 
 <?php footer();?>

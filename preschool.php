@@ -94,24 +94,20 @@
 				<p>Students will move into the Swim Kids Program after they turn 6 years old.</p>
 			</div>
 			<div class="subItems">
-				<div class="four columns">
+				<div class="six columns">
 					<h5>6 and Older</h5>
 					<p>After your child turns 6 years old, they will be moving into the Swim Kids Program. Here's a guide on leel equivalencies of preschool to Swim Kids.</p>
-					<ul>
+					<ul id="sixplus">
 						<li>Starfish to Sea Otter -> Swim Kids 1</li>
 						<li>Salamander / Sunfish -> Swim Kids 2</li>
 						<li>Crocodile / Whale -> Swim Kids 3</li>
 						<li>Preschool 4 / 5  -> Swim Kids 4</li>
 					</ul>
 				</div>
-				<div class="four columns">
+				<div class="six columns">
 					<h5>Swim Clubs</h5>
 					<p>If you child has completed Whale of higher, they have the option to continue their learning through swim clubs. Swimming club programs focus on power and speed. The strokes learned will be a more competitive style compared to the swim kids style.</p>
 					<p>Swimming clubs offer a more challenging and more intensive program. Participants learn competitive strokes and are put into a team environment.</p>
-				</div>
-				<div class="four columns">
-					<h5>SwimKids</h5>
-					<p>Lorem ipsum dolor sit amet, ut qui atqui interpretaris, pri cu facer graeco contentiones. No nonumy intellegam eam, sed ut suas inani antiopam, quando nullam legimus sed ad. Mei splendide interpretaris id, vel cu dicit molestie. Ut bonorum saperet consetetur sea. Ex mea alii labore intellegat, molestie delicata expetenda in nec, ex harum soluta est.</p>
 				</div>
 			</div>
 		</div>

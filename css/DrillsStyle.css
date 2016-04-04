@@ -34,10 +34,11 @@ h5 {
 }
 
 .drillbox {
-	width: 25%;
+	width: 29.33333333%;
 	overflow: hidden;
 	background-color: #1E90FF;
 	float: left;
+	padding: 0 2%;
 }
 
 .drillbox img {
@@ -52,6 +53,16 @@ h5 {
 }
 
 .hidden {
+	padding: 0 2%;
+	text-align: center;
+}
+
+.hidden h5{
+	text-transform: none;
+}
+
+.hidden .button{
+	background-color: #DDD;
 
 }
 
